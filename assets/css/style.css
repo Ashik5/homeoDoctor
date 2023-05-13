@@ -4,21 +4,29 @@
 .header-top {
   background: lightgray;
 }
+
 .header-top-content i {
   font-size: large;
   color: var(--sc);
 }
+
 .header-top-content a {
   font-size: 16px;
   color: var(--pc);
   line-height: 18px;
 }
+
 .header-top-content a:hover {
   color: var(--hvrc);
 }
+
 /*HEADER*/
 header {
-  background: #8e8e8e;
+  background-color: rgba(205, 255, 205, 0.13);
+  color:black;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 15px rgba(8, 7, 16, 0.4);
   transition: 0.4s;
 }
 
@@ -46,17 +54,18 @@ header {
   display: inline-block;
   padding: 15px 0px;
 }
+
 .menubar ul li a {
   font-weight: 400;
   font-size: 16px;
   text-transform: capitalize;
   display: inline-block;
   padding: 7px 10px;
-  color: var(--wc);
   transition: 0.4s ease-out;
 }
+
 .menubar ul li a:hover {
-  color: var(--hvrc);
+  color: black;
 }
 
 .sub-btn {
@@ -67,7 +76,8 @@ header {
   position: absolute;
   top: 100%;
   left: 5px;
-  background: var(--pgc);
+  background-color: rgba(199, 199, 199, 0.97);
+  backdrop-filter: blur(10px);
   width: 248px;
   text-align: left;
   opacity: 0;
@@ -85,9 +95,8 @@ header {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
-  z-index: 2;
+  z-index: 3;
   overflow: hidden;
-  border-bottom: 3px solid var(--sc);
 }
 
 .sub-btn:hover .sub-menu {
@@ -98,7 +107,7 @@ header {
   transform: scaleY(100%);
 }
 
-.sub-menu > a {
+.sub-menu>a {
   display: block;
   width: 100%;
   padding: 5px;
@@ -107,14 +116,13 @@ header {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  color: var(--sc);
   font-size: 15px;
   text-transform: capitalize;
 }
 
-.sub-menu > a:hover {
-  background: var(--sc);
-  color: var(--wc) !important;
+.sub-menu>a:hover {
+  border-left: 5px solid gray;
+  color: black !important;
 }
 
 .menubar .login-menu {
@@ -124,9 +132,11 @@ header {
   background-size: 200%;
   transition: 0.5s ease-out;
 }
+
 .menubar .login-menu:hover {
   color: var(--wc);
 }
+
 .menubar .login-menu:hover {
   background-position: left;
 }
@@ -287,6 +297,7 @@ header {
 .mobile-overlay {
   position: inherit !important;
 }
+
 /*MOBILE MENU END*/
 
 /* BANNER PART START */
@@ -298,23 +309,28 @@ header {
   max-width: 100%;
   object-fit: cover;
 }
+
 .banner-part {
   position: relative;
 }
+
 .banner-part .slider-overlay {
   background-color: #66339905;
   padding: 160px 0px;
 }
+
 .slider-content h1 {
   font-size: 52px;
   color: #222222;
   text-transform: uppercase;
 }
+
 .slider-content span {
   color: #fa9324;
   /* color: var(--sc); */
   font-weight: 900;
 }
+
 .slider-content h6 {
   line-height: 26px;
   color: #444444;
@@ -332,11 +348,13 @@ header {
   overflow: hidden;
   margin-right: 5px;
 }
+
 .hover-round:hover span {
   height: 100%;
   width: 100%;
   opacity: 1;
 }
+
 .hover-round span {
   height: 1px;
   width: 1px;
@@ -352,6 +370,7 @@ header {
   border-radius: 50%;
   opacity: 0;
 }
+
 .hover-round i {
   position: absolute;
   top: 50%;
@@ -363,14 +382,17 @@ header {
   transition: 0.5s;
   font-size: 20px;
 }
+
 .hover-round:hover i {
   /* color: var(--sc); */
   color: #fa9324;
 }
+
 .slider-service-content .item h5 {
   text-transform: uppercase;
   color: #222222;
 }
+
 .slider-service-content .item span {
   font-size: 14px;
 }
@@ -383,10 +405,12 @@ header {
   left: 0px;
   transition: 0.5s ease-in-out;
 }
+
 .carousel .left-carousel:hover {
   background: var(--sc);
   color: #ffffff;
 }
+
 .carousel .right-carousel {
   position: absolute;
   background: #f0e3e380;
@@ -395,14 +419,17 @@ header {
   right: 0px;
   transition: 0.5s ease-in-out;
 }
+
 .carousel .right-carousel:hover {
   background: var(--sc);
   color: #ffffff;
 }
+
 .carousel i {
   font-size: 22px;
   padding: 38px 15px;
 }
+
 /* BANNER PART ENDT */
 
 /* SERVICE SECTION PART START */
@@ -410,6 +437,7 @@ header {
   position: relative;
   padding: 70px 30px;
 }
+
 .card-item {
   border: 1px solid #f2f2f2;
   margin-top: 50px;
@@ -418,19 +446,24 @@ header {
   border-radius: 8px;
   transition: 0.5s;
 }
+
 .card-item:hover {
   box-shadow: 0 5px 10px #f5f5f5;
 }
+
 .card-item .service-icons {
   width: 40px;
   margin-bottom: 0.5rem;
 }
+
 .card-item h5 {
   /* color: var(--wc); */
 }
+
 .card-item .sm-text {
   /* color: var(--wc); */
 }
+
 /* SERVICE SECTION PART END */
 
 /* history part  */
@@ -441,6 +474,7 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
+
 .history-part .history-img img {
   width: 100%;
   object-fit: cover;
@@ -456,10 +490,12 @@ header {
   background-size: cover;
   background-position: center;
 }
+
 .our-team h5 {
   font-weight: 400;
   position: relative;
 }
+
 .our-team h5::after {
   position: absolute;
   width: 65px;
@@ -469,22 +505,27 @@ header {
   left: 0px;
   top: 32px;
 }
+
 .our-team .content span {
   color: var(--sc);
 }
+
 .our-team .content h6 {
   line-height: 34px;
 }
+
 /* OUR-TEAM SECTION PART END */
 
 /* OUR DOCTOR SECTION PART START */
 .our-doctor {
   background: #fff;
 }
+
 .section-title {
   text-transform: uppercase;
   position: relative;
 }
+
 .section-title::after {
   position: absolute;
   width: 70px;
@@ -498,25 +539,30 @@ header {
 .card {
   border: none;
 }
+
 .card .card-img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   cursor: pointer;
 }
+
 .card .card-overlay {
   padding: 125px 0px;
   transition: 0.3s ease-in;
 }
+
 .card .card-img i {
   font-size: 32px;
   color: var(--tbc);
   opacity: 0;
   transition: 0.3s ease-in;
 }
+
 .card-img:hover .card-overlay {
   background: #ffffff9a;
 }
+
 .card-img:hover i {
   opacity: 1;
 }
@@ -531,6 +577,7 @@ header {
   line-height: 60px;
   position: relative;
 }
+
 .clinic .icon {
   position: absolute;
   display: flex;
@@ -547,16 +594,19 @@ header {
   cursor: pointer;
   transition: 0.5s ease-in-out;
 }
+
 .clinic .icon i {
   font-size: 20px;
   color: var(--wc);
   text-align: center;
   transition: 0.5s ease-in-out;
 }
+
 .clinic .icon:hover {
   background: var(--wc);
   border: 1px solid var(--sc);
 }
+
 .clinic .icon:hover i {
   color: var(--sc);
 }
@@ -571,17 +621,21 @@ header {
   cursor: pointer;
   transition: 0.5s ease-in-out;
 }
+
 .our-doctor .card ul li i {
   font-size: 14px;
   color: var(--sc);
   transition: 0.5s ease-in-out;
 }
+
 .our-doctor .card ul li:hover {
   background: var(--sc);
 }
+
 .our-doctor .card ul li:hover i {
   color: var(--wc);
 }
+
 .our-doctor .custom-btn a {
   padding: 7px 20px;
 }
@@ -595,6 +649,7 @@ header {
   line-height: 21px;
   color: var(--wc);
 }
+
 .custom-btn button {
   font-weight: 500;
   font-size: 15px;
@@ -607,23 +662,28 @@ header {
   background-size: 200%;
   transition: 0.4s ease-out;
 }
+
 .custom-btn button:hover {
   border: 2px solid red;
   color: var(--wc);
 }
+
 .custom-btn button:hover {
   background-position: left;
 }
+
 .search-bar .form-select {
   height: 48px;
   border: 1px solid #1b1285;
   box-shadow: none;
 }
+
 .search-bar .form-control {
   height: 48px;
   border: 1px solid #1b1285;
   box-shadow: none;
 }
+
 /* Search bar css end */
 
 /* OUR DOCTOR SECTION PART END */
@@ -636,18 +696,22 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .testimonial-overlay {
   background: #00000061;
   padding: 70px 0px;
 }
+
 .testimonial h2 {
   color: var(--wc);
 }
+
 .testimonial h6 {
   font-size: 22px;
   line-height: 32px;
   color: var(--wc);
 }
+
 .testimonial span {
   font-size: 32px;
 }
@@ -656,15 +720,19 @@ header {
   margin-left: 50%;
   transform: translate(-120px);
 }
+
 .author-text h5 {
   color: var(--wc);
 }
+
 .author-text p {
   color: var(--wc);
 }
+
 .testimonial .section-title::after {
   background: var(--wc);
 }
+
 /* TESTIMONIAL SECTION PART END */
 
 /* HOW IT WORK SECTION PART START */
@@ -683,10 +751,12 @@ header {
   background-position: center;
   cursor: pointer;
 }
+
 .work-card-overlay {
   background: #3f42a540;
   height: 100%;
 }
+
 .work-card .work-article {
   background: #1b1285d4;
   padding: 0px 0px;
@@ -695,44 +765,53 @@ header {
   padding: 35px 20px;
   height: 100%;
 }
+
 .how-it-work .item:hover .work-article {
   opacity: 1;
 }
+
 .work-card {
   border-radius: 10px;
   border: 3px solid #000;
   height: 270px;
 }
+
 .work-card .work-article p {
   margin: 0px 5px;
   color: var(--wc);
   transition: 0.5s ease-in-out;
 }
+
 /* HOW IT WORK SECTION PART END */
 
 /* FAMOUSE BOOK AND DISEASE SECTION PART START */
 .disease-book {
   background: var(--wc);
 }
+
 .disease-book .card-img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   cursor: pointer;
 }
+
 .disease-book .card-overlay {
   padding: 125px 0px;
   transition: 0.3s ease-in;
 }
+
 .disease-book .card-img i {
   font-size: 32px;
   color: var(--tbc);
   opacity: 0;
   transition: 0.3s ease-in;
 }
+
 .disease-item:hover .card-overlay {
   background: #1b128578;
 }
+
 .disease-item:hover i {
   opacity: 1;
 }
@@ -821,10 +900,12 @@ header {
   position: relative;
   transition: all 0.3s ease-in-out;
 }
+
 .product-grid .social li a:hover {
   color: #fff;
   background-color: red;
 }
+
 .product-grid .social li a:after,
 .product-grid .social li a:before {
   content: attr(data-tip);
@@ -856,6 +937,7 @@ header {
 .product-grid .social li a:hover:before {
   opacity: 1;
 }
+
 .product-grid .product-discount-label,
 .product-grid .product-new-label {
   color: #fff;
@@ -868,11 +950,13 @@ header {
   top: 10px;
   left: 0;
 }
+
 .product-grid .product-discount-label {
   background-color: #333;
   left: auto;
   right: 0;
 }
+
 .product-grid .rating {
   color: #ffd200;
   font-size: 16px;
@@ -882,9 +966,11 @@ header {
   position: relative;
   z-index: -1;
 }
+
 .product-grid .rating li.disable {
   color: rgba(0, 0, 0, 0.2);
 }
+
 .product-grid .product-content {
   background-color: #fff;
   text-align: center;
@@ -897,9 +983,11 @@ header {
   z-index: 1;
   transition: all 0.3s;
 }
+
 .product-grid:hover .product-content {
   bottom: 0;
 }
+
 .product-grid .title {
   font-size: 16px;
   font-weight: 400;
@@ -908,13 +996,16 @@ header {
   margin: 0 0 10px;
   transition: all 0.3s ease 0s;
 }
+
 .product-grid .title a {
   color: var(--pc);
 }
+
 .product-grid .title a:hover,
 .product-grid:hover .title a {
   color: red;
 }
+
 .product-grid .price {
   color: #333;
   font-size: 18px;
@@ -924,6 +1015,7 @@ header {
   text-align: center;
   transition: all 0.3s;
 }
+
 .product-grid .price span {
   color: #999;
   font-size: 13px;
@@ -932,6 +1024,7 @@ header {
   margin-left: 3px;
   display: inline-block;
 }
+
 .product-grid .add-to-cart {
   color: var(--wc);
   font-size: 12px;
@@ -939,42 +1032,52 @@ header {
   background: var(--sc);
   padding: 9px 15px;
 }
+
 @media only screen and (max-width: 990px) {
   .product-grid {
     margin-bottom: 30px;
   }
 }
+
 /* PRODUCT CARD SECTION PART END */
 
 /* LATEST BLOG */
 .latest-blog {
   background: var(--afc);
 }
+
 .latest-blog h5 {
   color: var(--wsc);
   font-weight: 700;
 }
+
 .latest-blog h3 {
   font-weight: 900;
 }
+
 hr.latest-blog {
   background: #cccccc;
   height: 2px;
 }
+
 .latest-blog span {
   color: var(--gc);
 }
+
 .latest-blog .card-body h5 {
   color: var(--bc);
 }
+
 .latest-blog a {
   font-weight: 700;
   color: #000639;
   transition: 0.2s;
 }
+
 .latest-blog a:hover {
   color: var(--wsc);
 }
+
 .latest-blog .custom-btn a {
   font-weight: 400;
   font-size: 15px;
@@ -986,6 +1089,7 @@ hr.latest-blog {
   background-size: 200%;
   transition: 0.4s ease-out;
 }
+
 .latest-blog .custom-btn a:hover {
   border: 2px solid red;
   color: var(--wc);
@@ -994,6 +1098,7 @@ hr.latest-blog {
 .latest-blog .custom-btn a:hover {
   background-position: left;
 }
+
 /* LATEST BLOG */
 
 /*FOOTER SECTION*/
@@ -1001,23 +1106,28 @@ footer {
   background: #ffffff;
   color: var(--sc);
 }
+
 .footer-box img {
   max-width: 164px;
   margin-bottom: 20px;
 }
+
 .footer-box p {
   color: var(--sc);
 }
+
 .footer-box h6 {
   font-weight: 600;
   border-bottom: 1px solid var(--gc);
   font-size: 20px;
 }
+
 .footer-box h6 {
   color: var(--sc);
   font-size: 15px;
   padding-bottom: 13px;
 }
+
 .footer-menu a {
   display: block;
   color: var(--pc);
@@ -1026,21 +1136,26 @@ footer {
   font-weight: 400;
   transition: 0.3s ease-in-out;
 }
+
 .footer-menu a:hover {
   color: var(--hvrc);
 }
+
 .footer-box ul li {
   padding: 6px 0;
 }
+
 .footer-box .footer-left-icon {
   font-size: 14px;
   color: var(--pc);
   transition: 0.5s ease;
 }
+
 .footer-menu a:hover .footer-left-icon {
   color: var(--hvrc);
   margin-left: 10px;
 }
+
 .social-media-footer h4 {
   border-bottom: 1px solid var(--gc);
   padding-bottom: 10px;
@@ -1049,6 +1164,7 @@ footer {
   font-size: 16px;
   margin-top: 40px;
 }
+
 .social-media-footer a i {
   height: 25px;
   width: 25px;
@@ -1066,11 +1182,13 @@ footer {
   color: var(--wc);
   background: var(--sc);
 }
+
 /*FOOTER SECTION END*/
 /*COPYRIGHT SECTION*/
 .copyright-section {
   background: #8e8e8e;
 }
+
 .copyright-section p {
   padding: 0;
   margin: 0;
@@ -1080,6 +1198,7 @@ footer {
   font-weight: 400;
   padding: 20px 0;
 }
+
 /*COPYRIGHT SECTION END*/
 
 /* OUR DOCTOR BANNER PAGE CSS */
@@ -1088,6 +1207,7 @@ footer {
   background-size: cover;
   background-position: center;
 }
+
 .our-doctor-banner-overlay {
   background-color: #1b128570;
   padding: 120px 0px;
@@ -1099,6 +1219,7 @@ footer {
   background: #8e8e8e73;
   border-radius: 10px;
 }
+
 .search-slt {
   display: block;
   width: 100%;
@@ -1115,12 +1236,15 @@ footer {
   outline: none;
   padding-left: 10px;
 }
+
 .last-input {
   border-right: none;
 }
+
 .search-slt::placeholder {
   color: var(--gc);
 }
+
 .wrn-btn {
   width: 100%;
   font-size: 16px;
@@ -1129,6 +1253,7 @@ footer {
   height: calc(3rem + 2px) !important;
   border-radius: 0;
 }
+
 .search-bar button {
   background: var(--sc);
   border: none;
@@ -1137,6 +1262,7 @@ footer {
   line-height: 21px;
   color: var(--wc);
 }
+
 .custom-btn button {
   font-weight: 500;
   font-size: 15px;
@@ -1149,13 +1275,16 @@ footer {
   background-size: 200%;
   transition: 0.4s ease-out;
 }
+
 .custom-btn button:hover {
   border: 2px solid red;
   color: var(--wc);
 }
+
 .custom-btn button:hover {
   background-position: left;
 }
+
 /* Search bar section css */
 
 /* OUR DOCTOR BANNER PAGE CSS */
@@ -1164,55 +1293,67 @@ footer {
 .testimonial-review {
   background: var(--afc);
 }
+
 .testi-page {
   padding-top: 30px;
 }
+
 .testi-box {
   box-shadow: 0 0 5px #888;
   text-align: center;
   padding: 10px 15px 20px;
   margin-bottom: 20px;
 }
+
 .testi-box:hover {
   box-shadow: 0 0 7px #888;
 }
+
 .testi-box b {
   font-size: 14px;
 }
+
 .testi-box img {
   border-radius: 100%;
   width: 80px;
   height: 80px;
   border: 1px solid #e6e4e4;
 }
+
 .testi-box h3 {
   margin-bottom: 0px;
   font-weight: bold !important;
   font-style: normal !important;
 }
+
 .testi-page p {
   margin-bottom: 15px;
   font-size: 14px;
 }
+
 .testi-box a {
   background: var(--sc);
   color: #fff;
   padding: 7px 20px;
   transition: 0.3s ease-in-out;
 }
+
 .testi-box a:hover {
   background: var(--rc);
 }
+
 /* Book appointment form */
 .form-inner {
   padding: 20px;
   border-top: 3px solid #0ba9b5;
   box-shadow: 0 0 5px #888;
 }
+
 .form-inner h4 {
   text-align: center;
   color: #0ba9b5;
 }
+
 .form-inner h4::after {
   content: '';
   position: relative;
@@ -1226,6 +1367,7 @@ footer {
   margin-right: auto;
   margin-top: 5px;
 }
+
 .form-inner .form-control {
   display: block;
   width: 100%;
@@ -1239,6 +1381,7 @@ footer {
   border-radius: 0px;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+
 .form-inner button {
   background: #15acb8;
   color: #fff;
@@ -1254,27 +1397,34 @@ footer {
   padding: 20px 30px;
   border-bottom: 2px solid #0ba9b5;
 }
+
 .quick-link ul li {
   padding: 12px 0px;
   border-top: 1px solid #0ba9b5;
   transition: 0.5s ease;
 }
+
 .quick-link ul li {
   transition: 0.5s ease;
 }
+
 .quick-link ul li i {
   transition: 0.5s ease;
 }
+
 .quick-link ul li:hover {
   color: var(--hvrc);
 }
+
 .quick-link ul li:hover a {
   color: var(--hvrc);
 }
+
 .quick-link ul li:hover i {
   color: var(--hvrc);
   margin-left: 10px;
 }
+
 /* OUR TESTIMONIAL PAGE CSS */
 
 /* VIDEO TESTIMONIAL PAGE CSS */
@@ -1282,17 +1432,21 @@ footer {
   margin: 20px 0px 10px;
   font-weight: bold;
 }
+
 .testi-page .h-c-design {
   margin: 0px 25px;
   border-left: 5px solid #0c4da2;
   padding: 20px;
 }
+
 .testi-page p {
   margin-bottom: 15px;
 }
+
 .h-video p {
   text-align: center;
 }
+
 .testi-page .h-c-design {
   margin: 5px 25px 20px;
   border-left: 5px solid #0c4da2;
@@ -1300,16 +1454,19 @@ footer {
   background: #f1f1f1;
   font-style: italic;
 }
+
 .h-video {
   border: 3px solid #0ba9b5;
   margin-bottom: 25px;
 }
+
 /* VIDEO TESTIMONIAL PAGE CSS */
 
 /* DISEASE DETAILS PAGE CSS */
 .section-header {
   margin-bottom: 30px;
 }
+
 .section-header h2 {
   font-size: 32px;
   color: #024fa1;
@@ -1321,6 +1478,7 @@ footer {
 .section-header h2 span {
   font-weight: 500;
 }
+
 .section-header h2::before {
   content: '';
   position: relative;
@@ -1331,6 +1489,7 @@ footer {
   bottom: 0;
   left: 0;
 }
+
 .section-header p {
   padding: 0;
   margin: 0;
@@ -1383,9 +1542,9 @@ footer {
 #about .content ul li {
   padding-bottom: 10px;
 }
+
 .treament-second-section {
-  background: url(../img/photos/disease-details-item-banner.jpg) no-repeat
-    center;
+  background: url(../img/photos/disease-details-item-banner.jpg) no-repeat center;
   background-size: cover;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -1411,8 +1570,7 @@ footer {
 
 .treament-second-section ul,
 .treament-third-section ul,
-.treament-four-section ul {
-}
+.treament-four-section ul {}
 
 .treament-second-section ul li i,
 .treament-third-section ul li i,
@@ -1501,7 +1659,7 @@ footer {
   color: #fff;
 }
 
-.homeo-location .tab-content > .tab-pane {
+.homeo-location .tab-content>.tab-pane {
   background: #aee2e5;
 }
 
@@ -1714,16 +1872,19 @@ footer {
   border: none;
   border-bottom: 1px solid var(--gc);
 }
+
 .accordion-button:not(.collapsed) {
   color: var(--pc);
   background-color: var(--wc);
   box-shadow: none;
 }
+
 .accordion-button:focus {
   z-index: 3;
   outline: 0;
   box-shadow: none;
 }
+
 .accordion-body {
   padding: 1rem 1.25rem;
   background: #f7f7f7;
@@ -1736,6 +1897,7 @@ footer {
 .about-contact {
   background: #f1f1f1;
 }
+
 .address .section-content h3 {
   font-weight: 600;
   font-size: 30px;
@@ -1744,17 +1906,21 @@ footer {
   border-bottom: 1px solid #cccccc;
   padding-bottom: 10px;
 }
+
 .address .section-content p {
   color: var(--bc);
 }
+
 .address .contact h4 {
   color: var(--bc);
 }
+
 .address .contact {
   background: #f2fbff7a;
   box-shadow: 10px 10px 20px -7px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
+
 .address .contact button {
   font-weight: 600;
   font-size: 20px;
@@ -1766,26 +1932,28 @@ footer {
   padding: 13px 35px;
   margin-top: 30px;
 }
+
 .form-control {
   border: 1px solid;
   box-sizing: border-box;
   border-radius: 5px;
   height: 52px;
 }
+
 /* CONTACT US PAGE CSS */
 
 /*register page*/
-.glass{
-    background-color: rgba(255,255,255,0.13);
-    padding: 20px 25px 25px 25px;
-    border-radius: 15px;
-    color: white;
-    backdrop-filter: blur(10px);
-    border: 2px solid rgba(255,255,255,0.1);
-    box-shadow: 0 0 20px rgba(8,7,16,0.4);
+.glass {
+  background-color: rgba(255, 255, 255, 0.13);
+  padding: 20px 25px 25px 25px;
+  border-radius: 15px;
+  color: white;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 20px rgba(8, 7, 16, 0.4);
 }
 
-.registrationSection{
+.registrationSection {
   display: flex;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   padding: 45px 0 45px 0;
@@ -1794,56 +1962,127 @@ footer {
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
 }
+
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
-    }
+  }
+
   50% {
     background-position: 100% 50%;
-    }
+  }
+
   100% {
     background-position: 0% 50%;
-    }
+  }
 }
-.btn-black{
+
+.btn-black {
   background-color: #000;
   color: white;
   padding: 10px 0 10px 0;
   border-radius: 10px;
 }
-.btn-group .btn-black:hover{
+
+.btn-group .btn-black:hover {
   outline: none;
 }
-.btn-black:hover{
-  color: rgba(255, 255, 255,0.7);
-  outline: 0.25rem solid rgba(255, 255, 255,0.2);
+
+.btn-black:hover {
+  color: rgba(255, 255, 255, 0.7);
+  outline: 0.25rem solid rgba(255, 255, 255, 0.2);
 }
-.btn:focus{
+
+.btn:focus {
   outline: none;
   box-shadow: none;
 }
-.glass .form-control{
-  background-color: rgba(255, 255, 255,0.4);
+
+.glass .form-control {
+  background-color: rgba(255, 255, 255, 0.4);
   height: 42px;
   border: 0;
 }
-.glass .form-control:focus{
+
+.glass .form-control:focus {
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
   border: 0;
   color: white;
 }
-.glass input{
+
+.glass input {
   color: white;
   border: 0.2rem solid rgba(116, 116, 116, 0.5);
 }
-.glass p{
+
+.glass p {
   color: white;
 }
-.h-6{
+
+.h-6 {
   height: 1.5rem;
 }
-.w-6{
+
+.w-6 {
   width: 1.5rem;
 }
+
 /* end registration page*/
+/*********************** doctor profile ***********************/
+.profileCard {
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(8, 7, 16, 0.2);
+}
+
+.profileImage {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  box-sizing: unset;
+}
+
+.verificationBadge {
+  padding: 2px 5px 2px 5px;
+  background: #94ff9f;
+  border: 1.6px solid black;
+  color: black;
+  border-radius: 10px;
+  font-size: small;
+}
+
+#doctorProfile .row {
+  margin-left: 0 !important;
+}
+
+.Biocard {
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(8, 7, 16, 0.2);
+  padding: 0;
+}
+
+.Bio-card-header {
+  height: 3rem;
+  background: #EDEDED;
+}
+
+.header-text {
+  margin-left: 20px;
+  margin-top: 10px;
+  font: bold;
+  color: #000;
+}
+.Bio-card-body{
+  margin: 10px 20px 10px 20px;
+}
+.h-10{
+  height: 2rem;
+}
+.w-10{
+  width: 2rem;
+}
+.experienceCard{
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(8, 7, 16, 0.2);
+}

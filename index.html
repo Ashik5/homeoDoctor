@@ -1,347 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home page | HomeoDoctor</title>
-    <!--    GOOGLE FONT-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <!--    BOOSTRAP-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <!--    FONT AWSOME-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <!--    SLICK SLIDER-->
-    <link rel="stylesheet" href="assets/css/slick-theme.css" />
-    <link rel="stylesheet" href="assets/css/slick.css" />
-    <!--    MAIN CSS-->
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css" />
-    <!-- <link rel="stylesheet" href="css/arabic.css"> -->
-  </head>
-  <body>
-    <!-- HEADER SECTION -->
-    <section class="header-top py-2">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 header-top-content d-flex justify-content-end">
-            <div class="email-address mx-2 mx-lg-3">
-              <i class="fa-solid fa-envelope-circle-check"></i>
-              <a href="#">homeodoctor@support.com</a>
-            </div>
-            <div class="contact-phone mx-2 mx-lg-3">
-              <i class="fa-solid fa-square-phone-flip"></i>
-              <a href="#">012345678911</a>
-            </div>
-            <div class="login-part mx-2 mx-lg-3">
-              <i class="fa-solid fa-circle-user"></i>
-              <a href="register.html">Login/Registration</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <header class="d-flex align-items-center">
-      <div class="container-fluid">
-        <div class="row align-items-center">
-          <div class="col-12 col-md-2">
-            <div class="logo d-flex justify-content-between align-items-center">
-              <a href="index.html">
-                <img src="assets/img/logo/logo.png" alt="Logo" />
-              </a>
-              <i
-                class="fa fa-bars d-md-none"
-                onClick="mobileClick()"
-                aria-hidden="true"
-              ></i>
-            </div>
-          </div>
-          <div class="col-md-10 d-none d-md-block">
-            <div class="menubar">
-              <ul>
-                <li><a href="index.html">Home</a></li>
-                <li class="sub-btn button1">
-                  <a href="#"
-                    >Pages
-                    <i class="fa-solid fa-angle-down"></i>
-                  </a>
-                  <div class="sub-menu">
-                    <a href="aboutus.html">About Us</a>
-                    <a href="our-doctor.html">Our Doctor</a>
-                    <a href="faq.html">FaQ </a>
-                    <a href="coming-soon.html">Others</a>
-                    <a href="testimonial">Testimonial</a>
-                    <a href="404-not-found.html">Page 404</a>
-                  </div>
-                </li>
-                <li class="sub-btn button1">
-                  <a href="#"
-                    >Our Service
-                    <i class="fa-solid fa-angle-down"></i>
-                  </a>
-                  <div class="sub-menu">
-                    <a href="why-online-treat.html">Why online treat</a>
-                    <a href="how-it-work.html">How it Works</a>
-                    <a href="disease.html">Disease</a>
-                    <a href="404-not-found.html">Page 404</a>
-                  </div>
-                </li>
-                <li class="sub-btn button1">
-                  <a href="#"
-                    >Study
-                    <i class="fa-solid fa-angle-down"></i>
-                  </a>
-                  <div class="sub-menu">
-                    <a href="study.html">Organon Of Medicine</a>
-                    <a href="study.html">Materia Medica</a>
-                    <a href="study.html">Repertory</a>
-                    <a href="study.html">Practice of Medicine</a>
-                    <a href="study.html">Anatomy Physiology</a>
-                    <a href="study.html">Research</a>
-                    <a href="study.html">Download Book</a>
-                  </div>
-                </li>
-                <li class="sub-btn button1">
-                  <a href="#"
-                    >Testimonial
-                    <i class="fa-solid fa-angle-down"></i>
-                  </a>
-                  <div class="sub-menu">
-                    <a href="celebraties-testimonial.html"
-                      >Celebraties Testimonial</a
-                    >
-                    <a href="doctor-testimonial.html">Doctors Testimonial</a>
-                    <a href="patient-testimonial.html">Patients Testimonial</a>
-                    <a href="video-testimonial.html">Video Testimonial</a>
-                    <a href="magazine-testimonial.html">Magazine Testimonial</a>
-                  </div>
-                </li>
-                <li><a href="#">Shop</a></li>
-                <li class="sub-btn button1">
-                  <a href="Blog/index.html" target="_blank"
-                    >Blog
-                    <i class="fa-solid fa-angle-down"></i>
-                  </a>
-                  <div class="sub-menu">
-                    <a href="Blog/up coming event.html" target="_blank"
-                      >Up Coming Event</a
-                    >
-                    <a href="Blog/videos.html" target="_blank">Video</a>
-                    <a href="Blog/photos.html">Photo</a>
-                    <a href="Blog/events.html">Event</a>
-                    <a href="Blog/media.html">Media</a>
-                    <a href="Blog/knowledge.html">Knowledge of Disease</a>
-                    <a href="index.html#latest-blog">Lecture</a>
-                  </div>
-                </li>
-                <li><a href="contactus.html">Contact Us</a></li>
-                <li><a href="#" class="login-menu">Quick Appointment</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!--    HEADER SECTION END-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home page | HomeoDoctor</title>
+  <!--    GOOGLE FONT-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <!--    BOOSTRAP-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!--    FONT AWSOME-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-    <!--        MOBILE MENU-->
-    <div id="mobile-menu" class="mobile-menu">
-      <!-- accordion-->
-      <div class="accordion accordion-flush" id="accordionFlushExample">
-        <div class="mobile-logo mb-5">
-          <a href="#">
-            <img src="assets/img/logo/logo.png" alt="mobile-logo" />
-          </a>
-          <i id="mobile-cross" class="fa fa-times" onClick="mobileClick()"></i>
-        </div>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!--    SLICK SLIDER-->
+  <link rel="stylesheet" href="assets/css/slick-theme.css" />
+  <link rel="stylesheet" href="assets/css/slick.css" />
+  <!--    MAIN CSS-->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+  <!-- <link rel="stylesheet" href="css/arabic.css"> -->
+</head>
 
-        <div class="accordion-item custom">
-          <h2 class="accordion-header" id="flush-headingThree">
-            <a href="#">
-              <button
-                class="accordion-button custom collapsed none"
-                type="button"
-              >
-                Home
-              </button>
-            </a>
-          </h2>
-        </div>
-        <div class="accordion-item custom">
-          <h2 class="accordion-header" id="flush-headingThree">
-            <a href="#">
-              <button
-                class="accordion-button custom collapsed none"
-                type="button"
-              >
-                Pages
-              </button>
-            </a>
-          </h2>
-        </div>
-        <div class="accordion-item custom">
-          <h2 class="accordion-header" id="flush-headingThree">
-            <a href="#">
-              <button
-                class="accordion-button custom collapsed none"
-                type="button"
-              >
-                Study
-              </button>
-            </a>
-          </h2>
-        </div>
-        <div class="accordion-item custom">
-          <h2 class="accordion-header" id="flush-headingThree">
-            <a href="#">
-              <button
-                class="accordion-button custom collapsed none"
-                type="button"
-              >
-                Shop
-              </button>
-            </a>
-          </h2>
-        </div>
-        <div class="accordion-item custom">
-          <h2 class="accordion-header" id="flush-headingThree">
-            <a href="#">
-              <button
-                class="accordion-button custom collapsed none"
-                type="button"
-              >
-                Blog
-              </button>
-            </a>
-          </h2>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingTwo">
-            <button
-              class="accordion-button custom collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#two"
-              aria-expanded="false"
-              aria-controls="flush-collapseTwo"
-            >
-              Our Services
-            </button>
-          </h2>
-          <div
-            id="two"
-            class="accordion-collapse collapse"
-            aria-labelledby="two"
-            data-bs-parent="#accordionFlushExample"
-          >
-            <div class="accordion-body custom">
-              <ul>
-                <li>
-                  <a href="#"><i class="fa fa-chevron-right"></i>services</a>
-                </li>
-
-                <li>
-                  <a href="#"><i class="fa fa-chevron-right"></i>sector</a>
-                </li>
-              </ul>
-            </div>
+<body>
+  <!-- HEADER SECTION -->
+  <section class="header-top py-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 header-top-content d-flex justify-content-end">
+          <div class="email-address mx-2 mx-lg-3">
+            <i class="fa-solid fa-envelope-circle-check"></i>
+            <a href="#">homeodoctor@support.com</a>
           </div>
-        </div>
-        <div class="accordion-item custom">
-          <h2 class="accordion-header" id="flush-headingThree">
-            <a href="#">
-              <button
-                class="accordion-button custom collapsed none"
-                type="button"
-              >
-                Contact Us
-              </button>
-            </a>
-          </h2>
+          <div class="contact-phone mx-2 mx-lg-3">
+            <i class="fa-solid fa-square-phone-flip"></i>
+            <a href="#">012345678911</a>
+          </div>
+          <div class="login-part mx-2 mx-lg-3">
+            <i class="fa-solid fa-circle-user"></i>
+            <a href="register.html">Login/Registration</a>
+          </div>
         </div>
       </div>
     </div>
-    <div
-      id="mobileOverlay"
-      class="mobile-overlay"
-      onClick="mobileClick()"
-    ></div>
-    <!--   END MOBILE MENU-->
-
-    <!-- BANNER PART START -->
-    <section class="banner-part">
-      <div class="carousel">
-        <div class="left-carousel">
-          <i class="fa-solid fa-chevron-left"></i>
+  </section>
+  <header class="d-flex align-items-center">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-2">
+          <div class="logo d-flex justify-content-between align-items-center">
+            <a href="index.html">
+              <img src="assets/img/logo/logo.png" alt="Logo" />
+            </a>
+            <i class="fa fa-bars d-md-none" onClick="mobileClick()" aria-hidden="true"></i>
+          </div>
         </div>
-        <div class="right-carousel">
-          <i class="fa-solid fa-chevron-right"></i>
+        <div class="col-md-10 d-none d-md-block">
+          <div class="menubar">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li class="sub-btn button1">
+                <a href="#">Pages
+                  <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <div class="sub-menu">
+                  <a href="aboutus.html">About Us</a>
+                  <a href="our-doctor.html">Our Doctor</a>
+                  <a href="faq.html">FaQ </a>
+                  <a href="coming-soon.html">Others</a>
+                  <a href="testimonial">Testimonial</a>
+                  <a href="404-not-found.html">Page 404</a>
+                </div>
+              </li>
+              <li class="sub-btn button1">
+                <a href="#">Our Service
+                  <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <div class="sub-menu">
+                  <a href="why-online-treat.html">Why online treat</a>
+                  <a href="how-it-work.html">How it Works</a>
+                  <a href="disease.html">Disease</a>
+                  <a href="404-not-found.html">Page 404</a>
+                </div>
+              </li>
+              <li class="sub-btn button1">
+                <a href="#">Study
+                  <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <div class="sub-menu">
+                  <a href="study.html">Organon Of Medicine</a>
+                  <a href="study.html">Materia Medica</a>
+                  <a href="study.html">Repertory</a>
+                  <a href="study.html">Practice of Medicine</a>
+                  <a href="study.html">Anatomy Physiology</a>
+                  <a href="study.html">Research</a>
+                  <a href="study.html">Download Book</a>
+                </div>
+              </li>
+              <li><a href="#">Shop</a></li>
+              <li class="sub-btn button1">
+                <a href="Blog/index.html" target="_blank">Blog
+                  <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <div class="sub-menu">
+                  <a href="Blog/up coming event.html" target="_blank">Up Coming Event</a>
+                  <a href="Blog/videos.html" target="_blank">Video</a>
+                  <a href="Blog/photos.html">Photo</a>
+                  <a href="Blog/events.html">Event</a>
+                  <a href="Blog/media.html">Media</a>
+                  <a href="Blog/knowledge.html">Knowledge of Disease</a>
+                  <a href="index.html#latest-blog">Lecture</a>
+                </div>
+              </li>
+              <li><a href="contactus.html">Contact Us</a></li>
+              <li><a href="#" class="login-menu">Quick Appointment</a></li>
+            </ul>
+          </div>
         </div>
       </div>
-      <div class="banner-slide">
-        <div
-          class="banner-img"
-          style="background-image: url(assets/img/photos/slider-one.jpg)"
-        >
-          <div class="slider-overlay">
-            <div class="container">
-              <div class="row slider-content">
-                <div class="col-lg-6 col-md-12 col-sm-12"></div>
-                <div class="col-lg-6 col-md-12 col-sm-12 text-start">
-                  <h1>This is <span>Homeo</span> TitleOption</h1>
-                  <h6 class="pe-lg-4">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer
-                  </h6>
-                  <div class="slider-service-content mt-4">
-                    <div class="row">
-                      <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="item d-flex">
-                          <a href="javascript:void(0)" class="hover-round">
-                            <span></span>
-                            <i class="fa-brands fa-apple"></i>
-                          </a>
-                          <div class="text">
-                            <h5>HEALTHY ADVICES</h5>
-                            <p class="sm-text">
-                              Praesent convallis tortor et enim laoreet.
-                            </p>
-                          </div>
+    </div>
+  </header>
+  <!--    HEADER SECTION END-->
+
+  <!--        MOBILE MENU-->
+  <div id="mobile-menu" class="mobile-menu">
+    <!-- accordion-->
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="mobile-logo mb-5">
+        <a href="#">
+          <img src="assets/img/logo/logo.png" alt="mobile-logo" />
+        </a>
+        <i id="mobile-cross" class="fa fa-times" onClick="mobileClick()"></i>
+      </div>
+
+      <div class="accordion-item custom">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <a href="#">
+            <button class="accordion-button custom collapsed none" type="button">
+              Home
+            </button>
+          </a>
+        </h2>
+      </div>
+      <div class="accordion-item custom">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <a href="#">
+            <button class="accordion-button custom collapsed none" type="button">
+              Pages
+            </button>
+          </a>
+        </h2>
+      </div>
+      <div class="accordion-item custom">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <a href="#">
+            <button class="accordion-button custom collapsed none" type="button">
+              Study
+            </button>
+          </a>
+        </h2>
+      </div>
+      <div class="accordion-item custom">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <a href="#">
+            <button class="accordion-button custom collapsed none" type="button">
+              Shop
+            </button>
+          </a>
+        </h2>
+      </div>
+      <div class="accordion-item custom">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <a href="#">
+            <button class="accordion-button custom collapsed none" type="button">
+              Blog
+            </button>
+          </a>
+        </h2>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button custom collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#two" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Our Services
+          </button>
+        </h2>
+        <div id="two" class="accordion-collapse collapse" aria-labelledby="two" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body custom">
+            <ul>
+              <li>
+                <a href="#"><i class="fa fa-chevron-right"></i>services</a>
+              </li>
+
+              <li>
+                <a href="#"><i class="fa fa-chevron-right"></i>sector</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item custom">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <a href="#">
+            <button class="accordion-button custom collapsed none" type="button">
+              Contact Us
+            </button>
+          </a>
+        </h2>
+      </div>
+    </div>
+  </div>
+  <div id="mobileOverlay" class="mobile-overlay" onClick="mobileClick()"></div>
+  <!--   END MOBILE MENU-->
+
+  <!-- BANNER PART START -->
+  <section class="banner-part">
+    <div class="carousel">
+      <div class="left-carousel">
+        <i class="fa-solid fa-chevron-left"></i>
+      </div>
+      <div class="right-carousel">
+        <i class="fa-solid fa-chevron-right"></i>
+      </div>
+    </div>
+    <div class="banner-slide">
+      <div class="banner-img" style="background-image: url(assets/img/photos/slider-one.jpg)">
+        <div class="slider-overlay">
+          <div class="container">
+            <div class="row slider-content">
+              <div class="col-lg-6 col-md-12 col-sm-12"></div>
+              <div class="col-lg-6 col-md-12 col-sm-12 text-start">
+                <h1>This is <span>Homeo</span> TitleOption</h1>
+                <h6 class="pe-lg-4">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer
+                </h6>
+                <div class="slider-service-content mt-4">
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                      <div class="item d-flex">
+                        <a href="javascript:void(0)" class="hover-round">
+                          <span></span>
+                          <i class="fa-brands fa-apple"></i>
+                        </a>
+                        <div class="text">
+                          <h5>HEALTHY ADVICES</h5>
+                          <p class="sm-text">
+                            Praesent convallis tortor et enim laoreet.
+                          </p>
                         </div>
                       </div>
-                      <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="item d-flex">
-                          <a href="javascript:void(0)" class="hover-round">
-                            <span></span>
-                            <i class="fa-solid fa-phone"></i>
-                          </a>
-                          <div class="text">
-                            <h5>ALWAYS AVAILABLE</h5>
-                            <p class="sm-text">
-                              Praesent convallis tortor et enim laoreet.
-                            </p>
-                          </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                      <div class="item d-flex">
+                        <a href="javascript:void(0)" class="hover-round">
+                          <span></span>
+                          <i class="fa-solid fa-phone"></i>
+                        </a>
+                        <div class="text">
+                          <h5>ALWAYS AVAILABLE</h5>
+                          <p class="sm-text">
+                            Praesent convallis tortor et enim laoreet.
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -351,1750 +277,1541 @@
             </div>
           </div>
         </div>
-        <div
-          class="banner-img"
-          style="background-image: url(assets/img/photos/slider-two.jpg)"
-        >
-          <div class="slider-overlay">
-            <div class="container">
-              <div class="row slider-content">
-                <div class="col-lg-6 col-md-12 col-sm-12 text-start">
-                  <h1>This is <span>Homeo TitleOption</span></h1>
-                  <h6 class="pe-lg-4">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer
-                  </h6>
-                  <div class="slider-service-content mt-4">
-                    <div class="row">
-                      <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="item d-flex">
-                          <a href="javascript:void(0)" class="hover-round">
-                            <span></span>
-                            <i class="fa-brands fa-apple"></i>
-                          </a>
-                          <div class="text">
-                            <h5>HEALTHY ADVICES</h5>
-                            <p class="sm-text">
-                              Praesent convallis tortor et enim laoreet.
-                            </p>
-                          </div>
+      </div>
+      <div class="banner-img" style="background-image: url(assets/img/photos/slider-two.jpg)">
+        <div class="slider-overlay">
+          <div class="container">
+            <div class="row slider-content">
+              <div class="col-lg-6 col-md-12 col-sm-12 text-start">
+                <h1>This is <span>Homeo TitleOption</span></h1>
+                <h6 class="pe-lg-4">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer
+                </h6>
+                <div class="slider-service-content mt-4">
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                      <div class="item d-flex">
+                        <a href="javascript:void(0)" class="hover-round">
+                          <span></span>
+                          <i class="fa-brands fa-apple"></i>
+                        </a>
+                        <div class="text">
+                          <h5>HEALTHY ADVICES</h5>
+                          <p class="sm-text">
+                            Praesent convallis tortor et enim laoreet.
+                          </p>
                         </div>
                       </div>
-                      <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="item d-flex">
-                          <a href="javascript:void(0)" class="hover-round">
-                            <span></span>
-                            <i class="fa-solid fa-phone"></i>
-                          </a>
-                          <div class="text">
-                            <h5>ALWAYS AVAILABLE</h5>
-                            <p class="sm-text">
-                              Praesent convallis tortor et enim laoreet.
-                            </p>
-                          </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                      <div class="item d-flex">
+                        <a href="javascript:void(0)" class="hover-round">
+                          <span></span>
+                          <i class="fa-solid fa-phone"></i>
+                        </a>
+                        <div class="text">
+                          <h5>ALWAYS AVAILABLE</h5>
+                          <p class="sm-text">
+                            Praesent convallis tortor et enim laoreet.
+                          </p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12"></div>
               </div>
+              <div class="col-lg-6 col-md-12 col-sm-12"></div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- BANNER PART START -->
+    </div>
+  </section>
+  <!-- BANNER PART START -->
 
-    <!-- SERVICE OPTION SECTION START -->
-    <section class="service-section">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="card-item">
-              <img
-                src="./assets/img/serviesicons/stethoscope.png"
-                alt="services-logo"
-                class="service-icons"
-              />
-              <h5>Our Doctor</h5>
-              <p class="sm-text py-1">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                quis semper felis.
-              </p>
-              <div class="custom-btn">
-                <a href="#">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="card-item">
-              <img
-                src="./assets/img/serviesicons/shopping-bag.png"
-                class="service-icons"
-                alt="services-logo"
-              />
-
-              <h5>Shop Page</h5>
-              <p class="sm-text py-1">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                quis semper felis.
-              </p>
-              <div class="custom-btn">
-                <a href="#">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="card-item">
-              <img
-                src="./assets/img/serviesicons/book.png"
-                class="service-icons"
-                alt="services-logo"
-              />
-              <h5>Our Book</h5>
-              <p class="sm-text py-1">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                quis semper felis.
-              </p>
-              <div class="custom-btn">
-                <a href="#">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="card-item">
-              <img
-                src="./assets/img/serviesicons/pills.png"
-                class="service-icons"
-                alt="services-logo"
-              />
-              <h5>Our Medicine</h5>
-              <p class="sm-text py-1">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                quis semper felis.
-              </p>
-              <div class="custom-btn">
-                <a href="#">Read More</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- SERVICE OPTION SECTION END -->
-
-    <!-- HISTORY SECTION START -->
-    <section class="history-part py-2 py-lg-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            <div class="history-img">
-              <img
-                class="img"
-                src="assets/img/photos/history-img.png"
-                alt="history-img"
-              />
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            <h4>Introduction of Homeopathy</h4>
-            <h5>Christian Friedrich Samuel Hahnemann</h5>
-            <h6>M.D. (1755-1843)</h6>
-            <h4>CREATION OF HOMEOPATHY:</h4>
-            <p>
-              Hahnemann was dissatisfied with the state of medicine in his time,
-              and particularly objected to practices such as bloodletting. He
-              claimed that the medicine he had been taught to practice sometimes
-              did the patient more harm than good: My sense of duty would not
-              easily allow me to treat the unknown pathological state of my
-              suffering brethren with these unknown medicines. The thought of
-              becoming in this way a murderer or malefactor towards the life of
-              my fellow human beings was most terrible to me, so terrible and
-              disturbing that I wholly gave up my practice in the first years of
-              my married life and occupied myself solely with chemistry and
-              writing. After giving up his practice around 1784, Hahnemann made
-              his living chiefly as a writer and translator, while resolving
-              also to investigate the causes of medicine's alleged errors. While
-              translating William Cullen's A Treatise on the Materia Medica,
-              Hahnemann encountered the claim that cinchona, the bark of a
-              Peruvian tree, was effective in treating malaria because of its
-              astringency. Hahnemann believed that other astringent substances
-              are not effective against malaria and began to research cinchona's
-              effect on the human body by self-application.
-              <a class="text-info" href="#">Learn More</a>
+  <!-- SERVICE OPTION SECTION START -->
+  <section class="service-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="card-item">
+            <img src="./assets/img/serviesicons/stethoscope.png" alt="services-logo" class="service-icons" />
+            <h5>Our Doctor</h5>
+            <p class="sm-text py-1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+              quis semper felis.
             </p>
+            <div class="custom-btn">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="card-item">
+            <img src="./assets/img/serviesicons/shopping-bag.png" class="service-icons" alt="services-logo" />
+
+            <h5>Shop Page</h5>
+            <p class="sm-text py-1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+              quis semper felis.
+            </p>
+            <div class="custom-btn">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="card-item">
+            <img src="./assets/img/serviesicons/book.png" class="service-icons" alt="services-logo" />
+            <h5>Our Book</h5>
+            <p class="sm-text py-1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+              quis semper felis.
+            </p>
+            <div class="custom-btn">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="card-item">
+            <img src="./assets/img/serviesicons/pills.png" class="service-icons" alt="services-logo" />
+            <h5>Our Medicine</h5>
+            <p class="sm-text py-1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+              quis semper felis.
+            </p>
+            <div class="custom-btn">
+              <a href="#">Read More</a>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- HISTORY SECTION END -->
+    </div>
+  </section>
+  <!-- SERVICE OPTION SECTION END -->
 
-    <!-- OUR TEAM SECTION PART START -->
-    <section class="our-team mt-5 pt-lg-5">
-      <div class="container pt-lg-4">
-        <div class="row">
-          <div class="col-lg-7 col-md-6 col-sm-12">
-            <div class="content">
-              <h5 class="mb-5">Dr. Stephanie Wosniack</h5>
-              <h1>OUR <span>TEAM</span></h1>
-              <h6 class="py-2 py-lg-3">
-                Dr. Stephanie Wosniack is is dedicated to providing her patients
-                with the best possible care. We at MediCare are focused on
-                helping you. After receiving successful care for various aches
-                and pains over the years, Dr. Woshiack found her calling to help
-                others get well.
-              </h6>
-              <img src="assets/img/photos/signature.png" alt="signature" />
-            </div>
+  <!-- HISTORY SECTION START -->
+  <section class="history-part py-2 py-lg-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="history-img">
+            <img class="img" src="assets/img/photos/history-img.png" alt="history-img" />
           </div>
-          <div class="col-lg-5 col-md-6 col-sm-12">
-            <img
-              src="assets/img/photos/ourteam-doctor-img.png"
-              alt="doctor-img"
-            />
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <h4>Introduction of Homeopathy</h4>
+          <h5>Christian Friedrich Samuel Hahnemann</h5>
+          <h6>M.D. (1755-1843)</h6>
+          <h4>CREATION OF HOMEOPATHY:</h4>
+          <p>
+            Hahnemann was dissatisfied with the state of medicine in his time,
+            and particularly objected to practices such as bloodletting. He
+            claimed that the medicine he had been taught to practice sometimes
+            did the patient more harm than good: My sense of duty would not
+            easily allow me to treat the unknown pathological state of my
+            suffering brethren with these unknown medicines. The thought of
+            becoming in this way a murderer or malefactor towards the life of
+            my fellow human beings was most terrible to me, so terrible and
+            disturbing that I wholly gave up my practice in the first years of
+            my married life and occupied myself solely with chemistry and
+            writing. After giving up his practice around 1784, Hahnemann made
+            his living chiefly as a writer and translator, while resolving
+            also to investigate the causes of medicine's alleged errors. While
+            translating William Cullen's A Treatise on the Materia Medica,
+            Hahnemann encountered the claim that cinchona, the bark of a
+            Peruvian tree, was effective in treating malaria because of its
+            astringency. Hahnemann believed that other astringent substances
+            are not effective against malaria and began to research cinchona's
+            effect on the human body by self-application.
+            <a class="text-info" href="#">Learn More</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- HISTORY SECTION END -->
+
+  <!-- OUR TEAM SECTION PART START -->
+  <section class="our-team mt-5 pt-lg-5">
+    <div class="container pt-lg-4">
+      <div class="row">
+        <div class="col-lg-7 col-md-6 col-sm-12">
+          <div class="content">
+            <h5 class="mb-5">Dr. Stephanie Wosniack</h5>
+            <h1>OUR <span>TEAM</span></h1>
+            <h6 class="py-2 py-lg-3">
+              Dr. Stephanie Wosniack is is dedicated to providing her patients
+              with the best possible care. We at MediCare are focused on
+              helping you. After receiving successful care for various aches
+              and pains over the years, Dr. Woshiack found her calling to help
+              others get well.
+            </h6>
+            <img src="assets/img/photos/signature.png" alt="signature" />
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-6 col-sm-12">
+          <img src="assets/img/photos/ourteam-doctor-img.png" alt="doctor-img" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- OUR TEAM SECTION PART END -->
+
+  <!-- OUR DOCTOR PART START -->
+  <section class="our-doctor py-3 py-lg-5">
+    <div class="container">
+      <div class="col-sm-12">
+        <h2 class="section-title mb-4">Our Doctor</h2>
+      </div>
+      <div class="row card-slide">
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4 pt-lg-3">
+          <div class="card">
+            <a href="doctor-profile.html">
+              <div class="card-img text-center" style="background-image: url(assets/img/doctors/image-1.jpg)">
+                <div class="card-overlay">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+              </div>
+              <div class="card-body pb-4">
+                <div class="clinic ms-1">
+                  <div class="icon">
+                    <i class="fa fa-envelope"></i>
+                  </div>
+                </div>
+                <h6 class="mt-2">Pediatrician</h6>
+                <h5 class="card-title">Sussie Wolff</h5>
+            </a>
+            <p class="sm-text py-2">
+              Proin consequat, at commodo. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit.
+            </p>
+
+            <div class="d-flex justify-content-between">
+              <div class="custom-btn mt-1">
+                <a href="#">Appointment</a>
+              </div>
+              <div>
+                <ul class="d-flex">
+                  <li class="mx-1">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </li>
+                  <li class="mx-1">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </li>
+                  <li class="mx-1">
+                    <i class="fa-brands fa-twitter"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- OUR TEAM SECTION PART END -->
-
-    <!-- OUR DOCTOR PART START -->
-    <section class="our-doctor py-3 py-lg-5">
-      <div class="container">
-        <div class="col-sm-12">
-          <h2 class="section-title mb-4">Our Doctor</h2>
-        </div>
-        <div class="row card-slide">
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4 pt-lg-3">
-            <div class="card">
-              <div
-                class="card-img text-center"
-                style="background-image: url(assets/img/doctors/image-1.jpg)"
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-              </div>
-              <div class="card-body pb-4">
-                <div class="clinic ms-1">
-                  <div class="icon">
-                    <i class="fa fa-envelope"></i>
-                  </div>
-                </div>
-                <h6 class="mt-2">Pediatrician</h6>
-                <h5 class="card-title">Sussie Wolff</h5>
-                <p class="sm-text py-2">
-                  Proin consequat, at commodo. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit.
-                </p>
-                <div class="d-flex justify-content-between">
-                  <div class="custom-btn mt-1">
-                    <a href="#">Appointment</a>
-                  </div>
-                  <div>
-                    <ul class="d-flex">
-                      <li class="mx-1">
-                        <i class="fa-brands fa-facebook-f"></i>
-                      </li>
-                      <li class="mx-1">
-                        <i class="fa-brands fa-linkedin-in"></i>
-                      </li>
-                      <li class="mx-1">
-                        <i class="fa-brands fa-twitter"></i>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4 pt-lg-3">
+        <div class="card">
+          <a href="doctor-profile.html">
+            <div class="card-img text-center" style="background-image: url(assets/img/doctors/image-2.jpg)">
+              <div class="card-overlay">
+                <i class="fa-solid fa-magnifying-glass"></i>
               </div>
             </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4 pt-lg-3">
-            <div class="card">
-              <div
-                class="card-img text-center"
-                style="background-image: url(assets/img/doctors/image-2.jpg)"
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
+            <div class="card-body pb-4">
+              <div class="clinic ms-1">
+                <div class="icon">
+                  <i class="fa fa-envelope"></i>
                 </div>
               </div>
-              <div class="card-body pb-4">
-                <div class="clinic ms-1">
-                  <div class="icon">
-                    <i class="fa fa-envelope"></i>
-                  </div>
-                </div>
-                <h6 class="mt-2">Pediatrician</h6>
-                <h5 class="card-title">Sussie Wolff</h5>
-                <p class="sm-text py-2">
-                  Proin consequat, at commodo. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit.
-                </p>
-                <div class="d-flex justify-content-between">
-                  <div class="custom-btn mt-1">
-                    <a href="#">Appointment</a>
-                  </div>
-                  <div>
-                    <ul class="d-flex">
-                      <li class="mx-1">
-                        <a href="#">
-                          <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-                      </li>
-                      <li class="mx-1">
-                        <a href="#">
-                          <i class="fa-brands fa-linkedin-in"></i>
-                        </a>
-                      </li>
-                      <li class="mx-1">
-                        <a href="#">
-                          <i class="fa-brands fa-twitter"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+              <h6 class="mt-2">Pediatrician</h6>
+              <h5 class="card-title">Sussie Wolff</h5>
+          </a>
+          <p class="sm-text py-2">
+            Proin consequat, at commodo. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit.
+          </p>
+          <div class="d-flex justify-content-between">
+            <div class="custom-btn mt-1">
+              <a href="#">Appointment</a>
+            </div>
+            <div>
+              <ul class="d-flex">
+                <li class="mx-1">
+                  <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="mx-1">
+                  <a href="#">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </li>
+                <li class="mx-1">
+                  <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4 pt-lg-3">
-            <div class="card">
-              <div
-                class="card-img text-center"
-                style="background-image: url(assets/img/doctors/image-1.jpg)"
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-              </div>
-              <div class="card-body pb-4">
-                <div class="clinic ms-1">
-                  <div class="icon">
-                    <i class="fa fa-envelope"></i>
-                  </div>
-                </div>
-                <h6 class="mt-2">Pediatrician</h6>
-                <h5 class="card-title">Sussie Wolff</h5>
-                <p class="sm-text py-2">
-                  Proin consequat, at commodo. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit.
-                </p>
-                <div class="d-flex justify-content-between">
-                  <div class="custom-btn mt-1">
-                    <a href="#">Appointment</a>
-                  </div>
-                  <div>
-                    <ul class="d-flex">
-                      <li class="mx-1">
-                        <i class="fa-brands fa-facebook-f"></i>
-                      </li>
-                      <li class="mx-1">
-                        <i class="fa-brands fa-linkedin-in"></i>
-                      </li>
-                      <li class="mx-1">
-                        <i class="fa-brands fa-twitter"></i>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4 pt-lg-3">
-            <div class="card">
-              <div
-                class="card-img text-center"
-                style="background-image: url(assets/img/doctors/image-2.jpg)"
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-              </div>
-              <div class="card-body pb-4">
-                <div class="clinic ms-1">
-                  <div class="icon">
-                    <i class="fa fa-envelope"></i>
-                  </div>
-                </div>
-                <h6 class="mt-2">Pediatrician</h6>
-                <h5 class="card-title">Sussie Wolff</h5>
-                <p class="sm-text py-2">
-                  Proin consequat, at commodo. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit.
-                </p>
-                <div class="d-flex justify-content-between">
-                  <div class="custom-btn mt-1">
-                    <a href="#">Appointment</a>
-                  </div>
-                  <div>
-                    <ul class="d-flex">
-                      <li class="mx-1">
-                        <a href="#">
-                          <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-                      </li>
-                      <li class="mx-1">
-                        <a href="#">
-                          <i class="fa-brands fa-linkedin-in"></i>
-                        </a>
-                      </li>
-                      <li class="mx-1">
-                        <a href="#">
-                          <i class="fa-brands fa-twitter"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4 pt-lg-3">
-            <div class="card">
-              <div
-                class="card-img text-center"
-                style="background-image: url(assets/img/doctors/image-3.jpg)"
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-              </div>
-              <div class="card-body pb-4">
-                <div class="clinic ms-1">
-                  <div class="icon">
-                    <i class="fa fa-envelope"></i>
-                  </div>
-                </div>
-                <h6 class="mt-2">Pediatrician</h6>
-                <h5 class="card-title">Sussie Wolff</h5>
-                <p class="sm-text py-2">
-                  Proin consequat, at commodo. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit.
-                </p>
-                <div class="d-flex justify-content-between">
-                  <div class="custom-btn mt-1">
-                    <a href="#">Appointment</a>
-                  </div>
-                  <div>
-                    <ul class="d-flex">
-                      <li class="mx-1">
-                        <a href="#">
-                          <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-                      </li>
-                      <li class="mx-1">
-                        <a href="#">
-                          <i class="fa-brands fa-linkedin-in"></i>
-                        </a>
-                      </li>
-                      <li class="mx-1">
-                        <a href="#">
-                          <i class="fa-brands fa-twitter"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-12 my-4 pt-lg-3">
-            <div class="card">
-              <div
-                class="card-img text-center"
-                style="background-image: url(assets/img/doctors/image-4.jpg)"
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-              </div>
-              <div class="card-body pb-4">
-                <div class="clinic ms-1">
-                  <div class="icon">
-                    <i class="fa fa-envelope"></i>
-                  </div>
-                </div>
-                <h6 class="mt-2">Pediatrician</h6>
-                <h5 class="card-title">Sussie Wolff</h5>
-                <p class="sm-text py-2">
-                  Proin consequat, at commodo. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit.
-                </p>
-                <div class="d-flex justify-content-between">
-                  <div class="custom-btn mt-1">
-                    <a href="#">Appointment</a>
-                  </div>
-                  <div>
-                    <ul class="d-flex">
-                      <li class="mx-1">
-                        <a href="#">
-                          <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-                      </li>
-                      <li class="mx-1">
-                        <a href="#">
-                          <i class="fa-brands fa-linkedin-in"></i>
-                        </a>
-                      </li>
-                      <li class="mx-1">
-                        <a href="#">
-                          <i class="fa-brands fa-twitter"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4 pt-lg-3">
-            <div class="card">
-              <div
-                class="card-img text-center"
-                style="background-image: url(assets/img/doctors/image-3.jpg)"
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-              </div>
-              <div class="card-body pb-4">
-                <div class="clinic ms-1">
-                  <div class="icon">
-                    <i class="fa fa-envelope"></i>
-                  </div>
-                </div>
-                <h6 class="mt-2">Pediatrician</h6>
-                <h5 class="card-title">Sussie Wolff</h5>
-                <p class="sm-text py-2">
-                  Proin consequat, at commodo. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit.
-                </p>
-                <div class="d-flex justify-content-between">
-                  <div class="custom-btn mt-1">
-                    <a href="#">Appointment</a>
-                  </div>
-                  <div>
-                    <ul class="d-flex">
-                      <li class="mx-1">
-                        <a href="#">
-                          <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-                      </li>
-                      <li class="mx-1">
-                        <a href="#">
-                          <i class="fa-brands fa-linkedin-in"></i>
-                        </a>
-                      </li>
-                      <li class="mx-1">
-                        <a href="#">
-                          <i class="fa-brands fa-twitter"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4 pt-lg-3">
-            <div class="card">
-              <div
-                class="card-img text-center"
-                style="background-image: url(assets/img/doctors/image-4.jpg)"
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-              </div>
-              <div class="card-body pb-4">
-                <div class="clinic ms-1">
-                  <div class="icon">
-                    <i class="fa fa-envelope"></i>
-                  </div>
-                </div>
-                <h6 class="mt-2">Pediatrician</h6>
-                <h5 class="card-title">Sussie Wolff</h5>
-                <p class="sm-text py-2">
-                  Proin consequat, at commodo. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit.
-                </p>
-                <div class="d-flex justify-content-between">
-                  <div class="custom-btn mt-1">
-                    <a href="#">Appointment</a>
-                  </div>
-                  <div>
-                    <ul class="d-flex">
-                      <li class="mx-1">
-                        <a href="#">
-                          <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-                      </li>
-                      <li class="mx-1">
-                        <a href="#">
-                          <i class="fa-brands fa-linkedin-in"></i>
-                        </a>
-                      </li>
-                      <li class="mx-1">
-                        <a href="#">
-                          <i class="fa-brands fa-twitter"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="custom-btn text-center my-4">
-          <a class="py-3" href="#">View More Doctor</a>
         </div>
       </div>
-    </section>
-    <!-- OUR DOCTOR PART END -->
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4 pt-lg-3">
+      <div class="card">
+        <a href="doctor-profile.html">
+          <div class="card-img text-center" style="background-image: url(assets/img/doctors/image-1.jpg)">
+            <div class="card-overlay">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+          <div class="card-body pb-4">
+            <div class="clinic ms-1">
+              <div class="icon">
+                <i class="fa fa-envelope"></i>
+              </div>
+            </div>
+            <h6 class="mt-2">Pediatrician</h6>
+            <h5 class="card-title">Sussie Wolff</h5>
+        </a>
+        <p class="sm-text py-2">
+          Proin consequat, at commodo. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit.
+        </p>
+        <div class="d-flex justify-content-between">
+          <div class="custom-btn mt-1">
+            <a href="#">Appointment</a>
+          </div>
+          <div>
+            <ul class="d-flex">
+              <li class="mx-1">
+                <i class="fa-brands fa-facebook-f"></i>
+              </li>
+              <li class="mx-1">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </li>
+              <li class="mx-1">
+                <i class="fa-brands fa-twitter"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4 pt-lg-3">
+      <div class="card">
+        <a href="doctor-profile.html">
+          <div class="card-img text-center" style="background-image: url(assets/img/doctors/image-2.jpg)">
+            <div class="card-overlay">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+          <div class="card-body pb-4">
+            <div class="clinic ms-1">
+              <div class="icon">
+                <i class="fa fa-envelope"></i>
+              </div>
+            </div>
+            <h6 class="mt-2">Pediatrician</h6>
+            <h5 class="card-title">Sussie Wolff</h5>
+        </a>
+        <p class="sm-text py-2">
+          Proin consequat, at commodo. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit.
+        </p>
+        <div class="d-flex justify-content-between">
+          <div class="custom-btn mt-1">
+            <a href="#">Appointment</a>
+          </div>
+          <div>
+            <ul class="d-flex">
+              <li class="mx-1">
+                <a href="#">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="mx-1">
+                <a href="#">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="mx-1">
+                <a href="#">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4 pt-lg-3">
+      <div class="card">
+        <a href="doctor-profile.html">
+          <div class="card-img text-center" style="background-image: url(assets/img/doctors/image-3.jpg)">
+            <div class="card-overlay">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+          <div class="card-body pb-4">
+            <div class="clinic ms-1">
+              <div class="icon">
+                <i class="fa fa-envelope"></i>
+              </div>
+            </div>
+            <h6 class="mt-2">Pediatrician</h6>
+            <h5 class="card-title">Sussie Wolff</h5>
+        </a>
+        <p class="sm-text py-2">
+          Proin consequat, at commodo. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit.
+        </p>
+        <div class="d-flex justify-content-between">
+          <div class="custom-btn mt-1">
+            <a href="#">Appointment</a>
+          </div>
+          <div>
+            <ul class="d-flex">
+              <li class="mx-1">
+                <a href="#">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="mx-1">
+                <a href="#">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="mx-1">
+                <a href="#">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-12 my-4 pt-lg-3">
+      <div class="card">
+        <a href="doctor-profile.html">
+          <div class="card-img text-center" style="background-image: url(assets/img/doctors/image-4.jpg)">
+            <div class="card-overlay">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+          <div class="card-body pb-4">
+            <div class="clinic ms-1">
+              <div class="icon">
+                <i class="fa fa-envelope"></i>
+              </div>
+            </div>
+            <h6 class="mt-2">Pediatrician</h6>
+            <h5 class="card-title">Sussie Wolff</h5>
+        </a>
+        <p class="sm-text py-2">
+          Proin consequat, at commodo. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit.
+        </p>
+        <div class="d-flex justify-content-between">
+          <div class="custom-btn mt-1">
+            <a href="#">Appointment</a>
+          </div>
+          <div>
+            <ul class="d-flex">
+              <li class="mx-1">
+                <a href="#">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="mx-1">
+                <a href="#">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="mx-1">
+                <a href="#">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4 pt-lg-3">
+      <div class="card">
+        <a href="doctor-profile.html">
+          <div class="card-img text-center" style="background-image: url(assets/img/doctors/image-3.jpg)">
+            <div class="card-overlay">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+          <div class="card-body pb-4">
+            <div class="clinic ms-1">
+              <div class="icon">
+                <i class="fa fa-envelope"></i>
+              </div>
+            </div>
+            <h6 class="mt-2">Pediatrician</h6>
+            <h5 class="card-title">Sussie Wolff</h5>
+        </a>
+        <p class="sm-text py-2">
+          Proin consequat, at commodo. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit.
+        </p>
+        <div class="d-flex justify-content-between">
+          <div class="custom-btn mt-1">
+            <a href="#">Appointment</a>
+          </div>
+          <div>
+            <ul class="d-flex">
+              <li class="mx-1">
+                <a href="#">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="mx-1">
+                <a href="#">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="mx-1">
+                <a href="#">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4 pt-lg-3">
+      <div class="card">
+        <a href="doctor-profile.html">
+          <div class="card-img text-center" style="background-image: url(assets/img/doctors/image-4.jpg)">
+            <div class="card-overlay">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+          <div class="card-body pb-4">
+            <div class="clinic ms-1">
+              <div class="icon">
+                <i class="fa fa-envelope"></i>
+              </div>
+            </div>
+            <h6 class="mt-2">Pediatrician</h6>
+            <h5 class="card-title">Sussie Wolff</h5>
+        </a>
+        <p class="sm-text py-2">
+          Proin consequat, at commodo. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit.
+        </p>
+        <div class="d-flex justify-content-between">
+          <div class="custom-btn mt-1">
+            <a href="#">Appointment</a>
+          </div>
+          <div>
+            <ul class="d-flex">
+              <li class="mx-1">
+                <a href="#">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="mx-1">
+                <a href="#">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="mx-1">
+                <a href="#">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <div class="custom-btn text-center my-4">
+      <a class="py-3" href="#">View More Doctor</a>
+    </div>
+    </div>
+  </section>
+  <!-- OUR DOCTOR PART END -->
 
-    <!-- HOW IT WORK SECTION START -->
-    <section class="how-it-work py-5" style="background-color: #ffffff">
-      <div class="container">
-        <h2 class="section-title">How it Work</h2>
-        <div class="row">
-          <div class="col-lg-3 col-md-4 col-sm-6 col-12 how-it-work-width">
-            <div class="item">
-              <div
-                class="work-card my-4 mt-lg-5"
-                style="
+  <!-- HOW IT WORK SECTION START -->
+  <section class="how-it-work py-5" style="background-color: #ffffff">
+    <div class="container">
+      <h2 class="section-title">How it Work</h2>
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 how-it-work-width">
+          <div class="item">
+            <div class="work-card my-4 mt-lg-5" style="
                   background-image: url(assets/img/photos/how-it-work-1.jpeg);
-                "
-              >
-                <div class="work-card-overlay">
-                  <div class="work-article">
-                    <p class="sm-text">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book. It has survived not only five
-                      centuries
-                    </p>
-                  </div>
+                ">
+              <div class="work-card-overlay">
+                <div class="work-article">
+                  <p class="sm-text">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five
+                    centuries
+                  </p>
                 </div>
               </div>
-              <h3>Step - One</h3>
             </div>
+            <h3>Step - One</h3>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-12 col-12 how-it-work-width">
-            <div class="item">
-              <div
-                class="work-card my-4 mt-lg-5"
-                style="
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 col-12 how-it-work-width">
+          <div class="item">
+            <div class="work-card my-4 mt-lg-5" style="
                   background-image: url(assets/img/photos/how-it-work-2.jpeg);
-                "
-              >
-                <div class="work-card-overlay">
-                  <div class="work-article">
-                    <p class="sm-text">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book. It has survived not only five
-                      centuries
-                    </p>
-                  </div>
+                ">
+              <div class="work-card-overlay">
+                <div class="work-article">
+                  <p class="sm-text">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five
+                    centuries
+                  </p>
                 </div>
               </div>
-              <h3>Step - Two</h3>
             </div>
+            <h3>Step - Two</h3>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-12 how-it-work-width">
-            <div class="item">
-              <div
-                class="work-card my-4 mt-lg-5"
-                style="
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 how-it-work-width">
+          <div class="item">
+            <div class="work-card my-4 mt-lg-5" style="
                   background-image: url(assets/img/photos/how-it-work-3.jpeg);
-                "
-              >
-                <div class="work-card-overlay">
-                  <div class="work-article">
-                    <p class="sm-text">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book. It has survived not only five
-                      centuries
-                    </p>
-                  </div>
+                ">
+              <div class="work-card-overlay">
+                <div class="work-article">
+                  <p class="sm-text">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five
+                    centuries
+                  </p>
                 </div>
               </div>
-              <h3>Step - Three</h3>
             </div>
+            <h3>Step - Three</h3>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 how-it-work-width">
-            <div class="item">
-              <div
-                class="work-card my-4 mt-lg-5"
-                style="
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 how-it-work-width">
+          <div class="item">
+            <div class="work-card my-4 mt-lg-5" style="
                   background-image: url(assets/img/photos/how-it-work-4.jpeg);
-                "
-              >
-                <div class="work-card-overlay">
-                  <div class="work-article">
-                    <p class="sm-text">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book. It has survived not only five
-                      centuries
-                    </p>
-                  </div>
+                ">
+              <div class="work-card-overlay">
+                <div class="work-article">
+                  <p class="sm-text">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five
+                    centuries
+                  </p>
                 </div>
               </div>
-              <h3>Step - Four</h3>
             </div>
+            <h3>Step - Four</h3>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 how-it-work-width">
-            <div class="item">
-              <div
-                class="work-card my-4 mt-lg-5"
-                style="
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 how-it-work-width">
+          <div class="item">
+            <div class="work-card my-4 mt-lg-5" style="
                   background-image: url(assets/img/photos/how-it-work-1.jpeg);
-                "
-              >
-                <div class="work-card-overlay">
-                  <div class="work-article">
-                    <p class="sm-text">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book. It has survived not only five
-                      centuries
-                    </p>
-                  </div>
+                ">
+              <div class="work-card-overlay">
+                <div class="work-article">
+                  <p class="sm-text">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five
+                    centuries
+                  </p>
                 </div>
               </div>
-              <h3>Step - Five</h3>
             </div>
+            <h3>Step - Five</h3>
           </div>
         </div>
       </div>
-    </section>
-    <!-- HOW IT WORK SECTION END -->
+    </div>
+  </section>
+  <!-- HOW IT WORK SECTION END -->
 
-    <!-- OUR DISEASE PART -->
-    <section class="disease-book py-3 py-lg-5" style="background: #ffffff">
-      <div class="container">
-        <h2 class="section-title mb-5">Disease</h2>
-        <div class="row">
-          <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
-            <div class="disease-item">
-              <div
-                class="card-img text-center"
-                style="background-image: url(assets/img/disease/allergy.jpg)"
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
+  <!-- OUR DISEASE PART -->
+  <section class="disease-book py-3 py-lg-5" style="background: #ffffff">
+    <div class="container">
+      <h2 class="section-title mb-5">Disease</h2>
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
+          <div class="disease-item">
+            <div class="card-img text-center" style="background-image: url(assets/img/disease/allergy.jpg)">
+              <div class="card-overlay">
+                <i class="fa-solid fa-magnifying-glass"></i>
               </div>
-              <h5 class="mt-2">
-                <a href="disease-details.html">Allergy</a>
-              </h5>
             </div>
+            <h5 class="mt-2">
+              <a href="disease-details.html">Allergy</a>
+            </h5>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
-            <div class="disease-item">
-              <div
-                class="card-img text-center"
-                style="background-image: url(assets/img/disease/astham.jpg)"
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
+          <div class="disease-item">
+            <div class="card-img text-center" style="background-image: url(assets/img/disease/astham.jpg)">
+              <div class="card-overlay">
+                <i class="fa-solid fa-magnifying-glass"></i>
               </div>
-              <h5 class="mt-2">
-                <a href="disease-details.html">Astham</a>
-              </h5>
             </div>
+            <h5 class="mt-2">
+              <a href="disease-details.html">Astham</a>
+            </h5>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
-            <div class="disease-item">
-              <div
-                class="card-img text-center"
-                style="
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
+          <div class="disease-item">
+            <div class="card-img text-center" style="
                   background-image: url(assets/img/disease/hypertension.jpg);
-                "
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
+                ">
+              <div class="card-overlay">
+                <i class="fa-solid fa-magnifying-glass"></i>
               </div>
-              <h5 class="mt-2">
-                <a href="disease-details.html">Hypertension</a>
-              </h5>
             </div>
+            <h5 class="mt-2">
+              <a href="disease-details.html">Hypertension</a>
+            </h5>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
-            <div class="disease-item">
-              <div
-                class="card-img text-center"
-                style="
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
+          <div class="disease-item">
+            <div class="card-img text-center" style="
                   background-image: url(assets/img/disease/infertility.jpg);
-                "
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
+                ">
+              <div class="card-overlay">
+                <i class="fa-solid fa-magnifying-glass"></i>
               </div>
-              <h5 class="mt-2">
-                <a href="disease-details.html">Infertility</a>
-              </h5>
             </div>
+            <h5 class="mt-2">
+              <a href="disease-details.html">Infertility</a>
+            </h5>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
-            <div class="disease-item">
-              <div
-                class="card-img text-center"
-                style="background-image: url(assets/img/disease/maigraine.jpg)"
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
+          <div class="disease-item">
+            <div class="card-img text-center" style="background-image: url(assets/img/disease/maigraine.jpg)">
+              <div class="card-overlay">
+                <i class="fa-solid fa-magnifying-glass"></i>
               </div>
-              <h5 class="mt-2">
-                <a href="disease-details.html">Maigraine</a>
-              </h5>
             </div>
+            <h5 class="mt-2">
+              <a href="disease-details.html">Maigraine</a>
+            </h5>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
-            <div class="disease-item">
-              <div
-                class="card-img text-center"
-                style="background-image: url(assets/img/disease/sinusitis.jpg)"
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
+          <div class="disease-item">
+            <div class="card-img text-center" style="background-image: url(assets/img/disease/sinusitis.jpg)">
+              <div class="card-overlay">
+                <i class="fa-solid fa-magnifying-glass"></i>
               </div>
-              <h5 class="mt-2">
-                <a href="disease-details.html">Sinusitis</a>
-              </h5>
             </div>
+            <h5 class="mt-2">
+              <a href="disease-details.html">Sinusitis</a>
+            </h5>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
-            <div class="disease-item">
-              <div
-                class="card-img text-center"
-                style="background-image: url(assets/img/disease/skin.jpg)"
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
+          <div class="disease-item">
+            <div class="card-img text-center" style="background-image: url(assets/img/disease/skin.jpg)">
+              <div class="card-overlay">
+                <i class="fa-solid fa-magnifying-glass"></i>
               </div>
-              <h5 class="mt-2">
-                <a href="disease-details.html">Skin</a>
-              </h5>
             </div>
+            <h5 class="mt-2">
+              <a href="disease-details.html">Skin</a>
+            </h5>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
-            <div class="disease-item">
-              <div
-                class="card-img text-center"
-                style="
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
+          <div class="disease-item">
+            <div class="card-img text-center" style="
                   background-image: url(assets/img/disease/spondylitis.jpg);
-                "
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
+                ">
+              <div class="card-overlay">
+                <i class="fa-solid fa-magnifying-glass"></i>
               </div>
-              <h5 class="mt-2">
-                <a href="disease-details.html">Spondylitis</a>
-              </h5>
             </div>
+            <h5 class="mt-2">
+              <a href="disease-details.html">Spondylitis</a>
+            </h5>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
-            <div class="disease-item">
-              <div
-                class="card-img text-center"
-                style="background-image: url(assets/img/disease/thyroid.jpg)"
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
+          <div class="disease-item">
+            <div class="card-img text-center" style="background-image: url(assets/img/disease/thyroid.jpg)">
+              <div class="card-overlay">
+                <i class="fa-solid fa-magnifying-glass"></i>
               </div>
-              <h5 class="mt-2">
-                <a href="disease-details.html">Thyroid</a>
-              </h5>
             </div>
+            <h5 class="mt-2">
+              <a href="disease-details.html">Thyroid</a>
+            </h5>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
-            <div class="disease-item">
-              <div
-                class="card-img text-center"
-                style="
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
+          <div class="disease-item">
+            <div class="card-img text-center" style="
                   background-image: url(assets/img/disease/womens-health.jpg);
-                "
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
+                ">
+              <div class="card-overlay">
+                <i class="fa-solid fa-magnifying-glass"></i>
               </div>
-              <h5 class="mt-2">
-                <a href="disease-details.html">Womens Health</a>
-              </h5>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
-            <div class="disease-item">
-              <div
-                class="card-img text-center"
-                style="background-image: url(assets/img/disease/thyroid.jpg)"
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-              </div>
-              <h5 class="mt-2">
-                <a href="disease-details.html">Thyroid</a>
-              </h5>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
-            <div class="disease-item">
-              <div
-                class="card-img text-center"
-                style="background-image: url(assets/img/disease/sinusitis.jpg)"
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-              </div>
-              <h5 class="mt-2">
-                <a href="disease-details.html">Sinusitis</a>
-              </h5>
-            </div>
+            <h5 class="mt-2">
+              <a href="disease-details.html">Womens Health</a>
+            </h5>
           </div>
         </div>
-        <div class="custom-btn text-center my-5">
-          <a class="py-3" href="#">View More Disease</a>
+        <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
+          <div class="disease-item">
+            <div class="card-img text-center" style="background-image: url(assets/img/disease/thyroid.jpg)">
+              <div class="card-overlay">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+            <h5 class="mt-2">
+              <a href="disease-details.html">Thyroid</a>
+            </h5>
+          </div>
         </div>
-      </div>
-    </section>
-    <!-- OUR DISEASE PART -->
-
-    <!-- TESTIMONIAL PART START -->
-    <section class="testimonial">
-      <div class="testimonial-overlay">
-        <div class="container">
-          <h2 class="section-title">TESTIMONIALS</h2>
-          <div class="row testimonial-slider">
-            <div class="col-sm-12">
-              <div class="testimonial-content">
-                <h6
-                  class="p-3 px-lg-5 mx-5 mx-lg-5 py-5 py-lg-5 text-sm-center"
-                >
-                  <span><i class="fa-solid fa-quote-left"></i></span>
-                  <em
-                    >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Pariatur vel nostrum veniam voluptatum, aspernatur nihil
-                    optio ex, eaque quae ea earum nam sunt laudantium, illo
-                    nesciunt perferendis facilis accusantium dolor.span</em
-                  >
-                  <span><i class="fa-solid fa-quote-right"></i></span>
-                </h6>
-                <div class="testimonial-author pb-5">
-                  <a href="doctor-testimonial.html">
-                    <div class="d-flex">
-                      <img
-                        src="assets/img/photos/testimonial-img.png"
-                        alt="testimonial-img"
-                      />
-                      <div class="author-text">
-                        <h5 class="ms-2">Dr. Abdul Aziz</h5>
-                        <p class="ms-2">Doctor</p>
-                      </div>
-                    </div>
-                  </a>
-                </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
+          <div class="disease-item">
+            <div class="card-img text-center" style="background-image: url(assets/img/disease/sinusitis.jpg)">
+              <div class="card-overlay">
+                <i class="fa-solid fa-magnifying-glass"></i>
               </div>
             </div>
-            <div class="col-sm-12">
-              <div class="testimonial-content">
-                <h6
-                  class="p-3 px-lg-5 mx-5 mx-lg-5 py-5 py-lg-5 text-sm-center"
-                >
-                  <span><i class="fa-solid fa-quote-left"></i></span>
-                  <em
-                    >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Pariatur vel nostrum veniam voluptatum, aspernatur nihil
-                    optio ex, eaque quae ea earum nam sunt laudantium, illo
-                    nesciunt perferendis facilis accusantium dolor.span</em
-                  >
-                  <span><i class="fa-solid fa-quote-right"></i></span>
-                </h6>
-                <div class="testimonial-author pb-5">
-                  <a href="celebraties-testimonial.html">
-                    <div class="d-flex">
-                      <img
-                        src="assets/img/photos/testimonial-img.png"
-                        alt="testimonial-img"
-                      />
-                      <div class="author-text">
-                        <h5 class="ms-2">Owner Name Here</h5>
-                        <p class="ms-2">Celebraties</p>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-12">
-              <div class="testimonial-content">
-                <h6
-                  class="p-3 px-lg-5 mx-5 mx-lg-5 py-5 py-lg-5 text-sm-center"
-                >
-                  <span><i class="fa-solid fa-quote-left"></i></span>
-                  <em
-                    >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Pariatur vel nostrum veniam voluptatum, aspernatur nihil
-                    optio ex, eaque quae ea earum nam sunt laudantium, illo
-                    nesciunt perferendis facilis accusantium dolor.span</em
-                  >
-                  <span><i class="fa-solid fa-quote-right"></i></span>
-                </h6>
-                <div class="testimonial-author pb-5">
-                  <a href="patient-testimonial.html">
-                    <div class="d-flex">
-                      <img
-                        src="assets/img/photos/testimonial-img.png"
-                        alt="testimonial-img"
-                      />
-                      <div class="author-text">
-                        <h5 class="ms-2">Owner Name Here</h5>
-                        <p class="ms-2">Patient</p>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
+            <h5 class="mt-2">
+              <a href="disease-details.html">Sinusitis</a>
+            </h5>
           </div>
         </div>
       </div>
-    </section>
-    <!-- TESTIMONIAL PART END -->
+      <div class="custom-btn text-center my-5">
+        <a class="py-3" href="#">View More Disease</a>
+      </div>
+    </div>
+  </section>
+  <!-- OUR DISEASE PART -->
 
-    <!-- FAMOUS BOOK AND DISEASE PART -->
-    <section class="disease-book py-3 py-lg-5">
+  <!-- TESTIMONIAL PART START -->
+  <section class="testimonial">
+    <div class="testimonial-overlay">
       <div class="container">
-        <h2 class="section-title">Famous Book</h2>
-        <div class="row book-slide">
-          <div class="col-lg-2 col-md-3 col-sm-4 my-3 my-lg-5 mx-2">
-            <div class="disease-item">
-              <div
-                class="card-img text-center"
-                style="background-image: url(assets/img/books/book-1.jpg)"
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
+        <h2 class="section-title">TESTIMONIALS</h2>
+        <div class="row testimonial-slider">
+          <div class="col-sm-12">
+            <div class="testimonial-content">
+              <h6 class="p-3 px-lg-5 mx-5 mx-lg-5 py-5 py-lg-5 text-sm-center">
+                <span><i class="fa-solid fa-quote-left"></i></span>
+                <em>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Pariatur vel nostrum veniam voluptatum, aspernatur nihil
+                  optio ex, eaque quae ea earum nam sunt laudantium, illo
+                  nesciunt perferendis facilis accusantium dolor.span</em>
+                <span><i class="fa-solid fa-quote-right"></i></span>
+              </h6>
+              <div class="testimonial-author pb-5">
+                <a href="doctor-testimonial.html">
+                  <div class="d-flex">
+                    <img src="assets/img/photos/testimonial-img.png" alt="testimonial-img" />
+                    <div class="author-text">
+                      <h5 class="ms-2">Dr. Abdul Aziz</h5>
+                      <p class="ms-2">Doctor</p>
+                    </div>
+                  </div>
+                </a>
               </div>
-              <h5 class="mt-2">
-                <a href="#">JRR Tolkien Lor..</a>
-              </h5>
             </div>
           </div>
-          <div class="col-lg-2 col-md-3 col-sm-4 my-3 my-lg-5 mx-2">
-            <div class="disease-item">
-              <div
-                class="card-img text-center"
-                style="background-image: url(assets/img/books/book-2.jpg)"
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
+          <div class="col-sm-12">
+            <div class="testimonial-content">
+              <h6 class="p-3 px-lg-5 mx-5 mx-lg-5 py-5 py-lg-5 text-sm-center">
+                <span><i class="fa-solid fa-quote-left"></i></span>
+                <em>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Pariatur vel nostrum veniam voluptatum, aspernatur nihil
+                  optio ex, eaque quae ea earum nam sunt laudantium, illo
+                  nesciunt perferendis facilis accusantium dolor.span</em>
+                <span><i class="fa-solid fa-quote-right"></i></span>
+              </h6>
+              <div class="testimonial-author pb-5">
+                <a href="celebraties-testimonial.html">
+                  <div class="d-flex">
+                    <img src="assets/img/photos/testimonial-img.png" alt="testimonial-img" />
+                    <div class="author-text">
+                      <h5 class="ms-2">Owner Name Here</h5>
+                      <p class="ms-2">Celebraties</p>
+                    </div>
+                  </div>
+                </a>
               </div>
-              <h5 class="mt-2">
-                <a href="#">JRR Tolkien Lor..</a>
-              </h5>
             </div>
           </div>
-          <div class="col-lg-2 col-md-3 col-sm-4 my-3 my-lg-5 mx-2">
-            <div class="disease-item">
-              <div
-                class="card-img text-center"
-                style="background-image: url(assets/img/books/book-3.jpg)"
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
+          <div class="col-sm-12">
+            <div class="testimonial-content">
+              <h6 class="p-3 px-lg-5 mx-5 mx-lg-5 py-5 py-lg-5 text-sm-center">
+                <span><i class="fa-solid fa-quote-left"></i></span>
+                <em>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Pariatur vel nostrum veniam voluptatum, aspernatur nihil
+                  optio ex, eaque quae ea earum nam sunt laudantium, illo
+                  nesciunt perferendis facilis accusantium dolor.span</em>
+                <span><i class="fa-solid fa-quote-right"></i></span>
+              </h6>
+              <div class="testimonial-author pb-5">
+                <a href="patient-testimonial.html">
+                  <div class="d-flex">
+                    <img src="assets/img/photos/testimonial-img.png" alt="testimonial-img" />
+                    <div class="author-text">
+                      <h5 class="ms-2">Owner Name Here</h5>
+                      <p class="ms-2">Patient</p>
+                    </div>
+                  </div>
+                </a>
               </div>
-              <h5 class="mt-2">
-                <a href="#">JRR Tolkien Lor..</a>
-              </h5>
             </div>
           </div>
-          <div class="col-lg-2 col-md-3 col-sm-4 my-3 my-lg-5 mx-2">
-            <div class="disease-item">
-              <div
-                class="card-img text-center"
-                style="background-image: url(assets/img/books/book-4.jpg)"
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-              </div>
-              <h5 class="mt-2">
-                <a href="#">JRR Tolkien Lor..</a>
-              </h5>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-3 col-sm-4 my-3 my-lg-5 mx-2">
-            <div class="disease-item">
-              <div
-                class="card-img text-center"
-                style="background-image: url(assets/img/books/book-5.jpg)"
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-              </div>
-              <h5 class="mt-2">
-                <a href="#">JRR Tolkien Lor..</a>
-              </h5>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-3 col-sm-4 my-3 my-lg-5 mx-2">
-            <div class="disease-item">
-              <div
-                class="card-img text-center"
-                style="background-image: url(assets/img/books/book-1.jpg)"
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-              </div>
-              <h5 class="mt-2">
-                <a href="#">JRR Tolkien Lor..</a>
-              </h5>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-3 col-sm-4 my-3 my-lg-5 mx-2">
-            <div class="disease-item">
-              <div
-                class="card-img text-center"
-                style="background-image: url(assets/img/books/book-2.jpg)"
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-              </div>
-              <h5 class="mt-2">
-                <a href="#">JRR Tolkien Lor..</a>
-              </h5>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-3 col-sm-4 my-3 my-lg-5 mx-2">
-            <div class="disease-item">
-              <div
-                class="card-img text-center"
-                style="background-image: url(assets/img/books/book-3.jpg)"
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-              </div>
-              <h5 class="mt-2">
-                <a href="#">JRR Tolkien Lor..</a>
-              </h5>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-3 col-sm-4 my-3 my-lg-5 mx-2">
-            <div class="disease-item">
-              <div
-                class="card-img text-center"
-                style="background-image: url(assets/img/books/book-4.jpg)"
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-              </div>
-              <h5 class="mt-2">
-                <a href="#">JRR Tolkien Lor..</a>
-              </h5>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-3 col-sm-4 my-3 my-lg-5 mx-2">
-            <div class="disease-item">
-              <div
-                class="card-img text-center"
-                style="background-image: url(assets/img/books/book-5.jpg)"
-              >
-                <div class="card-overlay">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-              </div>
-              <h5 class="mt-2">
-                <a href="#">JRR Tolkien Lor..</a>
-              </h5>
-            </div>
-          </div>
-        </div>
-        <div class="custom-btn text-center my-3">
-          <a class="py-3" href="#">View More Books</a>
         </div>
       </div>
-    </section>
-    <!-- FAMOUS BOOK AND DISEASE PART -->
+    </div>
+  </section>
+  <!-- TESTIMONIAL PART END -->
 
-    <!-- OUR STUDY PART -->
-    <section class="disease-book py-3 py-lg-4" style="background: #f1f1f1">
-      <div class="container">
-        <h2 class="section-title mb-4">Study Topics</h2>
-        <div class="row">
-          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-            <div class="row card-slide">
-              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
-                <div class="disease-item">
-                  <a href="study-details.html">
-                    <div
-                      class="card-img text-center"
-                      style="
+  <!-- FAMOUS BOOK AND DISEASE PART -->
+  <section class="disease-book py-3 py-lg-5">
+    <div class="container">
+      <h2 class="section-title">Famous Book</h2>
+      <div class="row book-slide">
+        <div class="col-lg-2 col-md-3 col-sm-4 my-3 my-lg-5 mx-2">
+          <div class="disease-item">
+            <div class="card-img text-center" style="background-image: url(assets/img/books/book-1.jpg)">
+              <div class="card-overlay">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+            <h5 class="mt-2">
+              <a href="#">JRR Tolkien Lor..</a>
+            </h5>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 my-3 my-lg-5 mx-2">
+          <div class="disease-item">
+            <div class="card-img text-center" style="background-image: url(assets/img/books/book-2.jpg)">
+              <div class="card-overlay">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+            <h5 class="mt-2">
+              <a href="#">JRR Tolkien Lor..</a>
+            </h5>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 my-3 my-lg-5 mx-2">
+          <div class="disease-item">
+            <div class="card-img text-center" style="background-image: url(assets/img/books/book-3.jpg)">
+              <div class="card-overlay">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+            <h5 class="mt-2">
+              <a href="#">JRR Tolkien Lor..</a>
+            </h5>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 my-3 my-lg-5 mx-2">
+          <div class="disease-item">
+            <div class="card-img text-center" style="background-image: url(assets/img/books/book-4.jpg)">
+              <div class="card-overlay">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+            <h5 class="mt-2">
+              <a href="#">JRR Tolkien Lor..</a>
+            </h5>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 my-3 my-lg-5 mx-2">
+          <div class="disease-item">
+            <div class="card-img text-center" style="background-image: url(assets/img/books/book-5.jpg)">
+              <div class="card-overlay">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+            <h5 class="mt-2">
+              <a href="#">JRR Tolkien Lor..</a>
+            </h5>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 my-3 my-lg-5 mx-2">
+          <div class="disease-item">
+            <div class="card-img text-center" style="background-image: url(assets/img/books/book-1.jpg)">
+              <div class="card-overlay">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+            <h5 class="mt-2">
+              <a href="#">JRR Tolkien Lor..</a>
+            </h5>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 my-3 my-lg-5 mx-2">
+          <div class="disease-item">
+            <div class="card-img text-center" style="background-image: url(assets/img/books/book-2.jpg)">
+              <div class="card-overlay">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+            <h5 class="mt-2">
+              <a href="#">JRR Tolkien Lor..</a>
+            </h5>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 my-3 my-lg-5 mx-2">
+          <div class="disease-item">
+            <div class="card-img text-center" style="background-image: url(assets/img/books/book-3.jpg)">
+              <div class="card-overlay">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+            <h5 class="mt-2">
+              <a href="#">JRR Tolkien Lor..</a>
+            </h5>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 my-3 my-lg-5 mx-2">
+          <div class="disease-item">
+            <div class="card-img text-center" style="background-image: url(assets/img/books/book-4.jpg)">
+              <div class="card-overlay">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+            <h5 class="mt-2">
+              <a href="#">JRR Tolkien Lor..</a>
+            </h5>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 my-3 my-lg-5 mx-2">
+          <div class="disease-item">
+            <div class="card-img text-center" style="background-image: url(assets/img/books/book-5.jpg)">
+              <div class="card-overlay">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+            <h5 class="mt-2">
+              <a href="#">JRR Tolkien Lor..</a>
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div class="custom-btn text-center my-3">
+        <a class="py-3" href="#">View More Books</a>
+      </div>
+    </div>
+  </section>
+  <!-- FAMOUS BOOK AND DISEASE PART -->
+
+  <!-- OUR STUDY PART -->
+  <section class="disease-book py-3 py-lg-4" style="background: #f1f1f1">
+    <div class="container">
+      <h2 class="section-title mb-4">Study Topics</h2>
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+          <div class="row card-slide">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
+              <div class="disease-item">
+                <a href="study-details.html">
+                  <div class="card-img text-center" style="
                         background-image: url(assets/img/study/image-1.png);
-                      "
-                    >
-                      <div class="card-overlay">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                      </div>
+                      ">
+                    <div class="card-overlay">
+                      <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
-                  </a>
-                  <h5 class="mt-2">
-                    <a href="study-details.html">Agaricus muscarius</a>
-                  </h5>
-                </div>
+                  </div>
+                </a>
+                <h5 class="mt-2">
+                  <a href="study-details.html">Agaricus muscarius</a>
+                </h5>
               </div>
-              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
-                <div class="disease-item">
-                  <a href="study-details.html">
-                    <div
-                      class="card-img text-center"
-                      style="
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
+              <div class="disease-item">
+                <a href="study-details.html">
+                  <div class="card-img text-center" style="
                         background-image: url(assets/img/study/image-2.png);
-                      "
-                    >
-                      <div class="card-overlay">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                      </div>
+                      ">
+                    <div class="card-overlay">
+                      <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
-                  </a>
-                  <h5 class="mt-2">
-                    <a href="study-details.html">Aconite</a>
-                  </h5>
-                </div>
+                  </div>
+                </a>
+                <h5 class="mt-2">
+                  <a href="study-details.html">Aconite</a>
+                </h5>
               </div>
-              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
-                <div class="disease-item">
-                  <a href="study-details.html">
-                    <div
-                      class="card-img text-center"
-                      style="
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
+              <div class="disease-item">
+                <a href="study-details.html">
+                  <div class="card-img text-center" style="
                         background-image: url(assets/img/study/image-3.png);
-                      "
-                    >
-                      <div class="card-overlay">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                      </div>
+                      ">
+                    <div class="card-overlay">
+                      <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
-                  </a>
-                  <h5 class="mt-2">
-                    <a href="study-details.html">Allium cepa</a>
-                  </h5>
-                </div>
+                  </div>
+                </a>
+                <h5 class="mt-2">
+                  <a href="study-details.html">Allium cepa</a>
+                </h5>
               </div>
-              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
-                <div class="disease-item">
-                  <a href="study-details.html">
-                    <div
-                      class="card-img text-center"
-                      style="
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
+              <div class="disease-item">
+                <a href="study-details.html">
+                  <div class="card-img text-center" style="
                         background-image: url(assets/img/study/Arnica-montana.png);
-                      "
-                    >
-                      <div class="card-overlay">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                      </div>
+                      ">
+                    <div class="card-overlay">
+                      <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
-                  </a>
-                  <h5 class="mt-2">
-                    <a href="study-details.html">Arnica montana</a>
-                  </h5>
-                </div>
+                  </div>
+                </a>
+                <h5 class="mt-2">
+                  <a href="study-details.html">Arnica montana</a>
+                </h5>
               </div>
-              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
-                <div class="disease-item">
-                  <a href="study-details.html">
-                    <div
-                      class="card-img text-center"
-                      style="
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
+              <div class="disease-item">
+                <a href="study-details.html">
+                  <div class="card-img text-center" style="
                         background-image: url(assets/img/study/Belladonna.png);
-                      "
-                    >
-                      <div class="card-overlay">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                      </div>
+                      ">
+                    <div class="card-overlay">
+                      <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
-                  </a>
-                  <h5 class="mt-2">
-                    <a href="study-details.html">Belladonna</a>
-                  </h5>
-                </div>
+                  </div>
+                </a>
+                <h5 class="mt-2">
+                  <a href="study-details.html">Belladonna</a>
+                </h5>
               </div>
-              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
-                <div class="disease-item">
-                  <a href="study-details.html">
-                    <div
-                      class="card-img text-center"
-                      style="
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
+              <div class="disease-item">
+                <a href="study-details.html">
+                  <div class="card-img text-center" style="
                         background-image: url(assets/img/study/Bellis-perennis.png);
-                      "
-                    >
-                      <div class="card-overlay">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                      </div>
+                      ">
+                    <div class="card-overlay">
+                      <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
-                  </a>
-                  <h5 class="mt-2">
-                    <a href="study-details.html">Bellis perennis</a>
-                  </h5>
-                </div>
+                  </div>
+                </a>
+                <h5 class="mt-2">
+                  <a href="study-details.html">Bellis perennis</a>
+                </h5>
               </div>
-              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
-                <div class="disease-item">
-                  <a href="study-details.html">
-                    <div
-                      class="card-img text-center"
-                      style="
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
+              <div class="disease-item">
+                <a href="study-details.html">
+                  <div class="card-img text-center" style="
                         background-image: url(assets/img/study/Berberis-vulgaris.png);
-                      "
-                    >
-                      <div class="card-overlay">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                      </div>
+                      ">
+                    <div class="card-overlay">
+                      <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
-                  </a>
-                  <h5 class="mt-2">
-                    <a href="study-details.html">Berberis vulgaris</a>
-                  </h5>
-                </div>
+                  </div>
+                </a>
+                <h5 class="mt-2">
+                  <a href="study-details.html">Berberis vulgaris</a>
+                </h5>
               </div>
-              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
-                <div class="disease-item">
-                  <a href="study-details.html">
-                    <div
-                      class="card-img text-center"
-                      style="
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
+              <div class="disease-item">
+                <a href="study-details.html">
+                  <div class="card-img text-center" style="
                         background-image: url(assets/img/study/Calcarea-carbonica.png);
-                      "
-                    >
-                      <div class="card-overlay">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                      </div>
+                      ">
+                    <div class="card-overlay">
+                      <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
-                  </a>
-                  <h5 class="mt-2">
-                    <a href="study-details.html">Calcarea carbonica</a>
-                  </h5>
-                </div>
+                  </div>
+                </a>
+                <h5 class="mt-2">
+                  <a href="study-details.html">Calcarea carbonica</a>
+                </h5>
               </div>
-              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
-                <div class="disease-item">
-                  <a href="study-details.html">
-                    <div
-                      class="card-img text-center"
-                      style="
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
+              <div class="disease-item">
+                <a href="study-details.html">
+                  <div class="card-img text-center" style="
                         background-image: url(assets/img/study/Bryonia-alba.png);
-                      "
-                    >
-                      <div class="card-overlay">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                      </div>
+                      ">
+                    <div class="card-overlay">
+                      <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
-                  </a>
-                  <h5 class="mt-2">
-                    <a href="study-details.html">Bryonia alba</a>
-                  </h5>
-                </div>
+                  </div>
+                </a>
+                <h5 class="mt-2">
+                  <a href="study-details.html">Bryonia alba</a>
+                </h5>
               </div>
-              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
-                <div class="disease-item">
-                  <a href="study-details.html">
-                    <div
-                      class="card-img text-center"
-                      style="
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
+              <div class="disease-item">
+                <a href="study-details.html">
+                  <div class="card-img text-center" style="
                         background-image: url(assets/img/study/Baptisia.png);
-                      "
-                    >
-                      <div class="card-overlay">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                      </div>
+                      ">
+                    <div class="card-overlay">
+                      <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
-                  </a>
-                  <h5 class="mt-2">
-                    <a href="study-details.html">Baptisia</a>
-                  </h5>
-                </div>
+                  </div>
+                </a>
+                <h5 class="mt-2">
+                  <a href="study-details.html">Baptisia</a>
+                </h5>
               </div>
-              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
-                <div class="disease-item">
-                  <a href="study-details.html">
-                    <div
-                      class="card-img text-center"
-                      style="
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
+              <div class="disease-item">
+                <a href="study-details.html">
+                  <div class="card-img text-center" style="
                         background-image: url(assets/img/study/image-1.png);
-                      "
-                    >
-                      <div class="card-overlay">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                      </div>
+                      ">
+                    <div class="card-overlay">
+                      <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
-                  </a>
-                  <h5 class="mt-2">
-                    <a href="study-details.html">Agaricus muscarius</a>
-                  </h5>
-                </div>
-              </div>
-              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
-                <div class="disease-item">
-                  <a href="study-details.html">
-                    <div
-                      class="card-img text-center"
-                      style="
-                        background-image: url(assets/img/study/image-2.png);
-                      "
-                    >
-                      <div class="card-overlay">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                      </div>
-                    </div>
-                  </a>
-                  <h5 class="mt-2">
-                    <a href="study-details.html">Aconite</a>
-                  </h5>
-                </div>
-              </div>
-              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
-                <div class="disease-item">
-                  <a href="study-details.html">
-                    <div
-                      class="card-img text-center"
-                      style="
-                        background-image: url(assets/img/study/image-2.png);
-                      "
-                    >
-                      <div class="card-overlay">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                      </div>
-                    </div>
-                  </a>
-                  <h5 class="mt-2">
-                    <a href="study-details.html">Aconite</a>
-                  </h5>
-                </div>
+                  </div>
+                </a>
+                <h5 class="mt-2">
+                  <a href="study-details.html">Agaricus muscarius</a>
+                </h5>
               </div>
             </div>
-            <div class="custom-btn text-center my-5">
-              <a class="py-3" href="#">Load More Topics</a>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
+              <div class="disease-item">
+                <a href="study-details.html">
+                  <div class="card-img text-center" style="
+                        background-image: url(assets/img/study/image-2.png);
+                      ">
+                    <div class="card-overlay">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                  </div>
+                </a>
+                <h5 class="mt-2">
+                  <a href="study-details.html">Aconite</a>
+                </h5>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
+              <div class="disease-item">
+                <a href="study-details.html">
+                  <div class="card-img text-center" style="
+                        background-image: url(assets/img/study/image-2.png);
+                      ">
+                    <div class="card-overlay">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                  </div>
+                </a>
+                <h5 class="mt-2">
+                  <a href="study-details.html">Aconite</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="custom-btn text-center my-5">
+            <a class="py-3" href="#">Load More Topics</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- OUR STUDY PART -->
+
+  <!-- SHOP SECTION START -->
+  <section class="shop-part py-5">
+    <div class="container">
+      <h2 class="section-title">Our Shop</h2>
+      <div class="row card-slide">
+        <div class="col-md-3 col-sm-6 my-5">
+          <div class="product-grid">
+            <div class="product-image">
+              <a href="#">
+                <img class="pic-1" src="assets/img/products/product-1.jpg" />
+                <img class="pic-2" src="assets/img/products/product-2.jpg" />
+              </a>
+              <ul class="social">
+                <li>
+                  <a href="" data-tip="Quick View"><i class="fa fa-search"></i></a>
+                </li>
+                <li>
+                  <a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a>
+                </li>
+                <li>
+                  <a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a>
+                </li>
+              </ul>
+              <span class="product-new-label">Sale</span>
+              <span class="product-discount-label">20%</span>
+            </div>
+            <ul class="rating mb-1">
+              <li class="fa fa-star"></li>
+              <li class="fa fa-star"></li>
+              <li class="fa fa-star"></li>
+              <li class="fa fa-star"></li>
+              <li class="fa fa-star disable"></li>
+            </ul>
+            <div class="product-content">
+              <h3 class="title"><a href="#">Medicine Product</a></h3>
+              <div class="price mb-3">
+                $50.00
+                <span>$60.00</span>
+              </div>
+              <a class="add-to-cart" href="#">+ Add To Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 my-5">
+          <div class="product-grid">
+            <div class="product-image">
+              <a href="#">
+                <img class="pic-1" src="assets/img/products/product-3.jpg" />
+                <img class="pic-2" src="assets/img/products/product-4.jpg" />
+              </a>
+              <ul class="social">
+                <li>
+                  <a href="" data-tip="Quick View"><i class="fa fa-search"></i></a>
+                </li>
+                <li>
+                  <a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a>
+                </li>
+                <li>
+                  <a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a>
+                </li>
+              </ul>
+              <span class="product-new-label">Sale</span>
+              <span class="product-discount-label">50%</span>
+            </div>
+            <ul class="rating mb-1">
+              <li class="fa fa-star"></li>
+              <li class="fa fa-star"></li>
+              <li class="fa fa-star"></li>
+              <li class="fa fa-star"></li>
+              <li class="fa fa-star"></li>
+            </ul>
+            <div class="product-content">
+              <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
+              <div class="price mb-3">
+                $55.00
+                <span>$100.00</span>
+              </div>
+              <a class="add-to-cart" href="#">+ Add To Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 my-5">
+          <div class="product-grid">
+            <div class="product-image">
+              <a href="#">
+                <img class="pic-1" src="assets/img/products/product-5.jpg" />
+                <img class="pic-2" src="assets/img/products/product-6.jpg" />
+              </a>
+              <ul class="social">
+                <li>
+                  <a href="" data-tip="Quick View"><i class="fa fa-search"></i></a>
+                </li>
+                <li>
+                  <a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a>
+                </li>
+                <li>
+                  <a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a>
+                </li>
+              </ul>
+              <span class="product-new-label">Sale</span>
+              <span class="product-discount-label">50%</span>
+            </div>
+            <ul class="rating mb-1">
+              <li class="fa fa-star"></li>
+              <li class="fa fa-star"></li>
+              <li class="fa fa-star"></li>
+              <li class="fa fa-star"></li>
+              <li class="fa fa-star"></li>
+            </ul>
+            <div class="product-content">
+              <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
+              <div class="price mb-3">
+                $55.00
+                <span>$100.00</span>
+              </div>
+              <a class="add-to-cart" href="#">+ Add To Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 my-5">
+          <div class="product-grid">
+            <div class="product-image">
+              <a href="#">
+                <img class="pic-1" src="assets/img/products/product-1.jpg" />
+                <img class="pic-2" src="assets/img/products/product-2.jpg" />
+              </a>
+              <ul class="social">
+                <li>
+                  <a href="" data-tip="Quick View"><i class="fa fa-search"></i></a>
+                </li>
+                <li>
+                  <a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a>
+                </li>
+                <li>
+                  <a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a>
+                </li>
+              </ul>
+              <span class="product-new-label">Sale</span>
+              <span class="product-discount-label">50%</span>
+            </div>
+            <ul class="rating mb-1">
+              <li class="fa fa-star"></li>
+              <li class="fa fa-star"></li>
+              <li class="fa fa-star"></li>
+              <li class="fa fa-star"></li>
+              <li class="fa fa-star"></li>
+            </ul>
+            <div class="product-content">
+              <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
+              <div class="price mb-3">
+                $55.00
+                <span>$100.00</span>
+              </div>
+              <a class="add-to-cart" href="#">+ Add To Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 my-5">
+          <div class="product-grid">
+            <div class="product-image">
+              <a href="#">
+                <img class="pic-1" src="assets/img/products/product-3.jpg" />
+                <img class="pic-2" src="assets/img/products/product-4.jpg" />
+              </a>
+              <ul class="social">
+                <li>
+                  <a href="" data-tip="Quick View"><i class="fa fa-search"></i></a>
+                </li>
+                <li>
+                  <a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a>
+                </li>
+                <li>
+                  <a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a>
+                </li>
+              </ul>
+              <span class="product-new-label">Sale</span>
+              <span class="product-discount-label">50%</span>
+            </div>
+            <ul class="rating mb-1">
+              <li class="fa fa-star"></li>
+              <li class="fa fa-star"></li>
+              <li class="fa fa-star"></li>
+              <li class="fa fa-star"></li>
+              <li class="fa fa-star"></li>
+            </ul>
+            <div class="product-content">
+              <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
+              <div class="price mb-3">
+                $55.00
+                <span>$65.00</span>
+              </div>
+              <a class="add-to-cart" href="#">+ Add To Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 my-5">
+          <div class="product-grid">
+            <div class="product-image">
+              <a href="#">
+                <img class="pic-1" src="assets/img/products/product-4.jpg" />
+                <img class="pic-2" src="assets/img/products/product-5.jpg" />
+              </a>
+              <ul class="social">
+                <li>
+                  <a href="" data-tip="Quick View"><i class="fa fa-search"></i></a>
+                </li>
+                <li>
+                  <a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a>
+                </li>
+                <li>
+                  <a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a>
+                </li>
+              </ul>
+              <span class="product-new-label">Sale</span>
+              <span class="product-discount-label">50%</span>
+            </div>
+            <ul class="rating mb-1">
+              <li class="fa fa-star"></li>
+              <li class="fa fa-star"></li>
+              <li class="fa fa-star"></li>
+              <li class="fa fa-star"></li>
+              <li class="fa fa-star"></li>
+            </ul>
+            <div class="product-content">
+              <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
+              <div class="price mb-3">
+                $50.00
+                <span>$90.00</span>
+              </div>
+              <a class="add-to-cart" href="#">+ Add To Cart</a>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- OUR STUDY PART -->
-
-    <!-- SHOP SECTION START -->
-    <section class="shop-part py-5">
-      <div class="container">
-        <h2 class="section-title">Our Shop</h2>
-        <div class="row card-slide">
-          <div class="col-md-3 col-sm-6 my-5">
-            <div class="product-grid">
-              <div class="product-image">
-                <a href="#">
-                  <img class="pic-1" src="assets/img/products/product-1.jpg" />
-                  <img class="pic-2" src="assets/img/products/product-2.jpg" />
-                </a>
-                <ul class="social">
-                  <li>
-                    <a href="" data-tip="Quick View"
-                      ><i class="fa fa-search"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="" data-tip="Add to Wishlist"
-                      ><i class="fa fa-shopping-bag"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="" data-tip="Add to Cart"
-                      ><i class="fa fa-shopping-cart"></i
-                    ></a>
-                  </li>
-                </ul>
-                <span class="product-new-label">Sale</span>
-                <span class="product-discount-label">20%</span>
-              </div>
-              <ul class="rating mb-1">
-                <li class="fa fa-star"></li>
-                <li class="fa fa-star"></li>
-                <li class="fa fa-star"></li>
-                <li class="fa fa-star"></li>
-                <li class="fa fa-star disable"></li>
-              </ul>
-              <div class="product-content">
-                <h3 class="title"><a href="#">Medicine Product</a></h3>
-                <div class="price mb-3">
-                  $50.00
-                  <span>$60.00</span>
-                </div>
-                <a class="add-to-cart" href="#">+ Add To Cart</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 my-5">
-            <div class="product-grid">
-              <div class="product-image">
-                <a href="#">
-                  <img class="pic-1" src="assets/img/products/product-3.jpg" />
-                  <img class="pic-2" src="assets/img/products/product-4.jpg" />
-                </a>
-                <ul class="social">
-                  <li>
-                    <a href="" data-tip="Quick View"
-                      ><i class="fa fa-search"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="" data-tip="Add to Wishlist"
-                      ><i class="fa fa-shopping-bag"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="" data-tip="Add to Cart"
-                      ><i class="fa fa-shopping-cart"></i
-                    ></a>
-                  </li>
-                </ul>
-                <span class="product-new-label">Sale</span>
-                <span class="product-discount-label">50%</span>
-              </div>
-              <ul class="rating mb-1">
-                <li class="fa fa-star"></li>
-                <li class="fa fa-star"></li>
-                <li class="fa fa-star"></li>
-                <li class="fa fa-star"></li>
-                <li class="fa fa-star"></li>
-              </ul>
-              <div class="product-content">
-                <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
-                <div class="price mb-3">
-                  $55.00
-                  <span>$100.00</span>
-                </div>
-                <a class="add-to-cart" href="#">+ Add To Cart</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 my-5">
-            <div class="product-grid">
-              <div class="product-image">
-                <a href="#">
-                  <img class="pic-1" src="assets/img/products/product-5.jpg" />
-                  <img class="pic-2" src="assets/img/products/product-6.jpg" />
-                </a>
-                <ul class="social">
-                  <li>
-                    <a href="" data-tip="Quick View"
-                      ><i class="fa fa-search"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="" data-tip="Add to Wishlist"
-                      ><i class="fa fa-shopping-bag"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="" data-tip="Add to Cart"
-                      ><i class="fa fa-shopping-cart"></i
-                    ></a>
-                  </li>
-                </ul>
-                <span class="product-new-label">Sale</span>
-                <span class="product-discount-label">50%</span>
-              </div>
-              <ul class="rating mb-1">
-                <li class="fa fa-star"></li>
-                <li class="fa fa-star"></li>
-                <li class="fa fa-star"></li>
-                <li class="fa fa-star"></li>
-                <li class="fa fa-star"></li>
-              </ul>
-              <div class="product-content">
-                <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
-                <div class="price mb-3">
-                  $55.00
-                  <span>$100.00</span>
-                </div>
-                <a class="add-to-cart" href="#">+ Add To Cart</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 my-5">
-            <div class="product-grid">
-              <div class="product-image">
-                <a href="#">
-                  <img class="pic-1" src="assets/img/products/product-1.jpg" />
-                  <img class="pic-2" src="assets/img/products/product-2.jpg" />
-                </a>
-                <ul class="social">
-                  <li>
-                    <a href="" data-tip="Quick View"
-                      ><i class="fa fa-search"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="" data-tip="Add to Wishlist"
-                      ><i class="fa fa-shopping-bag"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="" data-tip="Add to Cart"
-                      ><i class="fa fa-shopping-cart"></i
-                    ></a>
-                  </li>
-                </ul>
-                <span class="product-new-label">Sale</span>
-                <span class="product-discount-label">50%</span>
-              </div>
-              <ul class="rating mb-1">
-                <li class="fa fa-star"></li>
-                <li class="fa fa-star"></li>
-                <li class="fa fa-star"></li>
-                <li class="fa fa-star"></li>
-                <li class="fa fa-star"></li>
-              </ul>
-              <div class="product-content">
-                <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
-                <div class="price mb-3">
-                  $55.00
-                  <span>$100.00</span>
-                </div>
-                <a class="add-to-cart" href="#">+ Add To Cart</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 my-5">
-            <div class="product-grid">
-              <div class="product-image">
-                <a href="#">
-                  <img class="pic-1" src="assets/img/products/product-3.jpg" />
-                  <img class="pic-2" src="assets/img/products/product-4.jpg" />
-                </a>
-                <ul class="social">
-                  <li>
-                    <a href="" data-tip="Quick View"
-                      ><i class="fa fa-search"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="" data-tip="Add to Wishlist"
-                      ><i class="fa fa-shopping-bag"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="" data-tip="Add to Cart"
-                      ><i class="fa fa-shopping-cart"></i
-                    ></a>
-                  </li>
-                </ul>
-                <span class="product-new-label">Sale</span>
-                <span class="product-discount-label">50%</span>
-              </div>
-              <ul class="rating mb-1">
-                <li class="fa fa-star"></li>
-                <li class="fa fa-star"></li>
-                <li class="fa fa-star"></li>
-                <li class="fa fa-star"></li>
-                <li class="fa fa-star"></li>
-              </ul>
-              <div class="product-content">
-                <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
-                <div class="price mb-3">
-                  $55.00
-                  <span>$65.00</span>
-                </div>
-                <a class="add-to-cart" href="#">+ Add To Cart</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 my-5">
-            <div class="product-grid">
-              <div class="product-image">
-                <a href="#">
-                  <img class="pic-1" src="assets/img/products/product-4.jpg" />
-                  <img class="pic-2" src="assets/img/products/product-5.jpg" />
-                </a>
-                <ul class="social">
-                  <li>
-                    <a href="" data-tip="Quick View"
-                      ><i class="fa fa-search"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="" data-tip="Add to Wishlist"
-                      ><i class="fa fa-shopping-bag"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="" data-tip="Add to Cart"
-                      ><i class="fa fa-shopping-cart"></i
-                    ></a>
-                  </li>
-                </ul>
-                <span class="product-new-label">Sale</span>
-                <span class="product-discount-label">50%</span>
-              </div>
-              <ul class="rating mb-1">
-                <li class="fa fa-star"></li>
-                <li class="fa fa-star"></li>
-                <li class="fa fa-star"></li>
-                <li class="fa fa-star"></li>
-                <li class="fa fa-star"></li>
-              </ul>
-              <div class="product-content">
-                <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
-                <div class="price mb-3">
-                  $50.00
-                  <span>$90.00</span>
-                </div>
-                <a class="add-to-cart" href="#">+ Add To Cart</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="custom-btn text-center my-4">
-          <a class="py-3" href="#">Visit Our Shop</a>
-        </div>
+      <div class="custom-btn text-center my-4">
+        <a class="py-3" href="#">Visit Our Shop</a>
       </div>
-    </section>
-    <!-- SHOP SECTION END -->
+    </div>
+  </section>
+  <!-- SHOP SECTION END -->
 
-    <!-- TESTIMONIAL PART START -->
-    <!-- <section class="testimonial" style="background-image: url(assets/img/photos/testimonial-background-2.jpg);">
+  <!-- TESTIMONIAL PART START -->
+  <!-- <section class="testimonial" style="background-image: url(assets/img/photos/testimonial-background-2.jpg);">
         <div class="testimonial-overlay">
             <div class="container">
                 <h2 class="section-title">Doctor Review</h2>
@@ -2166,398 +1883,371 @@
             </div>
         </div>
     </section> -->
-    <!-- TESTIMONIAL PART END -->
+  <!-- TESTIMONIAL PART END -->
 
-    <!-- BLOG SECTION START -->
-    <section id="latest-blog" class="latest-blog py-2 py-lg-4">
-      <div class="container pt-3 pb-lg-5">
-        <h5>Media Center</h5>
-        <h3>Our Latest Blog</h3>
-        <hr class="latest-blog" />
-        <div class="row justify-content-center">
-          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-3">
-            <div class="card p-card mt-4">
-              <img src="assets/img/blogs/blog-1.jpg" alt="card-img" />
-              <div class="card-body">
-                <span>15 Jan 2022</span>
-                <h5 class="my-3">Enjoy Your Parking!</h5>
-                <p class="paragraph">
-                  Think about it the finest hotels, restaurants, bars,
-                  hospitals, airports and special events all have one thing in
-                  common asf asdf asdf asdf asdf
-                  <a href="#">Read More</a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-3">
-            <div class="card p-card mt-4">
-              <img src="assets/img/blogs/blog-2.jpg" alt="card-img" />
-              <div class="card-body">
-                <span>10 Jan 2022</span>
-                <h5 class="my-3">
-                  Have you ever noticed that the presence of a valet podium.
-                </h5>
-                <p class="paragraph">
-                  Think about it the finest hotels, restaurants, bars,
-                  hospitals, airports and special events all have one thing in
-                  common
-                  <a href="#">Read More</a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-3">
-            <div class="card p-card mt-4">
-              <img src="assets/img/blogs/blog-3.jpg" alt="card-img" />
-              <div class="card-body">
-                <span>12 Jan 2022</span>
-                <h5 class="my-3">
-                  Have you ever noticed that the presence of a valet podium.
-                </h5>
-                <p class="paragraph">
-                  Think about it the finest hotels, restaurants, bars,
-                  hospitals, airports and special events all have one thing in
-                  common
-                  <a href="#">Read More</a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="custom-btn text-center mt-5">
-          <a class="py-3 text-white" href="#">Continue More Blog</a>
-        </div>
-      </div>
-    </section>
-    <!-- BLOG SECTION START -->
-
-    <!--    FOOTER SECTION-->
-    <footer class="pt-5">
-      <div class="container">
-        <div class="row pb-3">
-          <div class="col-12 col-md-12 col-lg-4 mb-4 mb-md-0">
-            <div class="footer-box">
-              <img src="assets/img/logo/logo.png" alt="Logo" />
-              <p class="sm-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text
+  <!-- BLOG SECTION START -->
+  <section id="latest-blog" class="latest-blog py-2 py-lg-4">
+    <div class="container pt-3 pb-lg-5">
+      <h5>Media Center</h5>
+      <h3>Our Latest Blog</h3>
+      <hr class="latest-blog" />
+      <div class="row justify-content-center">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-3">
+          <div class="card p-card mt-4">
+            <img src="assets/img/blogs/blog-1.jpg" alt="card-img" />
+            <div class="card-body">
+              <span>15 Jan 2022</span>
+              <h5 class="my-3">Enjoy Your Parking!</h5>
+              <p class="paragraph">
+                Think about it the finest hotels, restaurants, bars,
+                hospitals, airports and special events all have one thing in
+                common asf asdf asdf asdf asdf
+                <a href="#">Read More</a>
               </p>
-              <div class="social-media-footer">
-                <h4>Social Media</h4>
-                <div>
-                  <a href="#">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fa fa-instagram"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fa fa-pinterest-p"></i>
-                  </a>
-                </div>
-              </div>
             </div>
           </div>
-          <div class="col-6 col-md-3 col-lg-2 mb-4 mb-md-0">
-            <div class="footer-box">
-              <h6>Quick Link</h6>
-              <div class="footer-menu">
-                <a href="#">
-                  <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                  Training Program</a
-                >
-                <a href="#">
-                  <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                  Consulting Services</a
-                >
-                <a href="#">
-                  <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                  Exhibition</a
-                >
-                <a href="#">
-                  <i class="fa-solid fa-angles-right footer-left-icon"></i> An
-                  Opportunity</a
-                >
-                <a href="#">
-                  <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                  Media Incubator</a
-                >
-                <a href="#">
-                  <i class="fa-solid fa-angles-right footer-left-icon"></i> IPTV
-                  Channel List</a
-                >
-                <a href="#">
-                  <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                  Sponsorships</a
-                >
-              </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-3">
+          <div class="card p-card mt-4">
+            <img src="assets/img/blogs/blog-2.jpg" alt="card-img" />
+            <div class="card-body">
+              <span>10 Jan 2022</span>
+              <h5 class="my-3">
+                Have you ever noticed that the presence of a valet podium.
+              </h5>
+              <p class="paragraph">
+                Think about it the finest hotels, restaurants, bars,
+                hospitals, airports and special events all have one thing in
+                common
+                <a href="#">Read More</a>
+              </p>
             </div>
           </div>
-          <div class="col-6 col-md-3 col-lg-2 mb-4 mb-md-0">
-            <div class="footer-box">
-              <h6>Our Pages</h6>
-              <div class="footer-menu">
-                <a href="#">
-                  <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                  Training Program</a
-                >
-                <a href="#">
-                  <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                  Consulting Services</a
-                >
-                <a href="#">
-                  <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                  Exhibition</a
-                >
-                <a href="#">
-                  <i class="fa-solid fa-angles-right footer-left-icon"></i> An
-                  Opportunity</a
-                >
-                <a href="#">
-                  <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                  Media Incubator</a
-                >
-                <a href="#">
-                  <i class="fa-solid fa-angles-right footer-left-icon"></i> IPTV
-                  Channel List</a
-                >
-                <a href="#">
-                  <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                  Sponsorships</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 mb-4 mb-md-0">
-            <div class="footer-box">
-              <h6>Shop Link</h6>
-              <div class="footer-menu">
-                <a href="#">
-                  <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                  Training Program</a
-                >
-                <a href="#">
-                  <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                  Consulting Services</a
-                >
-                <a href="#">
-                  <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                  Exhibition</a
-                >
-                <a href="#">
-                  <i class="fa-solid fa-angles-right footer-left-icon"></i> An
-                  Opportunity</a
-                >
-                <a href="#">
-                  <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                  Media Incubator</a
-                >
-                <a href="#">
-                  <i class="fa-solid fa-angles-right footer-left-icon"></i> IPTV
-                  Channel List</a
-                >
-                <a href="#">
-                  <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                  Sponsorships</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 mb-4 mb-md-0">
-            <div class="footer-box">
-              <h6>Study Link</h6>
-              <div class="footer-menu">
-                <a href="#">
-                  <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                  Training Program</a
-                >
-                <a href="#">
-                  <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                  Consulting Services</a
-                >
-                <a href="#">
-                  <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                  Exhibition</a
-                >
-                <a href="#">
-                  <i class="fa-solid fa-angles-right footer-left-icon"></i> An
-                  Opportunity</a
-                >
-                <a href="#">
-                  <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                  Media Incubator</a
-                >
-                <a href="#">
-                  <i class="fa-solid fa-angles-right footer-left-icon"></i> IPTV
-                  Channel List</a
-                >
-                <a href="#">
-                  <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                  Sponsorships</a
-                >
-              </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-3">
+          <div class="card p-card mt-4">
+            <img src="assets/img/blogs/blog-3.jpg" alt="card-img" />
+            <div class="card-body">
+              <span>12 Jan 2022</span>
+              <h5 class="my-3">
+                Have you ever noticed that the presence of a valet podium.
+              </h5>
+              <p class="paragraph">
+                Think about it the finest hotels, restaurants, bars,
+                hospitals, airports and special events all have one thing in
+                common
+                <a href="#">Read More</a>
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-    <section class="copyright-section">
-      <div class="container">
-        <div class="col-sm-12">
-          <p>@copyright-2022. All rights reserved HomeoDoctor ltd</p>
+      <div class="custom-btn text-center mt-5">
+        <a class="py-3 text-white" href="#">Continue More Blog</a>
+      </div>
+    </div>
+  </section>
+  <!-- BLOG SECTION START -->
+
+  <!--    FOOTER SECTION-->
+  <footer class="pt-5">
+    <div class="container">
+      <div class="row pb-3">
+        <div class="col-12 col-md-12 col-lg-4 mb-4 mb-md-0">
+          <div class="footer-box">
+            <img src="assets/img/logo/logo.png" alt="Logo" />
+            <p class="sm-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy
+              text
+            </p>
+            <div class="social-media-footer">
+              <h4>Social Media</h4>
+              <div>
+                <a href="#">
+                  <i class="fa fa-facebook"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-pinterest-p"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mb-4 mb-md-0">
+          <div class="footer-box">
+            <h6>Quick Link</h6>
+            <div class="footer-menu">
+              <a href="#">
+                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                Training Program</a>
+              <a href="#">
+                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                Consulting Services</a>
+              <a href="#">
+                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                Exhibition</a>
+              <a href="#">
+                <i class="fa-solid fa-angles-right footer-left-icon"></i> An
+                Opportunity</a>
+              <a href="#">
+                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                Media Incubator</a>
+              <a href="#">
+                <i class="fa-solid fa-angles-right footer-left-icon"></i> IPTV
+                Channel List</a>
+              <a href="#">
+                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                Sponsorships</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mb-4 mb-md-0">
+          <div class="footer-box">
+            <h6>Our Pages</h6>
+            <div class="footer-menu">
+              <a href="#">
+                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                Training Program</a>
+              <a href="#">
+                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                Consulting Services</a>
+              <a href="#">
+                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                Exhibition</a>
+              <a href="#">
+                <i class="fa-solid fa-angles-right footer-left-icon"></i> An
+                Opportunity</a>
+              <a href="#">
+                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                Media Incubator</a>
+              <a href="#">
+                <i class="fa-solid fa-angles-right footer-left-icon"></i> IPTV
+                Channel List</a>
+              <a href="#">
+                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                Sponsorships</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mb-4 mb-md-0">
+          <div class="footer-box">
+            <h6>Shop Link</h6>
+            <div class="footer-menu">
+              <a href="#">
+                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                Training Program</a>
+              <a href="#">
+                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                Consulting Services</a>
+              <a href="#">
+                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                Exhibition</a>
+              <a href="#">
+                <i class="fa-solid fa-angles-right footer-left-icon"></i> An
+                Opportunity</a>
+              <a href="#">
+                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                Media Incubator</a>
+              <a href="#">
+                <i class="fa-solid fa-angles-right footer-left-icon"></i> IPTV
+                Channel List</a>
+              <a href="#">
+                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                Sponsorships</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mb-4 mb-md-0">
+          <div class="footer-box">
+            <h6>Study Link</h6>
+            <div class="footer-menu">
+              <a href="#">
+                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                Training Program</a>
+              <a href="#">
+                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                Consulting Services</a>
+              <a href="#">
+                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                Exhibition</a>
+              <a href="#">
+                <i class="fa-solid fa-angles-right footer-left-icon"></i> An
+                Opportunity</a>
+              <a href="#">
+                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                Media Incubator</a>
+              <a href="#">
+                <i class="fa-solid fa-angles-right footer-left-icon"></i> IPTV
+                Channel List</a>
+              <a href="#">
+                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                Sponsorships</a>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
-    <!--    FOOTER SECTION END-->
+    </div>
+  </footer>
+  <section class="copyright-section">
+    <div class="container">
+      <div class="col-sm-12">
+        <p>@copyright-2022. All rights reserved HomeoDoctor ltd</p>
+      </div>
+    </div>
+  </section>
+  <!--    FOOTER SECTION END-->
 
-    <!--    JQUERY-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <!--    SLICK SLIDER-->
-    <script src="assets/js/slick.min.js"></script>
-    <!--    BOOSTRAP-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/main.js"></script>
+  <!--    JQUERY-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!--    SLICK SLIDER-->
+  <script src="assets/js/slick.min.js"></script>
+  <!--    BOOSTRAP-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
 
-    <!-- Slider javascript code -->
-    <script>
-      // banner slider
-      $('.banner-slide').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        rtl: false,
-        autoplay: true,
-        speed: 4000,
-        autoplaySpeed: 4000,
-        arrows: false,
-        fade: true,
-      });
+  <!-- Slider javascript code -->
+  <script>
+    // banner slider
+    $('.banner-slide').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      rtl: false,
+      autoplay: true,
+      speed: 4000,
+      autoplaySpeed: 4000,
+      arrows: false,
+      fade: true,
+    });
 
-      // Page Banner slider
-      $('.page-banner-slider').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        fade: true,
-        rtl: false,
-        autoplay: true,
-        speed: 1500,
-        autoplaySpeed: 1500,
-        arrows: false,
-      });
+    // Page Banner slider
+    $('.page-banner-slider').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      fade: true,
+      rtl: false,
+      autoplay: true,
+      speed: 1500,
+      autoplaySpeed: 1500,
+      arrows: false,
+    });
 
-      // Testimonial slider
-      $('.testimonial-slider').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        rtl: false,
-        autoplay: true,
-        speed: 1500,
-        autoplaySpeed: 1500,
-        arrows: false,
-      });
-      // card-slide
-      $('.card-slid').slick({
-        slidesToShow: 4,
-        slidesToScroll: 2,
-        rtl: false,
-        autoplay: true,
-        speed: 1500,
-        autoplaySpeed: 1500,
-        arrows: false,
-        responsive: [
-          {
-            breakpoint: 1200,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 2,
-              infinite: true,
-            },
+    // Testimonial slider
+    $('.testimonial-slider').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      rtl: false,
+      autoplay: true,
+      speed: 1500,
+      autoplaySpeed: 1500,
+      arrows: false,
+    });
+    // card-slide
+    $('.card-slid').slick({
+      slidesToShow: 4,
+      slidesToScroll: 2,
+      rtl: false,
+      autoplay: true,
+      speed: 1500,
+      autoplaySpeed: 1500,
+      arrows: false,
+      responsive: [
+        {
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 2,
+            infinite: true,
           },
-          {
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-            },
+        },
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
           },
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-            },
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
           },
-          {
-            breakpoint: 500,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-            },
+        },
+        {
+          breakpoint: 500,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
           },
-          {
-            breakpoint: 350,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-            },
+        },
+        {
+          breakpoint: 350,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
           },
-        ],
-      });
-      // Book-slide
-      $('.book-slide').slick({
-        slidesToShow: 6,
-        slidesToScroll: 3,
-        rtl: false,
-        autoplay: true,
-        speed: 1500,
-        autoplaySpeed: 1500,
-        arrows: false,
-        responsive: [
-          {
-            breakpoint: 1200,
-            settings: {
-              slidesToShow: 5,
-              slidesToScroll: 2,
-              infinite: true,
-            },
+        },
+      ],
+    });
+    // Book-slide
+    $('.book-slide').slick({
+      slidesToShow: 6,
+      slidesToScroll: 3,
+      rtl: false,
+      autoplay: true,
+      speed: 1500,
+      autoplaySpeed: 1500,
+      arrows: false,
+      responsive: [
+        {
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 5,
+            slidesToScroll: 2,
+            infinite: true,
           },
-          {
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 4,
-              slidesToScroll: 1,
-            },
+        },
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
           },
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 1,
-            },
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
           },
-          {
-            breakpoint: 500,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-            },
+        },
+        {
+          breakpoint: 500,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
           },
-          {
-            breakpoint: 350,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-            },
+        },
+        {
+          breakpoint: 350,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
           },
-        ],
-      });
-    </script>
-  </body>
+        },
+      ],
+    });
+  </script>
+</body>
+
 </html>

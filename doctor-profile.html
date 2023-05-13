@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register | HomeoDoctor</title>
+    <!--    GOOGLE FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <!--    BOOSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!--    FONT AWSOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!--    SLICK SLIDER-->
+    <link rel="stylesheet" href="assets/css/slick-theme.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <!--    MAIN CSS-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <!-- <link rel="stylesheet" href="css/arabic.css"> -->
+</head>
+
+<body>
+    <!-- HEADER SECTION -->
+    <section class="header-top py-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 header-top-content d-flex justify-content-end">
+                    <div class="email-address mx-2 mx-lg-3">
+                        <i class="fa-solid fa-envelope-circle-check"></i>
+                        <a href="#">homeodoctor@support.com</a>
+                    </div>
+                    <div class="contact-phone mx-2 mx-lg-3">
+                        <i class="fa-solid fa-square-phone-flip"></i>
+                        <a href="#">012345678911</a>
+                    </div>
+                    <div class="login-part mx-2 mx-lg-3">
+                        <i class="fa-solid fa-circle-user"></i>
+                        <a href="register.html">Login/Registration</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <header class="d-flex align-items-center">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-2">
+                    <div class="logo d-flex justify-content-between align-items-center">
+                        <a href="index.html">
+                            <img src="assets/img/logo/logo.png" alt="Logo" />
+                        </a>
+                        <i class="fa fa-bars d-md-none" onClick="mobileClick()" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="col-md-10 d-none d-md-block">
+                    <div class="menubar">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li class="sub-btn button1">
+                                <a href="#">Pages
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                                <div class="sub-menu">
+                                    <a href="aboutus.html">About Us</a>
+                                    <a href="our-doctor.html">Our Doctor</a>
+                                    <a href="faq.html">Faq </a>
+                                    <a href="coming-soon.html">Others</a>
+                                </div>
+                            </li>
+                            <li class="sub-btn button1">
+                                <a href="#">Our Service
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                                <div class="sub-menu">
+                                    <a href="why-online-treat.html">Why online treat</a>
+                                    <a href="how-it-work.html">How it Works</a>
+                                    <a href="disease.html">Disease</a>
+                                    <a href="404-not-found.html">Page 404</a>
+                                </div>
+                            </li>
+                            <li class="sub-btn button1">
+                                <a href="#">Study
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                                <div class="sub-menu">
+                                    <a href="study.html">Organon Of Medicine</a>
+                                    <a href="study.html">Materia Medica</a>
+                                    <a href="study.html">Repertory</a>
+                                    <a href="study.html">Practice of Medicine</a>
+                                    <a href="study.html">Anatomy Physiology</a>
+                                    <a href="study.html">Research</a>
+                                </div>
+                            </li>
+
+                            <li><a href="#">Shop</a></li>
+                            <li class="sub-btn button1">
+                                <a href="#">Blog
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                                <div class="sub-menu">
+                                    <a href="index.html#latest-blog">Media</a>
+                                    <a href="index.html#latest-blog">Videos</a>
+                                    <a href="index.html#latest-blog">Photos</a>
+                                    <a href="index.html#latest-blog">Events</a>
+                                    <a href="index.html#latest-blog">Magazine</a>
+                                    <a href="index.html#latest-blog">Knowledge of Disease</a>
+                                </div>
+                            </li>
+                            <li><a href="contactus.html">Contact Us</a></li>
+                            <li><a href="#" class="login-menu">Quick Appointment</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--    HEADER SECTION END-->
+
+    <!--        MOBILE MENU-->
+    <div id="mobile-menu" class="mobile-menu">
+        <!-- accordion-->
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="mobile-logo mb-5">
+                <a href="#">
+                    <img src="assets/img/logo/logo.png" alt="mobile-logo" />
+                </a>
+                <i id="mobile-cross" class="fa fa-times" onClick="mobileClick()"></i>
+            </div>
+
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Home
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Pages
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Study
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Shop
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Blog
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button custom collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#two" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Our Services
+                    </button>
+                </h2>
+                <div id="two" class="accordion-collapse collapse" aria-labelledby="two"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body custom">
+                        <ul>
+                            <li>
+                                <a href="#"><i class="fa fa-chevron-right"></i>services</a>
+                            </li>
+
+                            <li>
+                                <a href="#"><i class="fa fa-chevron-right"></i>sector</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Contact Us
+                        </button>
+                    </a>
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div id="mobileOverlay" class="mobile-overlay" onClick="mobileClick()"></div>
+    <!--   END MOBILE MENU-->
+
+    <!--Profile section-->
+    <section id="doctorProfile" class="m-5">
+        <div class="container d-flex justify-content-center align-items-center">
+            <div class="row gap-3">
+                <!--profile card-->
+                <div class="col-12 profileCard">
+                    <div class="p-4">
+                        <div class="row d-flex justify-content-start gap-3 align-items-center">
+                            <img class="profileImage col-xl-3" src="assets/img/doctors/image-1.jpg" />
+                            <div class="col-6">
+                                <h3>Dr. Muhammad Shoyab
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="#94FF9F" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+                                        </svg>
+                                    </span>
+                                    <span class="verificationBadge">veified by HomeoDoctor</span>
+                                </h3>
+                                <P>MBBS</P>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <p>Professional Bio: Dr. Muhammad Shoyab is a Clinical & academic radiologist with 14 years
+                                of
+                                experience and is passionate for a filmless, paperless, cloud-based department focused
+                                on
+                                precision & completeness of ... <a href="#"> Read More</a> </p>
+                        </div>
+                    </div>
+                </div>
+                <!--Bio card-->
+                <div class="Biocard col-8">
+                    <div class="Bio-card-header d-flex align-items-center">
+                        <div class="header-text d-flex gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#94FF9F" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15 9h3.75M15 12h3.75M15 15h3.75M4.5 19.5h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5zm6-10.125a1.875 1.875 0 11-3.75 0 1.875 1.875 0 013.75 0zm1.294 6.336a6.721 6.721 0 01-3.17.789 6.721 6.721 0 01-3.168-.789 3.376 3.376 0 016.338 0z" />
+                            </svg>
+                            <p>Professional Bio</p>
+                        </div>
+                    </div>
+                    <div class="Bio-card-body">
+                        <p>Dr. Muhammad Shoyab is a Clinical & academic radiologist with 14 years of
+                            experience and is passionate for a filmless, paperless, cloud-based department focused on
+                            precision & completeness of diagnosis despite volume, not compromising image & report
+                            quality
+                            for tight schedules, and providing structured & context-specific reports as a global
+                            standard.
+                            Experienced in a broad spectrum of images like MRI : 3 Tesla, 1.5 Tesla, and CT: 256-slice,
+                            64-slice, 16-slice, advanced imaging: 3D-MRI, DTI, CTA, MRA, cardiac angiogram and MRI,
+                            virtual
+                            endoscopic imaging, MRCP, CT / USG-guided interventions. Currently working at SHIP Int'l
+                            Hospital, Dhaka, BD. For medical learners : https://doi.org/h79nJournals & seminars :
+                            ResearchGate.net/profile/Muhammad-ShoyabInspirational : QuranReflect.com/MuhammadShoyab
+                            In-Person Consultation
+                            Al-Zaytun Virtual Radiologists
+
+                            Turag, Dhaka, Dhaka Division, Zip: 1711, BD
+
+                            Read doctor's Advice On
+                            Back PainShoulder PainFloating Ribs PainCt AbdomenChest Radiograph InterpretationMriChiari
+                            MalformationRadiation Exposure</p>
+                    </div>
+                </div>
+                <div class="experienceCard col">
+                    <div class="m-5 row g-3">
+                        <div class="row">
+                            <h3>Experience</h3>
+                            <p>14+ Years</p>
+                        </div>
+                        <div class="row">
+                            <h3>Patients</h3>
+                            <p>Helped 5 patients</p>
+                        </div>
+                        <div class="row">
+                            <h3>Languages</h3>
+                            <p>English, Bengali, Hindi, Urdu</p>
+                        </div>
+                        <div class="row">
+                            <h3>Articles</h3>
+                            <p>Articles</p>
+                        </div>
+                        <div class="row">
+                            <h3>Fee</h3>
+                            <p>Query : $30</p>
+                            <p>Phone/Video : $50</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end profile section-->
+
+    <!--    FOOTER SECTION-->
+    <footer class="pt-5">
+        <div class="container">
+            <div class="row pb-3">
+                <div class="col-12 col-md-12 col-lg-4 mb-4 mb-md-0">
+                    <div class="footer-box">
+                        <img src="assets/img/logo/logo.png" alt="Logo" />
+                        <p class="sm-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy
+                            text
+                        </p>
+                        <div class="social-media-footer">
+                            <h4>Social Media</h4>
+                            <div>
+                                <a href="#">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-pinterest-p"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2 mb-4 mb-md-0">
+                    <div class="footer-box">
+                        <h6>Quick Link</h6>
+                        <div class="footer-menu">
+                            <a href="#">
+                                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                                Training Program</a>
+                            <a href="#">
+                                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                                Consulting Services</a>
+                            <a href="#">
+                                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                                Exhibition</a>
+                            <a href="#">
+                                <i class="fa-solid fa-angles-right footer-left-icon"></i> An
+                                Opportunity</a>
+                            <a href="#">
+                                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                                Media Incubator</a>
+                            <a href="#">
+                                <i class="fa-solid fa-angles-right footer-left-icon"></i> IPTV
+                                Channel List</a>
+                            <a href="#">
+                                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                                Sponsorships</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2 mb-4 mb-md-0">
+                    <div class="footer-box">
+                        <h6>Our Pages</h6>
+                        <div class="footer-menu">
+                            <a href="#">
+                                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                                Training Program</a>
+                            <a href="#">
+                                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                                Consulting Services</a>
+                            <a href="#">
+                                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                                Exhibition</a>
+                            <a href="#">
+                                <i class="fa-solid fa-angles-right footer-left-icon"></i> An
+                                Opportunity</a>
+                            <a href="#">
+                                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                                Media Incubator</a>
+                            <a href="#">
+                                <i class="fa-solid fa-angles-right footer-left-icon"></i> IPTV
+                                Channel List</a>
+                            <a href="#">
+                                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                                Sponsorships</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2 mb-4 mb-md-0">
+                    <div class="footer-box">
+                        <h6>Shop Link</h6>
+                        <div class="footer-menu">
+                            <a href="#">
+                                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                                Training Program</a>
+                            <a href="#">
+                                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                                Consulting Services</a>
+                            <a href="#">
+                                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                                Exhibition</a>
+                            <a href="#">
+                                <i class="fa-solid fa-angles-right footer-left-icon"></i> An
+                                Opportunity</a>
+                            <a href="#">
+                                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                                Media Incubator</a>
+                            <a href="#">
+                                <i class="fa-solid fa-angles-right footer-left-icon"></i> IPTV
+                                Channel List</a>
+                            <a href="#">
+                                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                                Sponsorships</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2 mb-4 mb-md-0">
+                    <div class="footer-box">
+                        <h6>Study Link</h6>
+                        <div class="footer-menu">
+                            <a href="#">
+                                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                                Training Program</a>
+                            <a href="#">
+                                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                                Consulting Services</a>
+                            <a href="#">
+                                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                                Exhibition</a>
+                            <a href="#">
+                                <i class="fa-solid fa-angles-right footer-left-icon"></i> An
+                                Opportunity</a>
+                            <a href="#">
+                                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                                Media Incubator</a>
+                            <a href="#">
+                                <i class="fa-solid fa-angles-right footer-left-icon"></i> IPTV
+                                Channel List</a>
+                            <a href="#">
+                                <i class="fa-solid fa-angles-right footer-left-icon"></i>
+                                Sponsorships</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section class="copyright-section">
+        <div class="container">
+            <div class="col-sm-12">
+                <p>@copyright-2022. All rights reserved HomeoDoctor ltd</p>
+            </div>
+        </div>
+    </section>
+    <!--    FOOTER SECTION END-->
+
+    <!--    JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--    SLICK SLIDER-->
+    <script src="assets/js/slick.min.js"></script>
+    <!--    BOOSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+</body>
+
+</html>
