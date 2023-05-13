@@ -1,0 +1,41 @@
+@media only screen and (max-width: 991px) {
+}
+
+@media only screen and (max-width: 767px) {
+  header {
+    height: 65px;
+  }
+  .logo img {
+    width: 215px;
+  }
+  .login-left {
+    height: 390px;
+  }
+
+  .our-team img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  body {
+    font-size: 13px;
+  }
+  .custom-btn {
+    font-size: 18px;
+    padding: 12px 25px;
+    letter-spacing: 3px;
+  }
+  .section-title h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .our-team img {
+    width: 100%;
+  }
+
+  .our-doctor .card .card-img {
+    background-position: initial;
+    padding: 35px;
+  }
+}

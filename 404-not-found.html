@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Not Found | HomeoDoctor</title>
+    <!--    GOOGLE FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!--    BOOSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--    FONT AWSOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <!--    SLICK SLIDER-->
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <!--    MAIN CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- <link rel="stylesheet" href="css/arabic.css"> -->
+</head>
+<body>
+    <!-- HEADER SECTION -->
+    <section class="header-top py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 header-top-content d-flex justify-content-end">
+                    <div class="email-address mx-2 mx-lg-3">
+                        <i class="fa-solid fa-envelope-circle-check"></i>
+                        <a href="#">homeodoctor@support.com</a>
+                    </div>
+                    <div class="contact-phone mx-2 mx-lg-3">
+                        <i class="fa-solid fa-square-phone-flip"></i>
+                        <a href="#">012345678911</a>
+                    </div>
+                    <div class="login-part mx-2 mx-lg-3">
+                        <i class="fa-solid fa-circle-user"></i>
+                        <a href="#">Login/Registration</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <header class="d-flex align-items-center">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-2">
+                    <div class="logo d-flex justify-content-between align-items-center">
+                        <a href="index.html">
+                            <img src="assets/img/logo/logo.png" alt="Logo">
+                        </a>
+                        <i class="fa fa-bars d-md-none" onClick="mobileClick()" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="col-md-10 d-none d-md-block">
+                    <div class="menubar">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li class="sub-btn button1">
+                                <a href="#">Pages
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                                <div class="sub-menu">
+                                    <a href="aboutus.html">About Us</a>
+                                    <a href="our-doctor.html">Our Doctor</a>
+                                    <a href="faq.html">Faq </a>
+                                    <a href="coming-soon.html">Others</a>
+                                </div>
+                            </li>
+                            <li class="sub-btn button1">
+                                <a href="#">Our Service
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                                <div class="sub-menu">
+                                    <a href="why-online-treat.html">Why online treat</a>
+                                    <a href="how-it-work.html">How it Works</a>
+                                    <a href="disease.html">Disease</a>
+                                    <a href="404-not-found.html">Page 404</a>
+                                </div>
+                            </li>
+                            <li class="sub-btn button1">
+                                <a href="#">Study
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                                <div class="sub-menu">
+                                    <a href="study.html">Organon Of Medicine</a>
+                                    <a href="study.html">Materia Medica</a>
+                                    <a href="study.html">Repertory</a>
+                                    <a href="study.html">Practice of Medicine</a>
+                                    <a href="study.html">Anatomy Physiology</a>
+                                    <a href="study.html">Research</a>
+                                </div>
+                            </li>
+                            <li class="sub-btn button1">
+                                <a href="#">Testimonial
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                                <div class="sub-menu">
+                                    <a href="celebraties-testimonial.html">Celebraties Testimonial</a>
+                                    <a href="doctor-testimonial.html">Doctors Testimonial</a>
+                                    <a href="patient-testimonial.html">Patients Testimonial</a>
+                                    <a href="video-testimonial.html">Video Testimonial</a>
+                                    <a href="magazine-testimonial.html">Magazine Testimonial</a>
+                                </div>
+                            </li>
+                            <li><a href="#">Shop</a></li>
+                            <li class="sub-btn button1">
+                                <a href="#">Blog
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                                <div class="sub-menu">
+                                    <a href="index.html#latest-blog">Media</a>
+                                    <a href="index.html#latest-blog">Videos</a>
+                                    <a href="index.html#latest-blog">Photos</a>
+                                    <a href="index.html#latest-blog">Events</a>
+                                    <a href="index.html#latest-blog">Magazine</a>
+                                    <a href="index.html#latest-blog">Knowledge of Disease</a>
+                                </div>
+                            </li>
+                            <li><a href="contactus.html">Contact Us</a></li>
+                            <li><a href="#" class="login-menu">Quick Appointment</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--    HEADER SECTION END-->
+
+    <!--        MOBILE MENU-->
+    <div id="mobile-menu" class="mobile-menu">
+        <!-- accordion-->
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+
+            <div class="mobile-logo mb-5">
+                <a href="#">
+                    <img src="assets/img/logo/logo.png" alt="mobile-logo">
+                </a>
+                <i id="mobile-cross" class="fa fa-times" onClick="mobileClick()"></i>
+            </div>
+
+            <div class="accordion-item custom ">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Home
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Pages
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Study 
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Shop 
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Blog 
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button custom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#two" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Our Services
+                    </button>
+                </h2>
+                <div id="two" class="accordion-collapse collapse" aria-labelledby="two" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body custom">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>services</a></li>
+
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>sector</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Contact Us
+                        </button>
+                    </a>
+                </h2>
+            </div>
+        </div>
+
+    </div>
+    <div id="mobileOverlay" class="mobile-overlay" onClick="mobileClick()"></div>
+    <!--   END MOBILE MENU-->
+    <style>
+        .page_404 {
+            padding: 40px 0;
+            background: #fff;
+            font-family: 'Arvo', serif;
+        }
+    
+        .page_404 img {
+            width: 100%;
+        }
+    
+        .four_zero_four_bg {
+    
+            background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+            width: 100%;
+            height: 400px;
+            background-position: center;
+        }
+    
+    
+        .four_zero_four_bg h1 {
+            font-size: 80px;
+        }
+    
+        .four_zero_four_bg h3 {
+            font-size: 80px;
+        }
+    
+        .link_404 {
+            color: #fff !important;
+            padding: 10px 20px;
+            background: #39ac31;
+            margin: 20px 0;
+            display: inline-block;
+        }
+    
+        .contant_box_404 {
+            margin-top: -50px;
+        }
+    </style>
+
+    <section class="page_404 testimonial-review" style="background-color: #efefef;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="text-center">
+                        <div class="four_zero_four_bg">
+                            <h1 class="text-center ">404</h1>
+                        </div>
+    
+                        <div class="contant_box_404">
+                            <h3 class="h2">
+                                Look like you are lost
+                            </h3>
+    
+                            <p>the page you are looking for not avaible!</p>
+    
+                            <a href="index.html" class="link_404">Go to Home</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--    FOOTER SECTION-->
+    <footer class="pt-5">
+        <div class="container">
+            <div class="row pb-3">
+                <div class="col-12 col-md-12 col-lg-4 mb-4 mb-md-0">
+                    <div class="footer-box">
+                        <img src="assets/img/logo/logo.png" alt="Logo">
+                        <p class="sm-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                            the industry's standard dummy text
+                        </p>
+                        <div class="social-media-footer">
+                            <h4>Social Media</h4>
+                            <div>
+                                <a href="#">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-pinterest-p"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2 mb-4 mb-md-0">
+                    <div class="footer-box">
+                        <h6>Quick Link</h6>
+                        <div class="footer-menu">
+                            <a href="#"> <i class="fa-solid fa-angles-right footer-left-icon"></i> Training Program</a>
+                            <a href="#"> <i class="fa-solid fa-angles-right footer-left-icon"></i> Consulting Services</a>
+                            <a href="#"> <i class="fa-solid fa-angles-right footer-left-icon"></i> Exhibition</a>
+                            <a href="#"> <i class="fa-solid fa-angles-right footer-left-icon"></i> An Opportunity</a>
+                            <a href="#"> <i class="fa-solid fa-angles-right footer-left-icon"></i> Media Incubator</a>
+                            <a href="#"> <i class="fa-solid fa-angles-right footer-left-icon"></i> IPTV Channel List</a>
+                            <a href="#"> <i class="fa-solid fa-angles-right footer-left-icon"></i> Sponsorships</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2 mb-4 mb-md-0">
+                    <div class="footer-box">
+                        <h6>Our Pages</h6>
+                        <div class="footer-menu">
+                            <a href="#"> <i class="fa-solid fa-angles-right footer-left-icon"></i> Training Program</a>
+                            <a href="#"> <i class="fa-solid fa-angles-right footer-left-icon"></i> Consulting Services</a>
+                            <a href="#"> <i class="fa-solid fa-angles-right footer-left-icon"></i> Exhibition</a>
+                            <a href="#"> <i class="fa-solid fa-angles-right footer-left-icon"></i> An Opportunity</a>
+                            <a href="#"> <i class="fa-solid fa-angles-right footer-left-icon"></i> Media Incubator</a>
+                            <a href="#"> <i class="fa-solid fa-angles-right footer-left-icon"></i> IPTV Channel List</a>
+                            <a href="#"> <i class="fa-solid fa-angles-right footer-left-icon"></i> Sponsorships</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2 mb-4 mb-md-0">
+                    <div class="footer-box">
+                        <h6>Shop Link</h6>
+                        <div class="footer-menu">
+                            <a href="#"> <i class="fa-solid fa-angles-right footer-left-icon"></i> Training Program</a>
+                            <a href="#"> <i class="fa-solid fa-angles-right footer-left-icon"></i> Consulting Services</a>
+                            <a href="#"> <i class="fa-solid fa-angles-right footer-left-icon"></i> Exhibition</a>
+                            <a href="#"> <i class="fa-solid fa-angles-right footer-left-icon"></i> An Opportunity</a>
+                            <a href="#"> <i class="fa-solid fa-angles-right footer-left-icon"></i> Media Incubator</a>
+                            <a href="#"> <i class="fa-solid fa-angles-right footer-left-icon"></i> IPTV Channel List</a>
+                            <a href="#"> <i class="fa-solid fa-angles-right footer-left-icon"></i> Sponsorships</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2 mb-4 mb-md-0">
+                    <div class="footer-box">
+                        <h6>Study Link</h6>
+                        <div class="footer-menu">
+                            <a href="#"> <i class="fa-solid fa-angles-right footer-left-icon"></i> Training Program</a>
+                            <a href="#"> <i class="fa-solid fa-angles-right footer-left-icon"></i> Consulting Services</a>
+                            <a href="#"> <i class="fa-solid fa-angles-right footer-left-icon"></i> Exhibition</a>
+                            <a href="#"> <i class="fa-solid fa-angles-right footer-left-icon"></i> An Opportunity</a>
+                            <a href="#"> <i class="fa-solid fa-angles-right footer-left-icon"></i> Media Incubator</a>
+                            <a href="#"> <i class="fa-solid fa-angles-right footer-left-icon"></i> IPTV Channel List</a>
+                            <a href="#"> <i class="fa-solid fa-angles-right footer-left-icon"></i> Sponsorships</a>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </footer>
+    <section class="copyright-section">
+        <div class="container">
+            <div class="col-sm-12">
+                <p>@copyright-2022. All rights reserved HomeoDoctor ltd</p>
+            </div>
+        </div>
+    </section>
+    <!--    FOOTER SECTION END-->
+
+    <!--    JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--    SLICK SLIDER-->
+    <script src="assets/js/slick.min.js"></script>
+    <!--    BOOSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!-- Slider javascript code -->
+    <script>
+        // banner slider
+        $('.banner-slide').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            rtl: false,
+            autoplay: true,
+            speed: 1500,
+            autoplaySpeed: 1500,
+            arrows: false,
+        });
+        // Page Banner slider
+        $('.page-banner-slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            fade: true,
+            rtl: false,
+            autoplay: true,
+            speed: 1500,
+            autoplaySpeed: 1500,
+            arrows: false,
+        });
+        // Testimonial slider
+        $('.testimonial-slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            rtl: false,
+            autoplay: true,
+            speed: 1500,
+            autoplaySpeed: 1500,
+            arrows: false,
+        });
+        // card-slide
+        $('.card-slide').slick({
+            slidesToShow: 4,
+            slidesToScroll: 2,
+            rtl: false,
+            autoplay: true,
+            speed: 1500,
+            autoplaySpeed: 1500,
+            arrows: false,
+            responsive: [{
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 2,
+                    infinite: true,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 500,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 350,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+            ]
+        });
+        // Book-slide
+        $('.book-slide').slick({
+            slidesToShow: 6,
+            slidesToScroll: 3,
+            rtl: false,
+            autoplay: true,
+            speed: 1500,
+            autoplaySpeed: 1500,
+            arrows: false,
+            responsive: [{
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 5,
+                    slidesToScroll: 2,
+                    infinite: true,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 500,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 350,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            }
+            ]
+        });
+    </script>
+
+</body>
+
+</html>
