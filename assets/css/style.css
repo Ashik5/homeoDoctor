@@ -745,6 +745,12 @@ header {
   background: var(--afc);
 }
 
+.hiw-slide .item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .work-card {
   background-repeat: no-repeat;
   background-size: cover;

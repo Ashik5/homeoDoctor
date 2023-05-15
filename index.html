@@ -854,8 +854,8 @@
   <section class="how-it-work py-5" style="background-color: #ffffff">
     <div class="container">
       <h2 class="section-title">How it Work</h2>
-      <div class="row">
-        <div class="col-lg-3 col-md-4 col-sm-6 col-12 how-it-work-width">
+      <div class="row hiw-slide">
+        <div class="col-lg-3 col-md-4 col-sm-6 how-it-work-width m-md-5 m-3">
           <div class="item">
             <div class="work-card my-4 mt-lg-5" style="
                   background-image: url(assets/img/photos/how-it-work-1.jpeg);
@@ -876,7 +876,7 @@
             <h3>Step - One</h3>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-12 col-12 how-it-work-width">
+        <div class="col-lg-3 col-md-4 col-sm-12 how-it-work-width m-md-5 m-3">
           <div class="item">
             <div class="work-card my-4 mt-lg-5" style="
                   background-image: url(assets/img/photos/how-it-work-2.jpeg);
@@ -897,7 +897,7 @@
             <h3>Step - Two</h3>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-12 how-it-work-width">
+        <div class="col-lg-3 col-md-4 col-sm-12 how-it-work-width m-md-5 m-3">
           <div class="item">
             <div class="work-card my-4 mt-lg-5" style="
                   background-image: url(assets/img/photos/how-it-work-3.jpeg);
@@ -918,7 +918,7 @@
             <h3>Step - Three</h3>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 how-it-work-width">
+        <div class="col-lg-3 col-md-4 col-sm-6 how-it-work-width m-md-5 m-3">
           <div class="item">
             <div class="work-card my-4 mt-lg-5" style="
                   background-image: url(assets/img/photos/how-it-work-4.jpeg);
@@ -939,7 +939,7 @@
             <h3>Step - Four</h3>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 how-it-work-width">
+        <div class="col-lg-3 col-md-4 col-sm-6 how-it-work-width m-md-5 m-3">
           <div class="item">
             <div class="work-card my-4 mt-lg-5" style="
                   background-image: url(assets/img/photos/how-it-work-1.jpeg);
@@ -2246,6 +2246,26 @@
           },
         },
       ],
+    });
+    //how it works slide
+    $(document).ready(function () {
+      $('.hiw-slide').slick({
+        infinite:true,
+        slidesToShow:3,
+        autoplay:true,
+        speed:800,
+        dots: false,
+        arrows: false,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      });
     });
   </script>
 </body>
