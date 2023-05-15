@@ -813,7 +813,12 @@ header {
   opacity: 0;
   transition: 0.3s ease-in;
 }
-
+.disease-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .disease-item:hover .card-overlay {
   background: #1b128578;
 }
@@ -2091,4 +2096,24 @@ footer {
 .experienceCard{
   border-radius: 10px;
   box-shadow: 0 0 5px rgba(8, 7, 16, 0.2);
+}
+/* back to top button */
+.back-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.13);
+  color: white;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 10px rgba(8, 7, 16, 0.4);
+}
+.back-to-top:hover{
+  text-decoration: none;
+  color: white;
 }
