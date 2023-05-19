@@ -82,7 +82,6 @@ header {
   width: 248px;
   text-align: left;
   opacity: 0;
-  visibility: hidden;
   -webkit-transform: scaleY(0);
   -ms-transform: scaleY(0);
   transform: scaleY(0);
@@ -102,10 +101,10 @@ header {
 
 .sub-btn:hover .sub-menu {
   opacity: 1;
-  visibility: visible;
   -webkit-transform: scaleY(100%);
   -ms-transform: scaleY(100%);
   transform: scaleY(100%);
+  z-index: 2000;
 }
 
 .sub-menu>a {
