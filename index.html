@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="stylesheet" href="assets/css/responsive.css" />
   <!-- <link rel="stylesheet" href="css/arabic.css"> -->
+  <link rel="stylesheet" href="assets/css/animate.min.css" />
 </head>
 
 <body>
@@ -54,7 +55,7 @@
         <div class="col-12 col-md-2">
           <div class="logo d-flex justify-content-between align-items-center">
             <a href="index.html">
-              <img src="assets/img/logo/logo.png" alt="Logo" />
+              <img src="assets/img/logo/logo-2.png" alt="Logo" />
             </a>
             <i class="fa fa-bars d-md-none" onClick="mobileClick()" aria-hidden="true"></i>
           </div>
@@ -132,7 +133,7 @@
     <div class="accordion accordion-flush" id="accordionFlushExample">
       <div class="mobile-logo mb-5">
         <a href="#">
-          <img src="assets/img/logo/logo.png" alt="mobile-logo" />
+          <img src="assets/img/logo/logo-2.png" alt="mobile-logo" />
         </a>
         <i id="mobile-cross" class="fa fa-times" onClick="mobileClick()"></i>
       </div>
@@ -218,7 +219,7 @@
   <!--   END MOBILE MENU-->
 
   <!-- BANNER PART START -->
-  <section class="banner-part">
+  <section class="banner-part wow animate__animated animate__slideInRight">
     <div class="carousel">
       <div class="left-carousel">
         <i class="fa-solid fa-chevron-left"></i>
@@ -337,7 +338,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-3 col-md-6 col-sm-6">
-          <div class="card-item">
+          <div class=" card-item wow animate__animated animate__slideInRight" data-wow-delay="50ms">
             <img src="./assets/img/serviesicons/stethoscope.png" alt="services-logo" class="service-icons" />
             <h5>Our Doctor</h5>
             <p class="sm-text py-1">
@@ -350,7 +351,7 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6">
-          <div class="card-item">
+          <div class=" card-item wow animate__animated animate__slideInRight" data-wow-delay="70ms">
             <img src="./assets/img/serviesicons/shopping-bag.png" class="service-icons" alt="services-logo" />
 
             <h5>Shop Page</h5>
@@ -364,7 +365,7 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6">
-          <div class="card-item">
+          <div class=" card-item wow animate__animated animate__slideInRight" data-wow-delay="110ms">
             <img src="./assets/img/serviesicons/book.png" class="service-icons" alt="services-logo" />
             <h5>Our Book</h5>
             <p class="sm-text py-1">
@@ -377,7 +378,7 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6">
-          <div class="card-item">
+          <div class=" card-item wow animate__animated animate__slideInRight" data-wow-delay="190ms">
             <img src="./assets/img/serviesicons/pills.png" class="service-icons" alt="services-logo" />
             <h5>Our Medicine</h5>
             <p class="sm-text py-1">
@@ -398,12 +399,12 @@
   <section class="history-part py-2 py-lg-5">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="col-lg-6 col-md-6 col-sm-12 wow animate__animated animate__slideInRight" data-wow-delay="0ms">
           <div class="history-img">
             <img class="img" src="assets/img/photos/history-img.png" alt="history-img" />
           </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="col-lg-6 col-md-6 col-sm-12 wow animate__animated animate__slideInRight" data-wow-delay="50ms">
           <h4>Introduction of Homeopathy</h4>
           <h5>Christian Friedrich Samuel Hahnemann</h5>
           <h6>M.D. (1755-1843)</h6>
@@ -437,25 +438,27 @@
   <!-- HISTORY SECTION END -->
 
   <!-- OUR TEAM SECTION PART START -->
-  <section class="our-team mt-5 pt-lg-5">
+  <section class="our-team pt-lg-5 wow">
     <div class="container pt-lg-4">
       <div class="row">
         <div class="col-lg-7 col-md-6 col-sm-12">
           <div class="content">
-            <h5 class="mb-5">Dr. Stephanie Wosniack</h5>
-            <h1>OUR <span>TEAM</span></h1>
-            <h6 class="py-2 py-lg-3">
+            <h5 class="mb-5 wow animate__animated animate__slideInUp" data-wow-delay="0ms">Dr. Stephanie Wosniack</h5>
+            <h1 class=" wow animate__animated animate__slideInLeft" data-wow-delay="50ms">OUR <span>TEAM</span></h1>
+            <h6 class="py-2 py-lg-3 wow animate__animated animate__slideInLeft" data-wow-delay="50ms">
               Dr. Stephanie Wosniack is is dedicated to providing her patients
               with the best possible care. We at MediCare are focused on
               helping you. After receiving successful care for various aches
               and pains over the years, Dr. Woshiack found her calling to help
               others get well.
             </h6>
-            <img src="assets/img/photos/signature.png" alt="signature" />
+            <img class="wow animate__animated animate__slideInRight" data-wow-delay="70ms"
+              src="assets/img/photos/signature.png" alt="signature" />
           </div>
         </div>
         <div class="col-lg-5 col-md-6 col-sm-12">
-          <img src="assets/img/photos/ourteam-doctor-img.png" alt="doctor-img" />
+          <img class="wow animate__animated animate__slideInRight" data-wow-delay="70ms"
+            src="assets/img/photos/ourteam-doctor-img.png" alt="doctor-img" />
         </div>
       </div>
     </div>
@@ -463,13 +466,15 @@
   <!-- OUR TEAM SECTION PART END -->
 
   <!-- OUR DOCTOR PART START -->
-  <section class="our-doctor py-3 py-lg-5">
+  <section class="our-doctor py-3 py-lg-5 wow
+  ">
     <div class="container">
       <div class="col-sm-12">
         <h2 class="section-title mb-4">Our Doctor</h2>
       </div>
       <div class="row card-slide">
-        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4 pt-lg-3">
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4 pt-lg-3 wow animate__animated animate__slideInUp"
+          data-wow-delay="0ms">
           <div class="card">
             <a href="doctor-profile.html">
               <div class="card-img text-center" style="background-image: url(assets/img/doctors/image-1.jpg)">
@@ -516,7 +521,8 @@
           </div>
         </div>
       </div>
-      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4 pt-lg-3">
+      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4 pt-lg-3 wow animate__animated animate__slideInUp"
+        data-wow-delay="50ms">
         <div class="card">
           <a href="doctor-profile.html">
             <div class="card-img text-center" style="background-image: url(assets/img/doctors/image-2.jpg)">
@@ -568,7 +574,8 @@
         </div>
       </div>
     </div>
-    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4 pt-lg-3">
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4 pt-lg-3 wow animate__animated animate__slideInUp"
+      data-wow-delay="120ms">
       <div class="card">
         <a href="doctor-profile.html">
           <div class="card-img text-center" style="background-image: url(assets/img/doctors/image-1.jpg)">
@@ -614,7 +621,8 @@
       </div>
     </div>
     </div>
-    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4 pt-lg-3">
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4 pt-lg-3 wow animate__animated animate__slideInUp"
+      data-wow-delay="210ms">
       <div class="card">
         <a href="doctor-profile.html">
           <div class="card-img text-center" style="background-image: url(assets/img/doctors/image-2.jpg)">
@@ -666,7 +674,8 @@
       </div>
     </div>
     </div>
-    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4 pt-lg-3">
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4 pt-lg-3 wow animate__animated animate__slideInUp"
+      data-wow-delay="0ms">
       <div class="card">
         <a href="doctor-profile.html">
           <div class="card-img text-center" style="background-image: url(assets/img/doctors/image-3.jpg)">
@@ -718,7 +727,8 @@
       </div>
     </div>
     </div>
-    <div class="col-lg-3 col-md-4 col-sm-12 my-4 pt-lg-3">
+    <div class="col-lg-3 col-md-4 col-sm-12 my-4 pt-lg-3 wow animate__animated animate__slideInUp"
+      data-wow-delay="50ms">
       <div class="card">
         <a href="doctor-profile.html">
           <div class="card-img text-center" style="background-image: url(assets/img/doctors/image-4.jpg)">
@@ -770,7 +780,8 @@
       </div>
     </div>
     </div>
-    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4 pt-lg-3">
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4 pt-lg-3 wow animate__animated animate__slideInUp"
+      data-wow-delay="120ms">
       <div class="card">
         <a href="doctor-profile.html">
           <div class="card-img text-center" style="background-image: url(assets/img/doctors/image-3.jpg)">
@@ -822,7 +833,8 @@
       </div>
     </div>
     </div>
-    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4 pt-lg-3">
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4 pt-lg-3 wow animate__animated animate__slideInUp"
+      data-wow-delay="210ms">
       <div class="card">
         <a href="doctor-profile.html">
           <div class="card-img text-center" style="background-image: url(assets/img/doctors/image-4.jpg)">
@@ -881,289 +893,301 @@
     </div>
   </section>
   <!-- OUR DOCTOR PART END -->
-
-  <!-- HOW IT WORK SECTION START -->
-  <section class="how-it-work py-5" style="background-color: #ffffff">
-    <div class="container">
-      <h2 class="section-title">How it Work</h2>
-      <div class="row hiw-slide">
-        <div class="col-lg-3 col-md-4 col-sm-6 how-it-work-width m-md-5 m-3">
-          <div class="item">
-            <div class="work-card my-4 mt-lg-5" style="
+  <div class="bg-2">
+    <!-- HOW IT WORK SECTION START -->
+    <section class="how-it-work py-5" style="background-color: transparent">
+      <div class="container">
+        <h2 class="section-title">How it Work</h2>
+        <div class="row hiw-slide">
+          <div class="col-lg-2 col-md col-sm-6 how-it-work-width m-md-5 m-3">
+            <div class="item">
+              <div class="work-card my-4 mt-lg-5" style="
                   background-image: url(assets/img/photos/how-it-work-1.jpeg);
                 ">
-              <div class="work-card-overlay">
-                <div class="work-article">
-                  <p class="sm-text">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five
-                    centuries
-                  </p>
+                <div class="work-card-overlay">
+                  <div class="work-article">
+                    <p class="sm-text">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to make a
+                      type specimen book. It has survived not only five
+                      centuries
+                    </p>
+                  </div>
                 </div>
               </div>
+              <h3>Step - One</h3>
             </div>
-            <h3>Step - One</h3>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-12 how-it-work-width m-md-5 m-3">
-          <div class="item">
-            <div class="work-card my-4 mt-lg-5" style="
+          <div class="col-lg-2 col-md col-sm-12 how-it-work-width m-md-5 m-3">
+            <div class="item">
+              <div class="work-card my-4 mt-lg-5" style="
                   background-image: url(assets/img/photos/how-it-work-2.jpeg);
                 ">
-              <div class="work-card-overlay">
-                <div class="work-article">
-                  <p class="sm-text">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five
-                    centuries
-                  </p>
+                <div class="work-card-overlay">
+                  <div class="work-article">
+                    <p class="sm-text">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to make a
+                      type specimen book. It has survived not only five
+                      centuries
+                    </p>
+                  </div>
                 </div>
               </div>
+              <h3>Step - Two</h3>
             </div>
-            <h3>Step - Two</h3>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-12 how-it-work-width m-md-5 m-3">
-          <div class="item">
-            <div class="work-card my-4 mt-lg-5" style="
+          <div class="col-lg-2 col-md col-sm-12 how-it-work-width m-md-5 m-3">
+            <div class="item">
+              <div class="work-card my-4 mt-lg-5" style="
                   background-image: url(assets/img/photos/how-it-work-3.jpeg);
                 ">
-              <div class="work-card-overlay">
-                <div class="work-article">
-                  <p class="sm-text">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five
-                    centuries
-                  </p>
+                <div class="work-card-overlay">
+                  <div class="work-article">
+                    <p class="sm-text">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to make a
+                      type specimen book. It has survived not only five
+                      centuries
+                    </p>
+                  </div>
                 </div>
               </div>
+              <h3>Step - Three</h3>
             </div>
-            <h3>Step - Three</h3>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 how-it-work-width m-md-5 m-3">
-          <div class="item">
-            <div class="work-card my-4 mt-lg-5" style="
+          <div class="col-lg-2 col-md col-sm-6 how-it-work-width m-md-5 m-3">
+            <div class="item">
+              <div class="work-card my-4 mt-lg-5" style="
                   background-image: url(assets/img/photos/how-it-work-4.jpeg);
                 ">
-              <div class="work-card-overlay">
-                <div class="work-article">
-                  <p class="sm-text">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five
-                    centuries
-                  </p>
+                <div class="work-card-overlay">
+                  <div class="work-article">
+                    <p class="sm-text">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to make a
+                      type specimen book. It has survived not only five
+                      centuries
+                    </p>
+                  </div>
                 </div>
               </div>
+              <h3>Step - Four</h3>
             </div>
-            <h3>Step - Four</h3>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 how-it-work-width m-md-5 m-3">
-          <div class="item">
-            <div class="work-card my-4 mt-lg-5" style="
+          <div class="col-lg-2 col-md col-sm-6 how-it-work-width m-md-5 m-3">
+            <div class="item">
+              <div class="work-card my-4 mt-lg-5" style="
                   background-image: url(assets/img/photos/how-it-work-1.jpeg);
                 ">
-              <div class="work-card-overlay">
-                <div class="work-article">
-                  <p class="sm-text">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five
-                    centuries
-                  </p>
+                <div class="work-card-overlay">
+                  <div class="work-article">
+                    <p class="sm-text">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to make a
+                      type specimen book. It has survived not only five
+                      centuries
+                    </p>
+                  </div>
                 </div>
               </div>
+              <h3>Step - Five</h3>
             </div>
-            <h3>Step - Five</h3>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- HOW IT WORK SECTION END -->
+    </section>
+    <!-- HOW IT WORK SECTION END -->
 
-  <!-- OUR DISEASE PART -->
-  <section class="disease-book py-3 py-lg-5" style="background: #ffffff">
-    <div class="container">
-      <h2 class="section-title mb-5">Disease</h2>
-      <div class="row">
-        <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
-          <div class="disease-item">
-            <div class="card-img text-center" style="background-image: url(assets/img/disease/allergy.jpg)">
-              <a>
+    <!-- OUR DISEASE PART -->
+    <section class="disease-book py-3 py-lg-5" style="background: transparent">
+      <div class="container">
+        <h2 class="section-title mb-5">Disease</h2>
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3 wow animate__animated animate__slideInUp"
+            data-wow-delay="0ms">
+            <div class="disease-item">
+              <div class="card-img text-center" style="background-image: url(assets/img/disease/allergy.jpg)">
+                <a>
+                  <div class="card-overlay">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </a>
+              </div>
+              <h5 class="mt-2">
+                <a href="disease-details.html">Allergy</a>
+              </h5>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3 wow animate__animated animate__slideInUp"
+            data-wow-delay="50ms">
+            <div class="disease-item">
+              <div class="card-img text-center" style="background-image: url(assets/img/disease/astham.jpg)">
                 <div class="card-overlay">
                   <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
-              </a>
-            </div>
-            <h5 class="mt-2">
-              <a href="disease-details.html">Allergy</a>
-            </h5>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
-          <div class="disease-item">
-            <div class="card-img text-center" style="background-image: url(assets/img/disease/astham.jpg)">
-              <div class="card-overlay">
-                <i class="fa-solid fa-magnifying-glass"></i>
               </div>
+              <h5 class="mt-2">
+                <a href="disease-details.html">Astham</a>
+              </h5>
             </div>
-            <h5 class="mt-2">
-              <a href="disease-details.html">Astham</a>
-            </h5>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
-          <div class="disease-item">
-            <div class="card-img text-center" style="
+          <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3 wow animate__animated animate__slideInUp"
+            data-wow-delay="120ms">
+            <div class="disease-item">
+              <div class="card-img text-center" style="
                   background-image: url(assets/img/disease/hypertension.jpg);
                 ">
-              <div class="card-overlay">
-                <i class="fa-solid fa-magnifying-glass"></i>
+                <div class="card-overlay">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
               </div>
+              <h5 class="mt-2">
+                <a href="disease-details.html">Hypertension</a>
+              </h5>
             </div>
-            <h5 class="mt-2">
-              <a href="disease-details.html">Hypertension</a>
-            </h5>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
-          <div class="disease-item">
-            <div class="card-img text-center" style="
+          <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3 wow animate__animated animate__slideInUp"
+            data-wow-delay="210ms">
+            <div class="disease-item">
+              <div class="card-img text-center" style="
                   background-image: url(assets/img/disease/infertility.jpg);
                 ">
-              <div class="card-overlay">
-                <i class="fa-solid fa-magnifying-glass"></i>
+                <div class="card-overlay">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
               </div>
+              <h5 class="mt-2">
+                <a href="disease-details.html">Infertility</a>
+              </h5>
             </div>
-            <h5 class="mt-2">
-              <a href="disease-details.html">Infertility</a>
-            </h5>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
-          <div class="disease-item">
-            <div class="card-img text-center" style="background-image: url(assets/img/disease/maigraine.jpg)">
-              <div class="card-overlay">
-                <i class="fa-solid fa-magnifying-glass"></i>
+          <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3 wow animate__animated animate__slideInUp"
+            data-wow-delay="0ms">
+            <div class="disease-item">
+              <div class="card-img text-center" style="background-image: url(assets/img/disease/maigraine.jpg)">
+                <div class="card-overlay">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
               </div>
+              <h5 class="mt-2">
+                <a href="disease-details.html">Maigraine</a>
+              </h5>
             </div>
-            <h5 class="mt-2">
-              <a href="disease-details.html">Maigraine</a>
-            </h5>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
-          <div class="disease-item">
-            <div class="card-img text-center" style="background-image: url(assets/img/disease/sinusitis.jpg)">
-              <div class="card-overlay">
-                <i class="fa-solid fa-magnifying-glass"></i>
+          <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3 wow animate__animated animate__slideInUp"
+            data-wow-delay="50ms">
+            <div class="disease-item">
+              <div class="card-img text-center" style="background-image: url(assets/img/disease/sinusitis.jpg)">
+                <div class="card-overlay">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
               </div>
+              <h5 class="mt-2">
+                <a href="disease-details.html">Sinusitis</a>
+              </h5>
             </div>
-            <h5 class="mt-2">
-              <a href="disease-details.html">Sinusitis</a>
-            </h5>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
-          <div class="disease-item">
-            <div class="card-img text-center" style="background-image: url(assets/img/disease/skin.jpg)">
-              <div class="card-overlay">
-                <i class="fa-solid fa-magnifying-glass"></i>
+          <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3 wow animate__animated animate__slideInUp"
+            data-wow-delay="120ms">
+            <div class="disease-item">
+              <div class="card-img text-center" style="background-image: url(assets/img/disease/skin.jpg)">
+                <div class="card-overlay">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
               </div>
+              <h5 class="mt-2">
+                <a href="disease-details.html">Skin</a>
+              </h5>
             </div>
-            <h5 class="mt-2">
-              <a href="disease-details.html">Skin</a>
-            </h5>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
-          <div class="disease-item">
-            <div class="card-img text-center" style="
+          <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3 wow animate__animated animate__slideInUp"
+            data-wow-delay="210ms">
+            <div class="disease-item">
+              <div class="card-img text-center" style="
                   background-image: url(assets/img/disease/spondylitis.jpg);
                 ">
-              <div class="card-overlay">
-                <i class="fa-solid fa-magnifying-glass"></i>
+                <div class="card-overlay">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
               </div>
+              <h5 class="mt-2">
+                <a href="disease-details.html">Spondylitis</a>
+              </h5>
             </div>
-            <h5 class="mt-2">
-              <a href="disease-details.html">Spondylitis</a>
-            </h5>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
-          <div class="disease-item">
-            <div class="card-img text-center" style="background-image: url(assets/img/disease/thyroid.jpg)">
-              <div class="card-overlay">
-                <i class="fa-solid fa-magnifying-glass"></i>
+          <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3 wow animate__animated animate__slideInUp"
+            data-wow-delay="0ms">
+            <div class="disease-item">
+              <div class="card-img text-center" style="background-image: url(assets/img/disease/thyroid.jpg)">
+                <div class="card-overlay">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
               </div>
+              <h5 class="mt-2">
+                <a href="disease-details.html">Thyroid</a>
+              </h5>
             </div>
-            <h5 class="mt-2">
-              <a href="disease-details.html">Thyroid</a>
-            </h5>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
-          <div class="disease-item">
-            <div class="card-img text-center" style="
+          <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3 wow animate__animated animate__slideInUp"
+            data-wow-delay="50ms">
+            <div class="disease-item">
+              <div class="card-img text-center" style="
                   background-image: url(assets/img/disease/womens-health.jpg);
                 ">
-              <div class="card-overlay">
-                <i class="fa-solid fa-magnifying-glass"></i>
+                <div class="card-overlay">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
               </div>
+              <h5 class="mt-2">
+                <a href="disease-details.html">Womens Health</a>
+              </h5>
             </div>
-            <h5 class="mt-2">
-              <a href="disease-details.html">Womens Health</a>
-            </h5>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3 wow animate__animated animate__slideInUp"
+            data-wow-delay="120ms">
+            <div class="disease-item">
+              <div class="card-img text-center" style="background-image: url(assets/img/disease/thyroid.jpg)">
+                <div class="card-overlay">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+              </div>
+              <h5 class="mt-2">
+                <a href="disease-details.html">Thyroid</a>
+              </h5>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3 wow animate__animated animate__slideInUp"
+            data-wow-delay="210ms">
+            <div class="disease-item">
+              <div class="card-img text-center" style="background-image: url(assets/img/disease/sinusitis.jpg)">
+                <div class="card-overlay">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+              </div>
+              <h5 class="mt-2">
+                <a href="disease-details.html">Sinusitis</a>
+              </h5>
+            </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
-          <div class="disease-item">
-            <div class="card-img text-center" style="background-image: url(assets/img/disease/thyroid.jpg)">
-              <div class="card-overlay">
-                <i class="fa-solid fa-magnifying-glass"></i>
-              </div>
-            </div>
-            <h5 class="mt-2">
-              <a href="disease-details.html">Thyroid</a>
-            </h5>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 my-2 my-lg-3">
-          <div class="disease-item">
-            <div class="card-img text-center" style="background-image: url(assets/img/disease/sinusitis.jpg)">
-              <div class="card-overlay">
-                <i class="fa-solid fa-magnifying-glass"></i>
-              </div>
-            </div>
-            <h5 class="mt-2">
-              <a href="disease-details.html">Sinusitis</a>
-            </h5>
-          </div>
+        <div class="custom-btn text-center my-5">
+          <a class="py-3" href="#">View More Disease</a>
         </div>
       </div>
-      <div class="custom-btn text-center my-5">
-        <a class="py-3" href="#">View More Disease</a>
-      </div>
-    </div>
-  </section>
-  <!-- OUR DISEASE PART -->
-
+    </section>
+    <!-- OUR DISEASE PART -->
+  </div>
   <!-- TESTIMONIAL PART START -->
   <section class="testimonial">
     <div class="testimonial-overlay">
@@ -1385,7 +1409,8 @@
       <div class="row">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
           <div class="row card-slide">
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3 wow animate__animated animate__slideInUp"
+              data-wow-delay="0ms">
               <div class="disease-item">
                 <div class="card-img text-center" style="
                         background-image: url(assets/img/study/image-1.png);
@@ -1401,7 +1426,8 @@
                 </h5>
               </div>
             </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3 wow animate__animated animate__slideInUp"
+              data-wow-delay="50ms">
               <div class="disease-item">
                 <div class="card-img text-center" style="
                         background-image: url(assets/img/study/image-2.png);
@@ -1417,7 +1443,8 @@
                 </h5>
               </div>
             </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3 wow animate__animated animate__slideInUp"
+              data-wow-delay="120ms">
               <div class="disease-item">
                 <div class="card-img text-center" style="
                         background-image: url(assets/img/study/image-3.png);
@@ -1433,7 +1460,8 @@
                 </h5>
               </div>
             </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3 wow animate__animated animate__slideInUp"
+              data-wow-delay="210ms">
               <div class="disease-item">
                 <div class="card-img text-center" style="
                         background-image: url(assets/img/study/Arnica-montana.png);
@@ -1449,7 +1477,8 @@
                 </h5>
               </div>
             </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3 wow animate__animated animate__slideInUp"
+              data-wow-delay="0ms">
               <div class="disease-item">
                 <div class="card-img text-center" style="
                         background-image: url(assets/img/study/Belladonna.png);
@@ -1465,7 +1494,8 @@
                 </h5>
               </div>
             </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3 wow animate__animated animate__slideInUp"
+              data-wow-delay="50ms">
               <div class="disease-item">
                 <div class="card-img text-center" style="
                         background-image: url(assets/img/study/Bellis-perennis.png);
@@ -1481,7 +1511,8 @@
                 </h5>
               </div>
             </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3 wow animate__animated animate__slideInUp"
+              data-wow-delay="120ms">
               <div class="disease-item">
                 <div class="card-img text-center" style="
                         background-image: url(assets/img/study/Berberis-vulgaris.png);
@@ -1497,7 +1528,8 @@
                 </h5>
               </div>
             </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3 wow animate__animated animate__slideInUp"
+              data-wow-delay="210ms">
               <div class="disease-item">
                 <div class="card-img text-center" style="
                         background-image: url(assets/img/study/Calcarea-carbonica.png);
@@ -1513,7 +1545,8 @@
                 </h5>
               </div>
             </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3 wow animate__animated animate__slideInUp"
+              data-wow-delay="0ms">
               <div class="disease-item">
                 <div class="card-img text-center" style="
                         background-image: url(assets/img/study/Bryonia-alba.png);
@@ -1529,7 +1562,8 @@
                 </h5>
               </div>
             </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3 wow animate__animated animate__slideInUp"
+              data-wow-delay="50ms">
               <div class="disease-item">
                 <div class="card-img text-center" style="
                         background-image: url(assets/img/study/Baptisia.png);
@@ -1545,7 +1579,8 @@
                 </h5>
               </div>
             </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3 wow animate__animated animate__slideInUp"
+              data-wow-delay="120ms">
               <div class="disease-item">
                 <div class="card-img text-center" style="
                         background-image: url(assets/img/study/image-1.png);
@@ -1561,7 +1596,8 @@
                 </h5>
               </div>
             </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 my-lg-3 wow animate__animated animate__slideInUp"
+              data-wow-delay="210ms">
               <div class="disease-item">
                 <div class="card-img text-center" style="
                         background-image: url(assets/img/study/image-2.png);
@@ -1592,7 +1628,7 @@
     <div class="container">
       <h2 class="section-title">Our Shop</h2>
       <div class="row card-slide">
-        <div class="col-md-3 col-sm-6 my-5">
+        <div class="col-md-3 col-sm-6 my-5 wow animate__animated animate__slideInUp" data-wow-delay="0ms">
           <div class="product-grid">
             <div class="product-image">
               <a href="#">
@@ -1630,7 +1666,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6 my-5">
+        <div class="col-md-3 col-sm-6 my-5 wow animate__animated animate__slideInUp" data-wow-delay="50ms">
           <div class="product-grid">
             <div class="product-image">
               <a href="#">
@@ -1668,7 +1704,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6 my-5">
+        <div class="col-md-3 col-sm-6 my-5 wow animate__animated animate__slideInUp" data-wow-delay="120ms">
           <div class="product-grid">
             <div class="product-image">
               <a href="#">
@@ -1706,7 +1742,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6 my-5">
+        <div class="col-md-3 col-sm-6 my-5 wow animate__animated animate__slideInUp" data-wow-delay="210ms">
           <div class="product-grid">
             <div class="product-image">
               <a href="#">
@@ -1744,7 +1780,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6 my-5">
+        <div class="col-md-3 col-sm-6 my-5 wow animate__animated animate__slideInUp" data-wow-delay="0ms">
           <div class="product-grid">
             <div class="product-image">
               <a href="#">
@@ -1782,7 +1818,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6 my-5">
+        <div class="col-md-3 col-sm-6 my-5 wow animate__animated animate__slideInUp" data-wow-delay="50ms">
           <div class="product-grid">
             <div class="product-image">
               <a href="#">
@@ -1820,7 +1856,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6 my-5">
+        <div class="col-md-3 col-sm-6 my-5 wow animate__animated animate__slideInUp" data-wow-delay="120ms">
           <div class="product-grid">
             <div class="product-image">
               <a href="#">
@@ -1858,7 +1894,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6 my-5">
+        <div class="col-md-3 col-sm-6 my-5 wow animate__animated animate__slideInUp" data-wow-delay="210ms">
           <div class="product-grid">
             <div class="product-image">
               <a href="#">
@@ -1986,7 +2022,8 @@
       <h3>Our Latest Blog</h3>
       <hr class="latest-blog" />
       <div class="row justify-content-center">
-        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-3">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-3 wow animate__animated animate__slideInRight"
+          data-wow-delay="0ms">
           <div class="card p-card mt-4">
             <img src="assets/img/blogs/blog-1.jpg" alt="card-img" />
             <div class="card-body">
@@ -2001,7 +2038,8 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-3">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-3 wow animate__animated animate__slideInRight"
+          data-wow-delay="100ms">
           <div class="card p-card mt-4">
             <img src="assets/img/blogs/blog-2.jpg" alt="card-img" />
             <div class="card-body">
@@ -2018,7 +2056,8 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-3">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-3 wow animate__animated animate__slideInRight"
+          data-wow-delay="200ms">
           <div class="card p-card mt-4">
             <img src="assets/img/blogs/blog-3.jpg" alt="card-img" />
             <div class="card-body">
@@ -2044,168 +2083,97 @@
   <!-- BLOG SECTION START -->
 
   <!--    FOOTER SECTION-->
-  <footer class="pt-5">
-    <div class="container">
-      <div class="row pb-3">
-        <div class="col-12 col-md-12 col-lg-4 mb-4 mb-md-0">
-          <div class="footer-box">
-            <img src="assets/img/logo/logo.png" alt="Logo" />
-            <p class="sm-text">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy
-              text
-            </p>
-            <div class="social-media-footer">
-              <h4>Social Media</h4>
-              <div>
-                <a href="#">
-                  <i class="fa fa-facebook"></i>
-                </a>
-                <a href="#">
-                  <i class="fa fa-twitter"></i>
-                </a>
-                <a href="#">
-                  <i class="fa fa-linkedin"></i>
-                </a>
-                <a href="#">
-                  <i class="fa fa-instagram"></i>
-                </a>
-                <a href="#">
-                  <i class="fa fa-pinterest-p"></i>
-                </a>
-              </div>
-            </div>
+  <footer class="footer-section">
+    <div class="container footer">
+      <div class="d-flex justify-content-between">
+        <div class="d-flex-justify-items-start">
+          <li>
+            <h5>About Us</h5>
+          </li>
+          <li>Why HomeoDoctor</li>
+          <li>Vision & Mission</li>
+          <li>Management Team</li>
+          <li>Career</li>
+          <li>Media</li>
+        </div>
+        <div class="d-flex-justify-items-start">
+          <li>
+            <h5>Clinical conditions</h5>
+          </li>
+          <li>Find Disease</li>
+          <li>Testimonials</li>
+          <li>Success Stories </li>
+          <li>Video</li>
+        </div>
+        <div class="d-flex-justify-items-start">
+          <li>
+            <h5>Our Doctors</h5>
+          </li>
+          <li>List of exper doctors</li>
+          <li>Become an affiliate</li>
+        </div>
+        <div class="d-flex-justify-items-start">
+          <li>
+            <h5>Corporate Corner</h5>
+          </li>
+          <li>Corporate Wellness</li>
+          <li>Corporate CSR</li>
+          <li>Make a Donation</li>
+        </div>
+        <div class="d-flex-justify-items-start">
+          <li>
+            <h5>Support</h5>
+          </li>
+          <li>Contact Us</li>
+          <li>e-clinic locations</li>
+          <li>FAQs</li>
+          <li>Feedback</li>
+        </div>
+      </div>
+      <hr>
+      <div class="d-flex justify-content-between">
+        <div>
+          <h5>100% Secure Payments</h5>
+          <h6>All major credit & debit cards accepted</h6>
+          <div class="payment-methods">
+            <li><a href="#"><img src="/assets/img/icon/american-express.svg" alt=""></a></li>
+            <li><a href="#"><img src="/assets/img/icon/mastercard.svg" alt=""></a></li>
+            <li><a href="#"><img src="/assets/img/icon/visa.svg" alt=""></a></li>
+            <li><a href="#"><img src="/assets/img/icon/bkash.svg" alt=""></a></li>
           </div>
         </div>
-        <div class="col-6 col-md-3 col-lg-2 mb-4 mb-md-0">
-          <div class="footer-box">
-            <h6>Quick Link</h6>
-            <div class="footer-menu">
-              <a href="#">
-                <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                Training Program</a>
-              <a href="#">
-                <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                Consulting Services</a>
-              <a href="#">
-                <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                Exhibition</a>
-              <a href="#">
-                <i class="fa-solid fa-angles-right footer-left-icon"></i> An
-                Opportunity</a>
-              <a href="#">
-                <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                Media Incubator</a>
-              <a href="#">
-                <i class="fa-solid fa-angles-right footer-left-icon"></i> IPTV
-                Channel List</a>
-              <a href="#">
-                <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                Sponsorships</a>
-            </div>
+        <div>
+          <div class="social-links">
+            <li><a href="#"><img src="/assets/img/icon/facebook.svg" alt=""></a></li>
+            <li><a href="#"><img src="/assets/img/icon/instagram.svg" alt=""></a></li>
+            <li><a href="#"><img src="/assets/img/icon/twitter.svg" alt=""></a></li>
+            <li><a href="#"><img src="/assets/img/icon/linkedin.svg" alt=""></a></li>
           </div>
         </div>
-        <div class="col-6 col-md-3 col-lg-2 mb-4 mb-md-0">
-          <div class="footer-box">
-            <h6>Our Pages</h6>
-            <div class="footer-menu">
-              <a href="#">
-                <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                Training Program</a>
-              <a href="#">
-                <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                Consulting Services</a>
-              <a href="#">
-                <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                Exhibition</a>
-              <a href="#">
-                <i class="fa-solid fa-angles-right footer-left-icon"></i> An
-                Opportunity</a>
-              <a href="#">
-                <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                Media Incubator</a>
-              <a href="#">
-                <i class="fa-solid fa-angles-right footer-left-icon"></i> IPTV
-                Channel List</a>
-              <a href="#">
-                <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                Sponsorships</a>
-            </div>
-          </div>
+        <div>
+          Terms of Use | Privacy Policy | Legal Disclaimers
         </div>
-        <div class="col-6 col-md-3 col-lg-2 mb-4 mb-md-0">
-          <div class="footer-box">
-            <h6>Shop Link</h6>
-            <div class="footer-menu">
-              <a href="#">
-                <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                Training Program</a>
-              <a href="#">
-                <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                Consulting Services</a>
-              <a href="#">
-                <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                Exhibition</a>
-              <a href="#">
-                <i class="fa-solid fa-angles-right footer-left-icon"></i> An
-                Opportunity</a>
-              <a href="#">
-                <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                Media Incubator</a>
-              <a href="#">
-                <i class="fa-solid fa-angles-right footer-left-icon"></i> IPTV
-                Channel List</a>
-              <a href="#">
-                <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                Sponsorships</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-6 col-md-3 col-lg-2 mb-4 mb-md-0">
-          <div class="footer-box">
-            <h6>Study Link</h6>
-            <div class="footer-menu">
-              <a href="#">
-                <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                Training Program</a>
-              <a href="#">
-                <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                Consulting Services</a>
-              <a href="#">
-                <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                Exhibition</a>
-              <a href="#">
-                <i class="fa-solid fa-angles-right footer-left-icon"></i> An
-                Opportunity</a>
-              <a href="#">
-                <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                Media Incubator</a>
-              <a href="#">
-                <i class="fa-solid fa-angles-right footer-left-icon"></i> IPTV
-                Channel List</a>
-              <a href="#">
-                <i class="fa-solid fa-angles-right footer-left-icon"></i>
-                Sponsorships</a>
-            </div>
-          </div>
-        </div>
+      </div>
+      <div class="copyright">
+        <span style="font-size: 18px;">Copyright © 2023 HomeoDoctor LTD. | All Rights Reserved.</span>
+        <span style="margin-left: 10px;">
+          *Please take note that Welcome Cure platform is designed to provide general information on Homeopathic
+          treatment
+          and any content on the website should not be used as substitute for advice of a qualified Homeopathic Doctor.
+          The results may vary from patient to patient based of the clinical condition that they are suffering from.
+          However, please note that we do not claim to cure each and every case, and do not provide guarantee of any
+          kind.
+        </span>
       </div>
     </div>
   </footer>
   <!------ Back to top button -->
-  <a href="#" class="back-to-top"><svg xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 24 24" stroke-width="1.5"
-      stroke="currentColor" class="w-6 h-6">
+  <a href="#" class="back-to-top"><svg xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 24 24"
+      stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
       <path stroke-linecap="round" stroke-linejoin="round" d="M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75" />
     </svg>
   </a>
   <!------ End back to top button -->
-  <section class="copyright-section">
-    <div class="container">
-      <div class="col-sm-12">
-        <p>@copyright-2022. All rights reserved HomeoDoctor ltd</p>
-      </div>
-    </div>
-  </section>
   <!--    FOOTER SECTION END-->
 
   <!--    JQUERY-->
@@ -2215,6 +2183,10 @@
   <!--    BOOSTRAP-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 
   <!-- Slider javascript code -->
   <script>
@@ -2352,9 +2324,9 @@
     $(document).ready(function () {
       $('.hiw-slide').slick({
         infinite: true,
-        slidesToShow: 3,
+        slidesToShow: 4,
         autoplay: true,
-        speed: 800,
+        speed: 100,
         dots: false,
         arrows: false,
         responsive: [
