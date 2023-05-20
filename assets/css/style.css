@@ -165,6 +165,9 @@ header {
   color: var(--sc);
 }
 
+.custom{
+  background: transparent !important;
+}
 .custom.accordion-button {
   text-transform: capitalize;
   font-size: 15px;
@@ -227,6 +230,7 @@ header {
 }
 
 .custom.accordion-body ul li {
+  background: transparent;
   list-style: none;
   padding: 8px 0;
   -webkit-transition: 0.4s;
@@ -237,7 +241,7 @@ header {
   text-decoration: none;
   font-size: 15px;
   text-transform: capitalize;
-  color: var(--pc);
+  color:white;
   font-weight: 400;
   display: inline-block;
   margin-left: 40px;
@@ -249,8 +253,7 @@ header {
 }
 
 .custom.accordion-body ul li:hover {
-  color: var(--wc);
-  background: var(--rc);
+  box-shadow: 0 0 30 rgba(8, 7, 16, 0.1);
 }
 
 .custom.accordion-body ul li:hover a {
@@ -272,7 +275,9 @@ header {
   left: -380px;
   top: 0;
   z-index: 2;
-  background: var(--wc);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 20px rgba(8, 7, 16, 0.1);
   height: 100%;
   overflow: auto;
   transition: 0.4s;
@@ -1161,7 +1166,19 @@ hr.latest-blog {
 .footer-section {
   background: url("/assets/img/bg.png");
 }
-
+.footer-menu{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .footer-menu{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:10px;
+  }
+}
 .footer {
   width: 80%;
   color: white;
@@ -2037,6 +2054,13 @@ hr.latest-blog {
 
 .w-6 {
   width: 1.5rem;
+}
+.btn-glass{
+  padding: 5px 20px 5px 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.13);
+  box-shadow: 0 0 2px rgba(8, 7, 16, 0.08);
+  border-radius: 5px;
 }
 
 /* end registration page*/
