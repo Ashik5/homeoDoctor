@@ -10,7 +10,24 @@
   font-size: large;
   color: var(--sc);
 }
-
+@media screen and (max-width:768px) {
+  .header-top-content .block{
+    font-size: medium;
+    color: var(--sc);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-top-content{
+    display: flex !important;
+    justify-content: center !important;
+    
+  }
+  .header-top-content a {
+    font-size: 12.5px !important;
+  }
+}
 .header-top-content a {
   font-size: 16px;
   color: var(--pc);
@@ -77,8 +94,8 @@ header {
   position: absolute;
   top: 100%;
   left: 5px;
-  background-color: rgba(199, 199, 199, 0.97);
-  backdrop-filter: blur(10px);
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.5);
   width: 248px;
   text-align: left;
   opacity: 0;
@@ -118,27 +135,27 @@ header {
   transition: 0.3s;
   font-size: 15px;
   text-transform: capitalize;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
 }
 
 .sub-menu>a:hover {
-  border-left: 5px solid gray;
-  color: black !important;
+  background: gray;
+  color: white !important;
 }
 
 .menubar .login-menu {
-  color: var(--wc);
-  border-radius: 1px;
-  background: linear-gradient(to left, #1b1285 50%, red 50%) right;
-  background-size: 200%;
+  color: black;
+  border: 1px solid rgba(0,0,0,.1);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  box-shadow: 0 0 10px rgba(8, 7, 16, 0.1);
+  border-radius: 10px;
   transition: 0.5s ease-out;
 }
 
 .menubar .login-menu:hover {
-  color: var(--wc);
-}
-
-.menubar .login-menu:hover {
-  background-position: left;
+  box-shadow: 0 0 10px rgba(8, 7, 16, 0.3);
 }
 
 /*HEADER*/
@@ -165,9 +182,10 @@ header {
   color: var(--sc);
 }
 
-.custom{
+.custom {
   background: transparent !important;
 }
+
 .custom.accordion-button {
   text-transform: capitalize;
   font-size: 15px;
@@ -241,7 +259,7 @@ header {
   text-decoration: none;
   font-size: 15px;
   text-transform: capitalize;
-  color:white;
+  color: white;
   font-weight: 400;
   display: inline-block;
   margin-left: 40px;
@@ -459,6 +477,15 @@ header {
   transition: 0.5s;
 }
 
+@media screen and (max-width:768px) {
+  .card-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: 0.5s;
+  }
+}
+
 .card-item:hover {
   box-shadow: 0 5px 10px #f5f5f5;
 }
@@ -489,6 +516,15 @@ header {
   height: 500px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .history-part .history-img {
+    width: 90vw;
+    height: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .history-part .history-img img {
@@ -662,9 +698,10 @@ header {
   box-shadow: 0 0 20px rgba(8, 7, 16, 0.08);
   border-radius: 5px;
 }
-.our-doctor .custom-btn a:hover{
+
+.our-doctor .custom-btn a:hover {
   border-radius: 5px;
-  border:1px solid white;
+  border: 1px solid white;
   box-shadow: 0 0 30px rgba(8, 7, 16, 0.3);
 }
 
@@ -865,11 +902,16 @@ header {
 /* PRODUCT CARD SECTION PART START */
 .product-grid {
   text-align: center;
-  padding: 0 0 72px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   overflow: hidden;
   position: relative;
   z-index: 1;
+}
+
+@media only screen and (max-width: 990px) {
+  .product-grid {
+    margin-bottom: 0px;
+  }
 }
 
 .product-grid .product-image {
@@ -1127,17 +1169,18 @@ hr.latest-blog {
   font-weight: 400;
   font-size: 15px;
   color: var(--wc);
-  border-radius: 1px;
-  border: 2px solid #ffffff;
+  border-radius: 10px;
+  border: 2px solid rgba(205, 255, 205, 0.13);
   padding: 8px 30px;
-  background: linear-gradient(to left, #1b1285 50%, red 50%) right;
-  background-size: 200%;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(8, 7, 16, 0.08);
   transition: 0.4s ease-out;
 }
 
 .latest-blog .custom-btn a:hover {
-  border: 2px solid red;
-  color: var(--wc);
+  border: 2px solid rgba(205, 255, 205, 0.13);
+  box-shadow: 0 0 10px rgba(8, 7, 16, 0.08);
 }
 
 .latest-blog .custom-btn a:hover {
@@ -1166,19 +1209,22 @@ hr.latest-blog {
 .footer-section {
   background: url("/assets/img/bg.png");
 }
-.footer-menu{
-  display:flex;
+
+.footer-menu {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 @media screen and (max-width: 768px) {
-  .footer-menu{
-    display:flex;
+  .footer-menu {
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap:10px;
+    gap: 10px;
   }
 }
+
 .footer {
   width: 80%;
   color: white;
@@ -1190,17 +1236,37 @@ hr.latest-blog {
   list-style: none;
 }
 
-.payment-methods{
+.payment-methods {
   display: flex;
   flex-direction: row;
   align-content: center;
   gap: 5px;
 }
-.social-links{
+
+.social-links {
   display: flex;
   flex-direction: row;
   align-content: center;
   gap: 5px;
+}
+.social-links li:hover{
+  animation: rotate .5s;
+}
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+  }
+
+  50% {
+    -webkit-transform: rotate(180deg) scale(0.6);
+    transform: rotate(180deg) scale(0.6);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg) scale(1);
+    transform: rotate(360deg) scale(1);
+  }
 }
 /*FOOTER SECTION END*/
 /*COPYRIGHT SECTION*/
@@ -1217,17 +1283,21 @@ hr.latest-blog {
   font-weight: 400;
   padding: 20px 0;
 }
-.footer h5{
+
+.footer h5 {
   color: white;
 }
-.footer h6{
+
+.footer h6 {
   color: white;
 }
-.footer .copyright{
+
+.footer .copyright {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
 }
+
 /*COPYRIGHT SECTION END*/
 
 /* OUR DOCTOR BANNER PAGE CSS */
@@ -2055,7 +2125,8 @@ hr.latest-blog {
 .w-6 {
   width: 1.5rem;
 }
-.btn-glass{
+
+.btn-glass {
   padding: 5px 20px 5px 20px;
   background: rgba(255, 255, 255, 0.1);
   border: 2px solid rgba(255, 255, 255, 0.13);
@@ -2077,7 +2148,7 @@ hr.latest-blog {
   border-radius: 50%;
   box-sizing: unset;
   box-shadow: 0 0 25px rgba(8, 7, 16, 0.1);
-  border:1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0 !important;
 }
 
@@ -2130,27 +2201,38 @@ hr.latest-blog {
   box-shadow: 0 0 20px rgba(8, 7, 16, 0.08);
 }
 
-.doctor-options{
+.doctor-options {
   padding: 10px;
   box-shadow: 0 0 20px rgba(8, 7, 16, 0.08);
   border-radius: 10px;
 }
-.doctor-options .option{
+
+.doctor-options .option {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
   padding: 10px;
-  gap:10px;
+  gap: 10px;
 }
-.doctor-options .option:hover{
+@media screen and (max-width:768px) {
+  .doctor-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: fit-content;
+  }
+}
+.doctor-options .option:hover {
   box-shadow: 0 0 20px rgba(8, 7, 16, 0.08);
   cursor: pointer;
 }
-.doctor-options .option p{
+
+.doctor-options .option p {
   margin: 0;
 }
+
 /* back to top button */
 .back-to-top {
   position: fixed;
