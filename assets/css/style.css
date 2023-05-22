@@ -1,6 +1,9 @@
 @import 'default.css';
 
 /* DEFAULT */
+.slick-slider{
+  z-index: -1;
+}
 /* HEADER TOP PART */
 .header-top {
   background: lightgray;
@@ -1491,15 +1494,17 @@ hr.latest-blog {
 }
 
 .quick-link {
-  background: var(--wc);
-  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
   padding: 20px 30px;
-  border-bottom: 2px solid #0ba9b5;
+  border:2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 20px rgba(8, 7, 16, 0.1);
+  color:gray;
 }
 
 .quick-link ul li {
   padding: 12px 0px;
-  border-top: 1px solid #0ba9b5;
   transition: 0.5s ease;
 }
 
@@ -1516,7 +1521,7 @@ hr.latest-blog {
 }
 
 .quick-link ul li:hover a {
-  color: var(--hvrc);
+  color: gray;
 }
 
 .quick-link ul li:hover i {
@@ -2223,6 +2228,7 @@ hr.latest-blog {
     justify-content: space-between;
     width: fit-content;
   }
+
 }
 .doctor-options .option:hover {
   box-shadow: 0 0 20px rgba(8, 7, 16, 0.08);
