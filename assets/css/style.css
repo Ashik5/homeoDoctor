@@ -1,7 +1,7 @@
 @import 'default.css';
 
 /* DEFAULT */
-.slick-slider{
+.page-banner-slider{
   z-index: -1;
 }
 /* HEADER TOP PART */
@@ -194,7 +194,7 @@ header {
   font-size: 15px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  color: var(--pc);
+  color: var(--pc) !important;
   font-weight: 400;
 }
 
@@ -262,7 +262,6 @@ header {
   text-decoration: none;
   font-size: 15px;
   text-transform: capitalize;
-  color: white;
   font-weight: 400;
   display: inline-block;
   margin-left: 40px;
@@ -707,7 +706,9 @@ header {
   border: 1px solid white;
   box-shadow: 0 0 30px rgba(8, 7, 16, 0.3);
 }
-
+.social-btn:hover{
+  animation: rotate .5s;
+}
 /* Search bar css start */
 .search-bar button {
   background: var(--sc);
@@ -1230,15 +1231,21 @@ hr.latest-blog {
 
 .footer {
   width: 80%;
-  color: white;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  color: rgba(255, 255, 255, 0.8);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .footer li {
   list-style: none;
 }
-
+.footer a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+}
+.footer li:hover{
+  cursor: pointer;
+}
 .payment-methods {
   display: flex;
   flex-direction: row;
@@ -1257,38 +1264,29 @@ hr.latest-blog {
 }
 @keyframes rotate {
   0% {
-    -webkit-transform: rotate(0) scale(1);
-    transform: rotate(0) scale(1);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
   }
 
+  25% {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
   50% {
-    -webkit-transform: rotate(180deg) scale(0.6);
-    transform: rotate(180deg) scale(0.6);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
   }
-
+  75% {
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
   100% {
-    -webkit-transform: rotate(360deg) scale(1);
-    transform: rotate(360deg) scale(1);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
-/*FOOTER SECTION END*/
-/*COPYRIGHT SECTION*/
-.copyright-section {
-  background: #8e8e8e;
-}
-
-.copyright-section p {
-  padding: 0;
-  margin: 0;
-  text-align: center;
-  color: var(--wc);
-  font-size: 14px;
-  font-weight: 400;
-  padding: 20px 0;
-}
-
 .footer h5 {
-  color: white;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .footer h6 {
@@ -1300,8 +1298,7 @@ hr.latest-blog {
   display: flex;
   flex-direction: column;
 }
-
-/*COPYRIGHT SECTION END*/
+/*FOOTER SECTION END*/
 
 /* OUR DOCTOR BANNER PAGE CSS */
 .our-doctor-banner {
@@ -1517,15 +1514,15 @@ hr.latest-blog {
 }
 
 .quick-link ul li:hover {
-  color: var(--hvrc);
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .quick-link ul li:hover a {
-  color: gray;
+  color: white;
 }
 
 .quick-link ul li:hover i {
-  color: var(--hvrc);
+  color:white;
   margin-left: 10px;
 }
 
@@ -1975,7 +1972,14 @@ hr.latest-blog {
   border: none;
   border-bottom: 1px solid var(--gc);
 }
-
+.accordion-item{
+  background-color: transparent;
+  color:var(--pc)
+}
+.accordion-item ul li{
+  background-color: transparent;
+  color:var(--pc) !important;
+}
 .accordion-button:not(.collapsed) {
   color: var(--pc);
   background-color: var(--wc);
@@ -1990,8 +1994,7 @@ hr.latest-blog {
 
 .accordion-body {
   padding: 1rem 1.25rem;
-  background: #f7f7f7;
-  border-top: 1px solid var(--gc);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 /* DISEASE DETAILS PAGE CSS */
