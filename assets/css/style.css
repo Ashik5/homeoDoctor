@@ -1219,7 +1219,13 @@ hr.latest-blog {
   flex-direction: row;
   justify-content: space-between;
 }
-
+#footer-top img{
+    width: 137px;
+    max-height: 137px;
+}
+#footer-top{
+  align-items: center;
+}
 @media screen and (max-width: 768px) {
   .footer-menu {
     display: flex;
@@ -1227,15 +1233,26 @@ hr.latest-blog {
     justify-content: space-between;
     gap: 10px;
   }
+  .footer{
+    width: 100% !important;
+  }
+  #footer-top{
+    display: inline-block;
+    text-align: center;
+  }
+  #footer-top li{
+    display: inline-block;
+    margin: 5px 1%;
+  }
 }
 
 .footer {
-  width: 80%;
+  width: 70%;
   color: rgba(255, 255, 255, 0.8);
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+  font-size: 12px;
 }
-
 .footer li {
   list-style: none;
 }
@@ -1287,12 +1304,13 @@ hr.latest-blog {
 }
 .footer h5 {
   color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
 }
 
 .footer h6 {
   color: white;
+  font-size: 14px;
 }
-
 .footer .copyright {
   margin-top: 20px;
   display: flex;
@@ -2242,7 +2260,7 @@ hr.latest-blog {
   margin: 0;
 }
 
-/* back to top button */
+/* back to top button and message button*/
 .back-to-top {
   position: fixed;
   bottom: 40px;
@@ -2267,7 +2285,25 @@ hr.latest-blog {
 .bg-2 {
   background-image: linear-gradient(45deg, #92fe9d 0%, #00c9ff 100%);
 }
-
+.msg-btn {
+  position: fixed;
+  bottom: 40px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.13);
+  color: white;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 10px rgba(8, 7, 16, 0.4);
+}
+.msg-btn:hover {
+  text-decoration: none;
+  color: white;
+}
 /*********************************shop part*****************************/
 .product-grid {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
