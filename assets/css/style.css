@@ -43,14 +43,13 @@
 
 /*HEADER*/
 header {
-  background-color: rgba(205, 255, 205, 0.13);
-  color: black;
+  background: url(../img/bg.png);
+  color: white;
   backdrop-filter: blur(10px);
   border: 2px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 15px rgba(8, 7, 16, 0.4);
   transition: 0.4s;
 }
-
 .logo img {
   max-width: 235px;
 }
@@ -83,10 +82,11 @@ header {
   display: inline-block;
   padding: 7px 10px;
   transition: 0.4s ease-out;
+  color: gray;
 }
 
 .menubar ul li a:hover {
-  color: black;
+  color: white;
 }
 
 .sub-btn {
@@ -101,10 +101,6 @@ header {
   border: 1px solid rgba(255, 255, 255, 0.5);
   width: 248px;
   text-align: left;
-  opacity: 0;
-  -webkit-transform: scaleY(0);
-  -ms-transform: scaleY(0);
-  transform: scaleY(0);
   -webkit-transform-origin: top;
   -ms-transform-origin: top;
   transform-origin: top;
@@ -115,16 +111,13 @@ header {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
-  z-index: 3;
+  display: none;
   overflow: hidden;
 }
 
 .sub-btn:hover .sub-menu {
-  opacity: 1;
-  -webkit-transform: scaleY(100%);
-  -ms-transform: scaleY(100%);
-  transform: scaleY(100%);
-  z-index: 2000;
+  display: block;
+  z-index: 10 !important;
 }
 
 .sub-menu>a {
@@ -148,17 +141,18 @@ header {
 }
 
 .menubar .login-menu {
-  color: black;
-  border: 1px solid rgba(0,0,0,.1);
-  background: rgba(255, 255, 255, 0.1);
+  color: gray;
+  border: 1px solid rgba(255,255,255,.1);
+  background: rgba(255, 255, 255, 0.09);
   backdrop-filter: blur(30px);
-  box-shadow: 0 0 10px rgba(8, 7, 16, 0.1);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   transition: 0.5s ease-out;
 }
 
 .menubar .login-menu:hover {
-  box-shadow: 0 0 10px rgba(8, 7, 16, 0.3);
+  color: white;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
 }
 
 /*HEADER*/
@@ -2309,4 +2303,21 @@ hr.latest-blog {
 /*********************************shop part*****************************/
 .product-grid {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+/*******************************study item*****************************/
+@media screen and (min-width:992px) {
+  .study-item{
+    width: 33.33%;
+  }
+}
+@media screen and (max-width:768px) {
+  .study-item{
+    width: 50%;
+  }
+  .study-item h5{
+    font-size: 14px;
+  }
+  .study-item .card-img{
+    height: 180px;
+  }
 }

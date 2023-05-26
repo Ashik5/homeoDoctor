@@ -1,0 +1,280 @@
+.blog_main_wrapper {
+    overflow: hidden;
+}
+
+.blog_bottompadder60 {
+    padding-bottom: 60px;
+}
+
+.blog_toppadder60 {
+    padding-top: 60px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.blog_heading_style2.text-left h3 {
+    margin-bottom: 20px;
+}
+
+.blog_heading_style2.text-left h3:after {
+    left: 0;
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+}
+
+.blog_heading_style2 h3 {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 39px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 6px;
+    margin-top: 11px;
+}
+
+.blog_heading_style2 h3:after {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 2px;
+    background: #ff3657;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.blog_contact_info_div {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 17px;
+  }
+  
+  .blog_contact_info_div span {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 93px;
+    background: #fff;
+    border: 1px solid #dedede;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    border-radius: 10px;
+    margin-bottom: 35px;
+    position: relative;
+  }
+  
+  .blog_contact_info_div span:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ff3657;
+    border-radius: 10px;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  
+  .blog_contact_info_div span svg {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+  }
+  
+  .blog_contact_info_div h4 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    text-transform: capitalize;
+    margin-top: -5px;
+    line-height: 33px;
+  }
+  
+  .blog_contact_info_div p {
+    margin-bottom: 0;
+  }
+  
+  .blog_contact_info_div p a:hover {
+    color: #ff3657;
+  }
+  
+  .blog_contact_info_div:hover span:after {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  .blog_contact_info_div:hover span svg path {
+    fill: #ffffff;
+  }
+  .blog_toppadder40 {
+    padding-top: 40px;
+  }
+  .blog_contact_form_div {
+    display: inline-block;
+    width: 100%;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    margin-top: 12px;
+  }
+  
+  .blog_contact_form_div .blog_main_heading_div {
+    background: transparent;
+    box-shadow: none;
+  }
+  
+  .blog_contact_form_div .blog_main_heading_div .blog_heading_div {
+    margin-top: -34px;
+  }
+  
+  .blog_contact_form_div_inner {
+    padding: 10px 30px 30px;
+  }
+  
+  .blog_contact_form_div h4 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 19px;
+    text-transform: capitalize;
+    margin-top: -8px;
+    line-height: 38px;
+  }
+  
+  .blog_contact_form_div .contact_form .blog_form_group {
+    margin-bottom: 20px;
+  }
+  
+  .blog_contact_form_div .contact_form .blog_form_group .form-control {
+    height: 50px;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    color: #707070;
+  }
+  
+  .blog_contact_form_div .contact_form .blog_form_group .form-control:focus {
+    border-color: #d4d4d4;
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .blog_contact_form_div .contact_form .blog_form_group textarea.form-control {
+    height: auto;
+    resize: none;
+  }
+  
+  .blog_contact_form_div .contact_form .blog_btn {
+    margin-top: 10px;
+  }
+  .blog_contact_form_div_inner {
+    padding: 60px 30px;
+    padding-top: 10px;
+  }
+  .blog_contact_form_div_inner {
+    padding: 60px 30px;
+    padding-top: 10px;
+  }
+  .blog_bg_lightgreen {
+    background: #00958c;
+  }
+.contact_form .blog_form_group {
+    margin-bottom: 20px;
+  }
+  
+.contact_form .blog_form_group .form-control {
+    height: 50px;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    color: #707070;
+  }
+  
+.contact_form .blog_form_group .form-control:focus {
+    border-color: #d4d4d4;
+    outline: none;
+    box-shadow: none;
+  }
+  
+.contact_form .blog_form_group textarea.form-control {
+    height: auto;
+    resize: none;
+  }
+  
+.contact_form .blog_btn {
+    margin-top: 10px;
+  }
+  .blog_btn {
+    display: inline-block;
+    padding: 13px 35px;
+    color: #fff;
+    border-radius: 25px 0;
+    text-transform: capitalize;
+    border: none;
+    min-width: 170px;
+    cursor: pointer;
+    line-height: 24px;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+  }
+  
+  .blog_btn:hover {
+    border-radius: 0 25px;
+    color: #fff;
+  }
+  .blog_bg_pink {
+    background: #ff3657;
+  }
+  .blog_main_heading_div .blog_heading_div {
+    position: relative;
+}
+.blog_main_heading_div h3 {
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 13px 15px;
+    border-radius: 20px 0;
+    color: #fff;
+    z-index: 1;
+    position: relative;
+    box-shadow: 0px 0px 0 4px #f3f4f7;
+    min-width: 150px;
+    text-align: center;
+    line-height: 24px;
+}
+button{
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
