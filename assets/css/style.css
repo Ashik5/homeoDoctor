@@ -805,10 +805,12 @@ header {
 /* TESTIMONIAL SECTION PART END */
 
 /* HOW IT WORK SECTION PART START */
+@media (min-width: 992px){
+.how-it-work-width {
+  width: 20%;
+}
+}
 
-/* .how-it-work-width {
-  width: 25%;
-} */
 
 .how-it-work {
   background: var(--afc);
