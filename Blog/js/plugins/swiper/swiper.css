@@ -409,7 +409,7 @@ button.swiper-pagination-bullet {
   position: absolute;
   left: 1%;
   bottom: 3px;
-  z-index: 50;
+  z-index: 1;
   height: 5px;
   width: 98%;
 }
@@ -417,7 +417,7 @@ button.swiper-pagination-bullet {
   position: absolute;
   right: 3px;
   top: 1%;
-  z-index: 50;
+  z-index: 1;
   width: 5px;
   height: 98%;
 }
