@@ -94,6 +94,174 @@
 					</svg></span> 31°c , California</p>
 		</div>
 	</div>
+	<!--- Middle header -->
+	<header class="d-flex align-items-center">
+		<div class="container-fluid">
+			<div class="row align-items-center">
+				<div class="col-12 col-md-2">
+					<div class="logo d-flex justify-content-between align-items-center">
+						<a href="index.html">
+							<img src="../assets/img/logo/logo-2.png" alt="Logo" />
+						</a>
+						<i class="fa fa-bars d-md-none" onClick="mobileClick()" aria-hidden="true"></i>
+					</div>
+				</div>
+				<div class="col-md-10 d-none d-md-block">
+					<div class="menubar">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li class="sub-btn button1">
+								<a href="#">Pages
+									<i class="fa-solid fa-angle-down"></i>
+								</a>
+								<div class="sub-menu">
+									<a href="aboutus.html">About Us</a>
+									<a href="our-doctor.html">Our Doctor</a>
+									<a href="faq.html">FaQ </a>
+									<a href="coming-soon.html">Others</a>
+									<a href="testimonial.html">Testimonial</a>
+									<a href="404-not-found.html">Page 404</a>
+								</div>
+							</li>
+							<li class="sub-btn button1">
+								<a href="#">Our Service
+									<i class="fa-solid fa-angle-down"></i>
+								</a>
+								<div class="sub-menu">
+									<a href="why-online-treat.html">Why online treat</a>
+									<a href="how-it-work.html">How it Works</a>
+									<a href="disease.html">Disease</a>
+									<a href="404-not-found.html">Page 404</a>
+								</div>
+							</li>
+							<li class="sub-btn button1">
+								<a href="#">Study
+									<i class="fa-solid fa-angle-down"></i>
+								</a>
+								<div class="sub-menu">
+									<a href="study.html">Organon Of Medicine</a>
+									<a href="study.html">Materia Medica</a>
+									<a href="study.html">Repertory</a>
+									<a href="study.html">Practice of Medicine</a>
+									<a href="study.html">Anatomy Physiology</a>
+									<a href="study.html">Research</a>
+									<a href="study.html">Download Book</a>
+								</div>
+							</li>
+							<li><a href="#">Shop</a></li>
+							<li class="sub-btn button1">
+								<a href="Blog/index.html" target="_blank">Blog
+									<i class="fa-solid fa-angle-down"></i>
+								</a>
+								<div class="sub-menu">
+									<a href="Blog/up coming event.html" target="_blank">Up Coming Event</a>
+									<a href="Blog/videos.html" target="_blank">Video</a>
+									<a href="Blog/photos.html">Photo</a>
+									<a href="Blog/events.html">Event</a>
+									<a href="Blog/media.html">Media</a>
+									<a href="Blog/knowledge.html">Knowledge of Disease</a>
+									<a href="index.html#latest-blog">Lecture</a>
+								</div>
+							</li>
+							<li><a href="contactus.html">Contact Us</a></li>
+							<li><a href="#" class="login-menu">Quick Appointment</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--        MOBILE MENU-->
+	<div id="mobile-menu" class="mobile-menu" style="z-index: 4;">
+		<!-- accordion-->
+		<div class="accordion accordion-flush" id="accordionFlushExample">
+			<div class="mobile-logo mb-5">
+				<a href="#">
+					<img src="../assets/img/logo/logo-2.png" alt="mobile-logo" />
+				</a>
+				<i id="mobile-cross" class="fa fa-times" onClick="mobileClick()"></i>
+			</div>
+
+			<div class="accordion-item custom">
+				<h2 class="accordion-header" id="flush-headingThree">
+					<a href="#">
+						<button class="accordion-button custom collapsed" type="button">
+							Home
+						</button>
+					</a>
+				</h2>
+			</div>
+			<div class="accordion-item custom">
+				<h2 class="accordion-header" id="flush-headingThree">
+					<a href="#">
+						<button class="accordion-button custom collapsed" type="button">
+							Pages
+						</button>
+					</a>
+				</h2>
+			</div>
+			<div class="accordion-item custom">
+				<h2 class="accordion-header" id="flush-headingThree">
+					<a href="#">
+						<button class="accordion-button custom collapsed" type="button">
+							Study
+						</button>
+					</a>
+				</h2>
+			</div>
+			<div class="accordion-item custom">
+				<h2 class="accordion-header" id="flush-headingThree">
+					<a href="#">
+						<button class="accordion-button custom collapsed" type="button">
+							Shop
+						</button>
+					</a>
+				</h2>
+			</div>
+			<div class="accordion-item custom">
+				<h2 class="accordion-header" id="flush-headingThree">
+					<a href="#">
+						<button class="accordion-button custom collapsed" type="button">
+							Blog
+						</button>
+					</a>
+				</h2>
+			</div>
+			<div class="accordion-item custom">
+				<h2 class="accordion-header" id="flush-headingTwo">
+					<button class="accordion-button custom collapsed" type="button" data-bs-toggle="collapse"
+						data-bs-target="#two" aria-expanded="false" aria-controls="flush-collapseTwo">
+						Our Services
+					</button>
+				</h2>
+				<div id="two" class="accordion-collapse collapse" aria-labelledby="two"
+					data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body custom">
+						<ul>
+							<li>
+								<a href="#"><i class="fa fa-chevron-right"></i>services</a>
+							</li>
+
+							<li>
+								<a href="#"><i class="fa fa-chevron-right"></i>sector</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item custom">
+				<h2 class="accordion-header" id="flush-headingThree">
+					<a href="#">
+						<button class="accordion-button custom collapsed none" type="button">
+							Contact Us
+						</button>
+					</a>
+				</h2>
+			</div>
+		</div>
+	</div>
+	<div id="mobileOverlay" class="mobile-overlay" onClick="mobileClick()"></div>
+	<!--   END MOBILE MENU-->
 	<!-- Main Header -->
 	<div class="blog_main_header">
 		<div class="blog_logo">
@@ -576,7 +744,8 @@
 <script src="js/plugins/swiper/swiper.min.js"></script>
 <script src="js/plugins/magnific/jquery.magnific-popup.min.js"></script>
 <script src="js/wow.min.js"></script>
-<script src="js/custom.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="../assets/js/main.js"></script>
 <!--Main js file Style-->
 </body>
 </html>
