@@ -487,31 +487,46 @@ header {
 }
 
 @media screen and (max-width:768px) {
+  .service-section{
+    margin: 5px;
+  }
   .service-section .card-item {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     border-radius: 8px;
     transition: 0.5s;
-    padding: 15px 10px ;
+    padding: 15px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .service-section .card-item p{
+  .service-section .card-item .service-icons {
+    width: 40px;
+    height: 40px;
+  }
+
+  .service-section .card-item p {
     font-weight: 300;
     font-size: 12px;
     line-height: 15px;
     text-align: center;
     color: black;
+    padding-top: 0 !important;
   }
-  .service-section .card-item .custom-btn{
+
+  .service-section .card-item .custom-btn {
     padding: 0;
   }
-  .service-section .card-item .custom-btn a{
+
+  .service-section .card-item .custom-btn a {
     padding: 5px 8px;
     font-size: 14px;
     letter-spacing: 0;
+  }
+
+  .service-section .col-6 {
+    padding-right: 2px;
   }
 }
 
