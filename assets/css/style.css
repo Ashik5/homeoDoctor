@@ -325,6 +325,10 @@ header {
   position: inherit !important;
 }
 
+.no-collapsed::after {
+  display: none;
+}
+
 /*MOBILE MENU END*/
 
 /* BANNER PART START */
@@ -1242,9 +1246,11 @@ hr.latest-blog {
     justify-content: space-between;
     gap: 10px;
   }
-  .newsSlider{
+
+  .newsSlider {
     width: 100% !important;
   }
+
   .footer {
     width: 100% !important;
   }
@@ -1351,24 +1357,27 @@ hr.latest-blog {
   margin-top: 20px;
   margin-bottom: 10px;
 }
-.newsSlider-header{
+
+.newsSlider-header {
   display: flex;
   justify-content: space-between;
 }
-marquee{
+
+marquee {
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
 }
+
 .EventListing {
   margin-top: 4px;
   margin-bottom: 4px;
   display: flex;
 }
 
-.newsSlider ul li ~ li:before {
+.newsSlider ul li~li:before {
   content: '|';
   padding: 0 10px;
-  color:black;
+  color: black;
 }
 
 /*FOOTER SECTION END*/
