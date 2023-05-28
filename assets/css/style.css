@@ -524,7 +524,9 @@ header {
   }
 
   .service-section .col-6 {
+    padding-left: 0;
     padding-right: 2px;
+    margin: 5px;
   }
 }
 
