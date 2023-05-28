@@ -487,9 +487,10 @@ header {
 }
 
 @media screen and (max-width:768px) {
-  .service-section .row{
+  .service-section .row {
     padding-top: 5px;
   }
+
   .service-section .card-item {
     margin-top: 0;
     margin-bottom: 5px;
@@ -501,6 +502,7 @@ header {
     align-items: center;
     justify-content: center;
   }
+
   .service-section .card-item .service-icons {
     width: 40px;
     height: 40px;
@@ -754,6 +756,68 @@ header {
 
 .social-btn:hover {
   animation: rotate .5s;
+}
+
+@media screen and (max-width:768px) {
+  .our-doctor .card-body {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .our-doctor .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .our-doctor .my-2 {
+    margin: 0 !important;
+  }
+
+  .our-doctor .col-6 {
+    width: 47%;
+    padding: 0;
+  }
+
+  .our-doctor .col-6 .card-img {
+    height: 180px;
+  }
+
+  .our-doctor .col-6 h6 {
+    line-height: 1;
+    font-size: 14px;
+  }
+
+  .our-doctor .col-6 h5 {
+    line-height: 1;
+    font-size: 16px;
+  }
+
+  .our-doctor .col-6 p {
+    line-height: 1.1;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+  }
+
+  .our-doctor .card-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .our-doctor .custom-btn {
+    padding: 0;
+  }
+
+  .our-doctor ul {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 /* Search bar css start */
