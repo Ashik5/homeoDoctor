@@ -296,7 +296,7 @@ header {
   position: fixed;
   left: -380px;
   top: 0;
-  z-index: 2;
+  z-index: 1000;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(20px);
   box-shadow: 0 0 20px rgba(8, 7, 16, 0.1);
@@ -1242,7 +1242,9 @@ hr.latest-blog {
     justify-content: space-between;
     gap: 10px;
   }
-
+  .newsSlider{
+    width: 100% !important;
+  }
   .footer {
     width: 100% !important;
   }
