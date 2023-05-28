@@ -487,9 +487,6 @@ header {
 }
 
 @media screen and (max-width:768px) {
-  .service-section{
-    margin: 5px;
-  }
   .service-section .card-item {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -513,6 +510,7 @@ header {
     text-align: center;
     color: black;
     padding-top: 0 !important;
+    padding-bottom: 0 !important;
   }
 
   .service-section .card-item .custom-btn {
