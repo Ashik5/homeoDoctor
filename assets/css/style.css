@@ -2409,7 +2409,7 @@ marquee {
 
 @media screen and (max-width:768px) {
   .verificationBadge {
-    margin-left: 7px;
+    margin-left: 10px;
   }
 }
 
