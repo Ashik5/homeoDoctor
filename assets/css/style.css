@@ -757,12 +757,14 @@ header {
 .social-btn:hover {
   animation: rotate .5s;
 }
+
 .our-doctor .card-btn {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 20px;
 }
+
 @media screen and (max-width:768px) {
   .our-doctor .card-body {
     display: flex;
@@ -927,11 +929,12 @@ header {
   }
 }
 
-.how-it-work-width .item{
+.how-it-work-width .item {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .how-it-work {
   background: var(--afc);
 }
@@ -995,9 +998,11 @@ header {
   background-position: center;
   cursor: pointer;
 }
+
 .disease-book .study-item {
-    width: 25%;
+  width: 25%;
 }
+
 .disease-book .card-overlay {
   padding: 125px 0px;
   transition: 0.3s ease-in;
@@ -1024,12 +1029,14 @@ header {
 .disease-item:hover i {
   opacity: 1;
 }
+
 @media screen and (max-width:768px) {
   .disease-book .study-item {
     width: 50%;
-    }
-  
+  }
+
 }
+
 /* FAMOUSE BOOK AND DISEASE SECTION PART END */
 
 /* PRODUCT CARD SECTION PART START */
@@ -1044,6 +1051,17 @@ header {
 @media only screen and (max-width: 990px) {
   .product-grid {
     margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .product-grid .product-image a img {
+    max-height: none;
+    min-height: 0;
+  }
+
+  .product-grid {
+    margin-bottom: 0;
   }
 }
 
@@ -1252,7 +1270,7 @@ header {
   padding: 9px 15px;
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (min-width: 990px) {
   .product-grid {
     margin-bottom: 30px;
   }
@@ -1362,7 +1380,6 @@ hr.latest-blog {
   .footer-menu {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     gap: 10px;
   }
 
@@ -2499,14 +2516,17 @@ marquee {
 .product-grid {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
+
 .shop-part .study-item {
   width: 25%;
 }
+
 @media screen and (max-width:768px) {
   .shop-part .study-item {
     width: 50%;
   }
 }
+
 /*******************************study item*****************************/
 @media screen and (min-width:992px) {
   .study-item {
