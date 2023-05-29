@@ -1623,6 +1623,10 @@ marquee {
     overflow: hidden;
     text-overflow: ellipsis; 
   }
+  .testi-page .container{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }
 .testimonial-review {
   background: var(--afc);
