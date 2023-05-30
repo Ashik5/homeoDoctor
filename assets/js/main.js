@@ -8,6 +8,9 @@ function mobileClick() {
 $(window).scroll(function () {
   $('header').toggleClass('scrolled', $(this).fadeIn().scrollTop() > 65);
 });
+$(window).scroll(function () {
+  $('.blog_main_header').toggleClass('scrolled top', $(this).fadeIn().scrollTop() > 65);
+});
 
 $('.autoplay').slick({
   slidesToShow: 6,

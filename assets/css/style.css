@@ -1518,6 +1518,9 @@ marquee {
   padding: 0 10px;
   color: black;
 }
+.newsSlider ul li {
+  display: flex;
+}
 
 /*FOOTER SECTION END*/
 
@@ -2572,4 +2575,8 @@ marquee {
   .study-item .card-img {
     height: 180px;
   }
+}
+/**** Extra ****/
+.form-inline{
+  display: flex;
 }

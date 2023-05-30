@@ -8070,8 +8070,8 @@ body.right_toggle_open .blog_right_toggle_sidebar .blog_togglediv {
   }
 
   .blog_main_header {
-    position: relative;
-    z-index: 3;
+    position: sticky;
+    z-index: 100;
   }
 
   .blog_logo {
@@ -11175,4 +11175,7 @@ body.right_toggle_open .blog_right_toggle_sidebar .blog_togglediv {
   .my-table-start {
     overflow-x: scroll;
   }
+}
+.top{
+  z-index: 1000 !important;
 }
