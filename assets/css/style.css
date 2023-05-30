@@ -4,7 +4,9 @@
 .page-banner-slider {
   z-index: -1;
 }
-
+.current{
+  color: white !important;
+}
 /* HEADER TOP PART */
 .header-top {
   background: lightgray;

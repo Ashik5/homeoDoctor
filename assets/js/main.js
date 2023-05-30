@@ -1,4 +1,4 @@
-//document.addEventListener('contextmenu', event => event.preventDefault());
+document.addEventListener('contextmenu', event => event.preventDefault());
 //        MOBILE MENU
 function mobileClick() {
   $('#mobile-menu').toggleClass('mobileAdd');
