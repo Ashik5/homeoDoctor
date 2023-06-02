@@ -1359,7 +1359,17 @@ hr.latest-blog {
 /* LATEST BLOG */
 
 /*FOOTER SECTION*/
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .footer-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   background: url("/assets/img/bg.png");
 }
 
@@ -1367,6 +1377,7 @@ hr.latest-blog {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 100%;
 }
 
 #footer-top img {
@@ -1380,6 +1391,7 @@ hr.latest-blog {
 
 @media screen and (max-width: 768px) {
   .footer-menu {
+    width: 80%;
     display: grid;
     grid-template-columns: auto auto;
     gap: 10px;
@@ -2417,8 +2429,13 @@ marquee {
 }
 
 @media screen and (max-width:768px) {
+  .mobile-verification{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
   .verificationBadge {
-    margin-left: 15px;
+    width: fit-content;
   }
 }
 
